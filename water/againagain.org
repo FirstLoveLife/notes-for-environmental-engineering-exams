@@ -504,7 +504,7 @@ SRT
 3米
 **  下列几项影响因素中, 哪一个最集中反反映了生物滤池的工作性能?{{c1::滤率}}
 *** Q
-{{c1::滤率}}
+下列几项影响因素中, 哪一个最集中反反映了生物滤池的工作性能?{{c1::滤率}}
 *** A
 滤率
 高度
@@ -512,7 +512,7 @@ SRT
 供氧
 **  出现滤床供氧不足时, 污水中COD一般超过{{c1::500mg/L}}
 *** Q
-出{{c1::500mg/L}}
+出现滤床供氧不足时, 污水中COD一般超过{{c1::500mg/L}}
 *** A
 500mg/L
 400mg/L
@@ -759,7 +759,7 @@ SS高的污水
 SS低的污水
 工业污水
 剩余污泥
-**  悬浮物浓度高的污水, 厌氧处理工艺最好采用{{c1::接触法}}
+** TODO 悬浮物浓度高的污水, 厌氧处理工艺最好采用{{c1::接触法}}
 *** Q
 悬浮物浓度高的污水, 厌氧处理工艺最好采用{{c1::接触法}}
 *** A
@@ -799,25 +799,25 @@ SBR
 膜析法
 吸附法
 离子交换法
-**  下列处理方法中属于化学处理的是{{c1::沉淀法}}
+**  下列处理方法中属于化学处理的是{{c1::混凝法}}
 *** Q
-下列处理方法中属于化学处理的是{{c1::沉淀法}}
+下列处理方法中属于化学处理的是{{c1::混凝法}}
 *** A
 混凝法
 吸附法
 膜析法
 萃取法
-**  下列处理方法中属于化学处理的是{{c1::沉淀法}}
+**  下列处理方法中属于化学处理的是{{c1::中和法}}
 *** Q
-下列处理方法中属于化学处理的是{{c1::沉淀法}}
+下列处理方法中属于化学处理的是{{c1::中和法}}
 *** A
 中和法
 膜析法
 吸附法
 萃取法
-**  下列处理方法中属于化学处理的是{{c1::沉淀法}}
+**  下列处理方法中属于化学处理的是{{c1::氧化还原法}}
 *** Q
-下列处理方法中属于化学处理的是{{c1::沉淀法}}
+下列处理方法中属于化学处理的是{{c1::氧化还原法}}
 *** A
 氧化还原法
 膜析法
@@ -1063,6 +1063,7 @@ Cr
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443145629
 :END:
 *** Text
 河流的竖向混合阶段是在{{c1::深度}}方向上达到浓度分布均匀.
@@ -1071,6 +1072,7 @@ Cr
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443145679
 :END:
 *** Text
 水体中怪味道经常与水中的{{c1::盐分}}有关
@@ -1079,6 +1081,7 @@ Cr
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443145854
 :END:
 *** Text
 污水中的污染物在水中能够分解的是{{c1::非持久性}}污染物
@@ -1087,6 +1090,7 @@ Cr
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443145904
 :END:
 *** Text
 反映河流等的复氧速度的是{{c1::S-P}}公式
@@ -1095,6 +1099,7 @@ Cr
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443145954
 :END:
 *** Text
 S-P公式中复氧速度是用{{c1::氧亏值}}来表示
@@ -1103,6 +1108,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146005
 :END:
 *** Text
 利于利用水的冲击力和重力作用使筛网产生旋转运动的是{{c1::水力}}筛网
@@ -1111,6 +1117,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146056
 :END:
 *** Text
 沉淀法是利用水中悬浮颗粒的可沉降性能, 使其在{{c1::重力}}的作用下沉淀
@@ -1119,6 +1126,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146104
 :END:
 *** Text
 在生化处理工艺之前的沉淀池叫{{c1::初沉池}}
@@ -1127,6 +1135,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146154
 :END:
 *** Text
 比重较大的砂粒在沉砂池中的沉淀可以看做{{c1::自由}}自由沉淀
@@ -1135,6 +1144,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146329
 :END:
 *** Text
 自由沉淀的轨迹线是一条{{c1::直线}}
@@ -1143,6 +1153,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146380
 :END:
 *** Text
 絮凝沉淀的轨迹是一条鞋履{{c1::越来越大}}曲线
@@ -1151,6 +1162,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146429
 :END:
 *** Text
 反映沉淀池效率的参数q, 称为沉淀池的{{c1::表面负荷率}}
@@ -1159,6 +1171,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146480
 :END:
 *** Text
 当颗粒沉速u<u_0时, 其能否沉淀取决于进水时她的{{c1::深度}}
@@ -1167,6 +1180,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146529
 :END:
 *** Text
 人工排砂时, 排砂管的管径一般不小于{{c1::200}}mm
@@ -1175,6 +1189,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146579
 :END:
 *** Text
 旋流沉砂池中比重较大的砂粒被{{c1::离心力}}甩向池壁而沉淀
@@ -1183,6 +1198,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146629
 :END:
 *** Text
 初沉池的去除对象是污水中的{{c1::悬浮颗粒}}
@@ -1191,6 +1207,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146704
 :END:
 *** Text
 在沉淀过程过程中, 水流速度对颗粒的沉淀有比较大的影响的是{{c1::连续}}运行的沉淀池
@@ -1199,6 +1216,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146779
 :END:
 *** Text
 异养微生物所利用的底物是{{c1::有机物}}
@@ -1207,6 +1225,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146829
 :END:
 *** Text
 自养微生物所利用的底物是{{c1::无机物}}
@@ -1215,6 +1234,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146879
 :END:
 *** Text
 好氧呼吸的最终电子受体是{{c1::分子氧}}
@@ -1223,6 +1243,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443146932
 :END:
 *** Text
 在缺氧条件下, 污水中氮被还原为但其的反应是{{c1::反硝化反应}}
@@ -1231,6 +1252,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147104
 :END:
 *** Text
 在污水生物处理脱磷过程中, 磷最终存在于{{c1::污泥}}
@@ -1239,6 +1261,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147154
 :END:
 *** Text
 活性污泥是类似矾花状不定形的{{c1::絮凝体}}
@@ -1247,6 +1270,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147204
 :END:
 *** Text
 混合液固体悬浮物浓度是指单位体积混合液中{{c1::干固体}}的含量
@@ -1255,6 +1279,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147254
 :END:
 *** Text
 污泥体积指数SVI的单位是{{c1::mL/g}}
@@ -1263,6 +1288,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147304
 :END:
 *** Text
 活性污泥法分解水中有机物的构筑物叫{{c1::曝气池}}
@@ -1271,6 +1297,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147379
 :END:
 *** Text
 活性污泥处于内源性呼吸阶段的污水处理工艺叫{{c1::延时曝气}}
@@ -1279,6 +1306,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147429
 :END:
 *** Text
 曝气池中的活性污泥全部更新一次所需要的时间叫{{c1::污泥龄}}
@@ -1287,6 +1315,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147479
 :END:
 *** Text
 中小型污水处理厂常用的鼓风机是{{c1::罗茨鼓风机}}
@@ -1295,6 +1324,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147529
 :END:
 *** Text
 大型污水处理厂常用的鼓风机是{{c1::离心鼓风机}}
@@ -1303,6 +1333,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147580
 :END:
 *** Text
 污泥负荷高,污泥龄较短时, 单位质量活性污泥的需氧量较{{c1::大}}
@@ -1311,6 +1342,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147655
 :END:
 *** Text
 曝气池中污水的理论停留时间θ表示为{{c1::V/qᵥ}}
@@ -1328,6 +1360,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147706
 :END:
 *** Text
 在曝气池中是通过曝气设备来达到{{c1::充氧}}和{{c1::搅拌}}的目的
@@ -1336,6 +1369,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147879
 :END:
 *** Text
 活性污泥法处理处理废水中有机物变化过程分为兩個阶段{{c1::吸附过程}}和{{c1::稳定过程}}
@@ -1344,6 +1378,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147929
 :END:
 *** Text
 延时曝气是活性污泥处于{{c1::内源}}呼吸阶段
@@ -1352,6 +1387,7 @@ S-P公式中复氧速度是用{{c1::氧亏值}}来表示
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443147979
 :END:
 *** Text
 SVI叫{{c1::污泥体积指数}}
@@ -1360,6 +1396,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148029
 :END:
 *** Text
 推流式曝气池根据曝气头安装位置的不同, 分为{{c1::平移}}推流和{{c1::旋转}}推流
@@ -1368,6 +1405,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148079
 :END:
 *** Text
 污泥负荷是指单位重量的{{c1::活性污泥}}在单位时间所处理的BOD_5量
@@ -1376,6 +1414,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148129
 :END:
 *** Text
 生物膜法所使用的填料是指微生物附着生长的{{c1::载体}}
@@ -1384,6 +1423,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148179
 :END:
 *** Text
 生物膜法处理中的生物膜是{{c1::微生物膜}}
@@ -1392,6 +1432,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148230
 :END:
 *** Text
 生物滤池中, 随着滤床深度的下移, 微生物种类{{c1::增加}}
@@ -1400,6 +1441,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148280
 :END:
 *** Text
 生物滤池的旋转式布水器的布水横杆通常是双数, 且{{c1::对称布置}}
@@ -1408,6 +1450,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148329
 :END:
 *** Text
 相对于活性污泥法, 生物膜法的生物相更{{c1::丰富}}
@@ -1416,6 +1459,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148379
 :END:
 *** Text
 生物滤池上层的生物数量比下层的数量{{c1::多}}
@@ -1428,6 +1472,7 @@ SVI叫{{c1::污泥体积指数}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148579
 :END:
 *** Text
 水利负荷的单位是{{c1::m³/(m² d)}}
@@ -1444,6 +1489,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148629
 :END:
 *** Text
 有机物负荷的单位是{{c1::kgBOD₅/(m³ d)}}
@@ -1452,6 +1498,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148679
 :END:
 *** Text
 夏季生物滤池内气流方向{{c1::向下}}
@@ -1460,6 +1507,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148730
 :END:
 *** Text
 冬季生物滤池内气流方向{{c1::向上}}
@@ -1468,6 +1516,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148779
 :END:
 *** Text
 冲击负荷对生物滤池的影响比较{{c1::小}}
@@ -1476,6 +1525,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148829
 :END:
 *** Text
 生物膜法工艺产生的污泥量少的原因是微生物的{{c1::食物链长}}
@@ -1484,6 +1534,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148879
 :END:
 *** Text
 生物滤池培养生物膜的阶段叫{{c1::挂膜}}
@@ -1492,6 +1543,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148930
 :END:
 *** Text
 支撑生物滤池滤料的是{{c1::假底}}
@@ -1500,6 +1552,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443148981
 :END:
 *** Text
 生物滤池集水沟除了排水外, 还可以{{c1::通风}}
@@ -1508,6 +1561,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149029
 :END:
 *** Text
 回流生物滤池回流的是{{c1::处理出水}}
@@ -1516,6 +1570,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149079
 :END:
 *** Text
 交替式生物滤池必须有{{c1::回流}}
@@ -1524,6 +1579,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149279
 :END:
 *** Text
 生物滤池的池底与假底之间的高度必须大于{{c1::0.6m}}
@@ -1532,6 +1588,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149330
 :END:
 *** Text
 多极生物转盘处理工艺中, 生物膜逐级{{c1::变薄}}
@@ -1540,6 +1597,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149379
 :END:
 *** Text
 生物接触氧化池内既有填料还需要{{c1::曝气}}
@@ -1548,6 +1606,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149429
 :END:
 *** Text
 污泥消化处理的对象是{{c1::固态有机物}}
@@ -1556,6 +1615,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149479
 :END:
 *** Text
 中温消化所需要的时间为{{c1::20天}}
@@ -1564,6 +1624,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149529
 :END:
 *** Text
 高温消化所需要的时间为{{c1::10天}}
@@ -1572,6 +1633,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149579
 :END:
 *** Text
 高温消化对寄生虫卵的杀灭率可达{{c1::99%}}
@@ -1580,6 +1642,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149629
 :END:
 *** Text
 消化池的水力停留时间等于{{c1::污泥龄}}
@@ -1588,6 +1651,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149679
 :END:
 *** Text
 最早的厌氧生物处理构筑物是{{c1::化粪池}}
@@ -1596,6 +1660,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149730
 :END:
 *** Text
 厌氧生物滤池必须全池{{c1::密封}}
@@ -1604,6 +1669,7 @@ m³/(m² d)}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149779
 :END:
 *** Text
 UASB反应器最关键的部位是{{c1::三相分离器}}
@@ -1612,6 +1678,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443149830
 :END:
 *** Text
 烟道气体为{{c1::酸性}}
@@ -1620,6 +1687,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150004
 :END:
 *** Text
 用石灰中和酸性废水时, 常先配置成一定浓度的{{c1::石灰乳}}
@@ -1628,6 +1696,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150054
 :END:
 *** Text
 污水处理中最常用的高分子絮凝剂是{{c1::聚丙烯酰胺}}
@@ -1636,6 +1705,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150105
 :END:
 *** Text
 化学沉淀的最重要参数是{{c1::溶度积}}
@@ -1644,6 +1714,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150155
 :END:
 *** Text
 各种价态的含铬化合物中, 毒性最大的是{{c1::六价铬}}
@@ -1652,6 +1723,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150204
 :END:
 *** Text
 离子交换法的反应具有{{c1::可逆性}}
@@ -1660,6 +1732,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150254
 :END:
 *** Text
 能使溶液溶液溶液中的某些物质选择性透过的膜叫{{c1::半透膜}}
@@ -1668,6 +1741,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150305
 :END:
 *** Text
 促使水分子反向渗透的作用力是{{c1::压力}}
@@ -1676,6 +1750,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150355
 :END:
 *** Text
 污水处理中产生的剩余污泥如果不进行处理, 会产生{{c1::二次污染}}
@@ -1684,6 +1759,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150404
 :END:
 *** Text
 来自污水生物处理系统的二沉池的污泥叫{{c1::剩余污泥}}
@@ -1692,6 +1768,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150454
 :END:
 *** Text
 当污泥含水率由99%降至96%, 污泥体积减少{{c1::75%}}
@@ -1700,6 +1777,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150504
 :END:
 *** Text
 减少污泥体积的构筑物叫{{c1::浓缩池}}
@@ -1708,6 +1786,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150554
 :END:
 *** Text
 降低污泥中有机物含量或使其暂时不分解的过程叫{{c1::污泥稳定}}
@@ -1716,6 +1795,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150729
 :END:
 *** Text
 投加石灰到污泥中稳定污泥的原理是, 提高污泥的{{c1::pH}}
@@ -1724,6 +1804,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150779
 :END:
 *** Text
 医院污水处理产生的污泥, 最好采用{{c1::氯稳定法}}
@@ -1732,6 +1813,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150830
 :END:
 *** Text
 在污泥脱水前, 通过各种作用, 改善污泥脱水性能的操作叫{{c1::污泥调理}}
@@ -1740,6 +1822,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150879
 :END:
 *** Text
 脱水后的污泥, 其含水率应该小于{{c1::80%}}
@@ -1748,6 +1831,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150930
 :END:
 *** Text
 污水处理厂应选在城镇水体的{{c1::下游}}
@@ -1756,6 +1840,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443150979
 :END:
 *** Text
 污水处理厂对要考虑城镇风向的主要时段是{{c1::夏季}}
@@ -1764,6 +1849,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443151029
 :END:
 *** Text
 为了检修方便, 污水处理构筑物一般需设置{{c1::放空管}}
@@ -1772,6 +1858,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443151079
 :END:
 *** Text
 为减少污水提升, 污水在处理厂内应尽量采用{{c1::重力流}}
@@ -1780,6 +1867,7 @@ UASB反应器最关键的部位是{{c1::三相分离器}}
 :PROPERTIES:
 :ANKI_DECK: water
 :ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1558443151131
 :END:
 *** Text
 为调节各处理单元的水量, 应设置{{c1::配水井}}
