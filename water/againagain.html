@@ -1,0 +1,6210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-05-15 Wed 10:10 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>againagain again test water</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">againagain again test water</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgff29c0e">1. 选择题</a>
+<ul>
+<li><a href="#orgc14cdcf">1.1. 下列哪种说法是正确的, 化学需氧量COD的大小{{c1::可相对表示污水中有机污染物的多少}}</a>
+<ul>
+<li><a href="#orgc6eea12">1.1.1. Q</a></li>
+<li><a href="#orgef6d392">1.1.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgecf6d66">1.2. 大肠杆菌检测的数量{{c1::说明污水受粪便污水污染的程度}}</a>
+<ul>
+<li><a href="#org5a081eb">1.2.1. Q</a></li>
+<li><a href="#orgfe26bef">1.2.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org9779936">1.3. 相对而言比较窄而浅的河流{{c1::段面容易达到充分混合}}</a>
+<ul>
+<li><a href="#org197f3b8">1.3.1. Q</a></li>
+<li><a href="#org91dcb31">1.3.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orge0002ea">1.4. 持久性污染物与非持久性污染物的区别主要在于{{c1::生化性能不同}}</a>
+<ul>
+<li><a href="#org7e80f70">1.4.1. Q</a></li>
+<li><a href="#org473d69b">1.4.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org9e754c5">1.5. 河流的氧浓度变化S-P公式中, 河水的亏氧浓度是{{c1::河水的饱和溶解氧浓度与溶解氧浓度的差值}}</a>
+<ul>
+<li><a href="#org8dc42da">1.5.1. Q</a></li>
+<li><a href="#org260a34f">1.5.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org5325bd4">1.6. 悬浮颗粒间互相作用, 颗粒因相互聚集增大而加快沉淀速度的是{{c1::絮凝沉淀}}</a>
+<ul>
+<li><a href="#org9306346">1.6.1. Q</a></li>
+<li><a href="#org8c394cf">1.6.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgbd2b55c">1.7. 悬浮颗粒相互不干扰, 各自单独进行的沉淀是{{c1::自由沉淀}}</a>
+<ul>
+<li><a href="#orgd32d3fa">1.7.1. Q</a></li>
+<li><a href="#org176bc82">1.7.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org334a25a">1.8. 悬浮颗粒沉降时, 相对位置保持不变, 与澄清水之间有清晰的泥水界面的沉淀的是{{c1::区域沉淀}}</a>
+<ul>
+<li><a href="#orgc2c0fee">1.8.1. Q</a></li>
+<li><a href="#orge19429b">1.8.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgb367310">1.9. 悬浮颗粒沉降过程中, 颗粒间相互接触, 互相支承, 下层颗粒内的水在上层颗粒的重力作用下被挤出的沉淀是{{c1::压缩沉淀}}</a>
+<ul>
+<li><a href="#org7422c68">1.9.1. Q</a></li>
+<li><a href="#org0cc49ca">1.9.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org1446b04">1.10. 理想沉淀池的沉淀效率与下列哪一个因素有关{{c1::池子表面积}}</a>
+<ul>
+<li><a href="#orge853d29">1.10.1. Q</a></li>
+<li><a href="#org7e268fa">1.10.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org8f9b11f">1.11. 去除污水中的无机颗粒的是{{c1::沉砂池}}</a>
+<ul>
+<li><a href="#org54231e8">1.11.1. Q</a></li>
+<li><a href="#org54fa9b3">1.11.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org7781258">1.12. 在生物处理后, 分离活性污泥与处理水而是{{c1::二沉池}}</a>
+<ul>
+<li><a href="#orga5e8e1c">1.12.1. Q</a></li>
+<li><a href="#orgc5f9f45">1.12.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgead2ecd">1.13. 在污泥处理过程中, 所用的泥水分离的池子是{{c1::浓缩池}}</a>
+<ul>
+<li><a href="#org65e31cd">1.13.1. Q</a></li>
+<li><a href="#org9f86e5c">1.13.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org4031161">1.14. 沉砂池中砂斗的存砂时间一般是{{c1::2天}}</a>
+<ul>
+<li><a href="#orgbc61dcd">1.14.1. Q</a></li>
+<li><a href="#orgc98db6b">1.14.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org1a48813">1.15. 曝气沉砂池中设置横向当班的目的是{{c1::防止短流}}</a>
+<ul>
+<li><a href="#org3d28d2a">1.15.1. Q</a></li>
+<li><a href="#orgea93352">1.15.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org3369280">1.16. 旋流沉砂池中, 污水流入方式是{{c1::切线进入}}</a>
+<ul>
+<li><a href="#org5fca049">1.16.1. Q</a></li>
+<li><a href="#org010c609">1.16.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org8622a6a">1.17. 好氧生物处理时, 污水中氧的状态为{{c1::氧分子}}</a>
+<ul>
+<li><a href="#orgcdd163b">1.17.1. Q</a></li>
+<li><a href="#orgb305680">1.17.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org775dd6a">1.18. 好氧呼吸的最终电子受体是{{c1::分子氧}}</a>
+<ul>
+<li><a href="#orga806de4">1.18.1. Q</a></li>
+<li><a href="#org98ca37f">1.18.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgfb5eada">1.19. 好氧生物处理中, 有机物被微生物通过新陈代谢后, 被分解的有机物占{{c1::1/3}}</a>
+<ul>
+<li><a href="#org62458f6">1.19.1. Q</a></li>
+<li><a href="#orgf1425f7">1.19.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org07239c0">1.20. 好氧生物处理中, 有机物被微生物通过新陈代谢后, 被合成利用的有机物占{{c1::2/3}}</a>
+<ul>
+<li><a href="#org42550b5">1.20.1. Q</a></li>
+<li><a href="#org18cd43b">1.20.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org9eed205">1.21. 在污水生物处理过程中, 蛋白质被分解的反应是{{c1::氨化反应}}</a>
+<ul>
+<li><a href="#org8eb3b16">1.21.1. Q</a></li>
+<li><a href="#org481bd2d">1.21.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org38b7f78">1.22. 在污水生物处理过程中, 氨被氧化的反应是{{c1::硝化反应}}</a>
+<ul>
+<li><a href="#org033786b">1.22.1. Q</a></li>
+<li><a href="#org5e91050">1.22.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org83481b4">1.23. 在污水生物处理脱磷过程中, 磷最终存在于污泥{{c1::污泥}}</a>
+<ul>
+<li><a href="#orgb1bad63">1.23.1. Q</a></li>
+<li><a href="#org66d1c57">1.23.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org8e4c498">1.24. 微生物生长速率最快的时期是{{c1::对数期}}</a>
+<ul>
+<li><a href="#orgcd72c4c">1.24.1. Q</a></li>
+<li><a href="#org34abafe">1.24.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org6045d4d">1.25. 污水生物处理中, 剩余污泥数量最少的时期是{{c1::衰亡期}}</a>
+<ul>
+<li><a href="#org3fcaf07">1.25.1. Q</a></li>
+<li><a href="#orgffda409">1.25.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgea351af">1.26. 污水生物处理中, 缺氧反硝化时, 溶解氧最大为{{c1::0.5mg/L}}</a>
+<ul>
+<li><a href="#org07a9ae4">1.26.1. Q</a></li>
+<li><a href="#org3057542">1.26.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgb73fa4c">1.27. 正常曝气池的污泥沉降比大约为{{c1::30%}}</a>
+<ul>
+<li><a href="#orgc1f7126">1.27.1. Q</a></li>
+<li><a href="#orgde57d30">1.27.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org4d6a244">1.28. 污泥沉降性能差时, 其SVI值超过{{c1::200}}</a>
+<ul>
+<li><a href="#org5853de3">1.28.1. Q</a></li>
+<li><a href="#org01ee00c">1.28.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org26cdf7c">1.29. 活性污泥法工艺流程最主要的构筑物是{{c1::曝气池}}</a>
+<ul>
+<li><a href="#org28613ef">1.29.1. Q</a></li>
+<li><a href="#orge763ade">1.29.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org7d94cd6">1.30. 曝气池中活性污泥存在的状态是{{c1::悬浮态}}</a>
+<ul>
+<li><a href="#org6667d2f">1.30.1. Q</a></li>
+<li><a href="#orgb09f110">1.30.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org7da99f1">1.31. 每日增殖的污泥叫{{c1::剩余污泥}}</a>
+<ul>
+<li><a href="#org9ef3cf1">1.31.1. Q</a></li>
+<li><a href="#orgb386499">1.31.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org58f8df4">1.32. 用于补充曝气池刘流失的污泥称为{{c1::回流污泥}}</a>
+<ul>
+<li><a href="#org5ea7f0e">1.32.1. Q</a></li>
+<li><a href="#orge1f3580">1.32.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org5a76b09">1.33. 推流式曝气池的供养量特点是{{c1::前段不足}}</a>
+<ul>
+<li><a href="#org132fa12">1.33.1. Q</a></li>
+<li><a href="#orgcb304cb">1.33.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org151048d">1.34. 渐减曝气池公鸭供养量的调节的是{{c1::曝气头密度}}</a>
+<ul>
+<li><a href="#orgacbb68b">1.34.1. Q</a></li>
+<li><a href="#org341ec85">1.34.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc7b39d9">1.35. 多点进水的曝气方法叫{{c1::阶段曝气}}</a>
+<ul>
+<li><a href="#org53a48c9">1.35.1. Q</a></li>
+<li><a href="#org1d4f8c7">1.35.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgf9fbeb9">1.36. 使活性污泥长期处于内源呼吸阶段的曝气方法叫{{c1::延时曝气}}</a>
+<ul>
+<li><a href="#org9548a6c">1.36.1. Q</a></li>
+<li><a href="#org47d784f">1.36.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org9c3c557">1.37. 使活性污泥长期处于对数期阶段的曝气方法叫{{c1::高负荷曝气}}</a>
+<ul>
+<li><a href="#orge8597db">1.37.1. Q</a></li>
+<li><a href="#orgcd1ad56">1.37.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orga1eb911">1.38. 吸附-生物降解工艺的英文缩写是{{c1::AB}}</a>
+<ul>
+<li><a href="#org9c100bb">1.38.1. Q</a></li>
+<li><a href="#org262e602">1.38.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgef216d9">1.39. 序批式活性污泥工艺的英文缩写是{{c1::SBR}}</a>
+<ul>
+<li><a href="#orgd9164b6">1.39.1. Q</a></li>
+<li><a href="#orga623d4c">1.39.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org74849cf">1.40. 循环活性污泥工艺的英文缩写是{{c1::CASS}}</a>
+<ul>
+<li><a href="#orgda2d2fd">1.40.1. Q</a></li>
+<li><a href="#org23a895c">1.40.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc196009">1.41. 不是活性污泥法的三要素之一的是{{c1::水}}</a>
+<ul>
+<li><a href="#orge65df9b">1.41.1. Q</a></li>
+<li><a href="#org083c7cc">1.41.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org175706e">1.42. 微气泡扩散器形成的气泡直径约为{{c1::0.1mm}}</a>
+<ul>
+<li><a href="#orgfac8742">1.42.1. Q</a></li>
+<li><a href="#org5d4e364">1.42.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orge1fde82">1.43. 小气泡扩散器形成的气泡直径一般为{{c1::1.5mm}}</a>
+<ul>
+<li><a href="#org7ba4945">1.43.1. Q</a></li>
+<li><a href="#orgfc253cd">1.43.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org0695f6b">1.44. 大气泡扩散器形成的气泡直径一般为{{c1::15mm}}</a>
+<ul>
+<li><a href="#org86a2bc0">1.44.1. Q</a></li>
+<li><a href="#org0a0ffd6">1.44.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org9abfd76">1.45. 下列扩散器中, 氧传递效率最高的是{{c1::微孔}}</a>
+<ul>
+<li><a href="#orgd2b5454">1.45.1. Q</a></li>
+<li><a href="#org6bd3ad4">1.45.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgfe4c6ad">1.46. 污泥龄的英文缩写是{{c1::SRT}}</a>
+<ul>
+<li><a href="#orgc8d2cf4">1.46.1. Q</a></li>
+<li><a href="#orgbfb0306">1.46.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgf8977df">1.47. 活性污泥的产率系数是{{c1::Y}}</a>
+<ul>
+<li><a href="#orge151e72">1.47.1. Q</a></li>
+<li><a href="#orgd1ed34e">1.47.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgcac09c1">1.48. 内源呼吸系数是{{c1::K<sub>d</sub>}}</a>
+<ul>
+<li><a href="#org72b18e4">1.48.1. Q</a></li>
+<li><a href="#org4a23537">1.48.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org6e60b8c">1.49. 二沉池出水堰不宜大于{{c1::1.7L/(s.m)}}</a>
+<ul>
+<li><a href="#orgd853bda">1.49.1. Q</a></li>
+<li><a href="#orge215aa7">1.49.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org24b6919">1.50. 二沉池污泥斗内污泥停留时间一般为{{c1::2小时}}</a>
+<ul>
+<li><a href="#org1ee547a">1.50.1. Q</a></li>
+<li><a href="#org2f33679">1.50.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org945df0a">1.51. 二沉池污泥区与澄清区之间的缓冲层高度, 在非机械排泥时为{{c1::0.5m}}</a>
+<ul>
+<li><a href="#org9447b99">1.51.1. Q</a></li>
+<li><a href="#orgda51c0f">1.51.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org8ee3c41">1.52. 活性污泥法系统的微生物平均停留时间约为水力停留时间的{{c1::20倍}}</a>
+<ul>
+<li><a href="#org01bbb63">1.52.1. Q</a></li>
+<li><a href="#orgdff7497">1.52.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org15222b3">1.53. 延时曝气法微生物平均停留时间约为水力停留时间的{{c1::40倍}}</a>
+<ul>
+<li><a href="#org923a004">1.53.1. Q</a></li>
+<li><a href="#org5cf26cd">1.53.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org8fd6568">1.54. 高负荷活性污泥法系统的微生物平均停留时间约为水力停留时间的{{c1::10倍}}</a>
+<ul>
+<li><a href="#org879956a">1.54.1. Q</a></li>
+<li><a href="#org5593409">1.54.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org8440130">1.55. 污水处理时, 发生活性污泥丝状膨胀的最低温度为{{c1::15摄氏度}}</a>
+<ul>
+<li><a href="#org5734018">1.55.1. Q</a></li>
+<li><a href="#org5fa0b2d">1.55.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org0eb3547">1.56. 下列几种污水处理工艺中, 不属于生物膜法的是{{c1::氧化沟}}</a>
+<ul>
+<li><a href="#org19eb14b">1.56.1. Q</a></li>
+<li><a href="#orgc95c91b">1.56.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgefbfcc1">1.57. 生物转盘法工艺是{{c1::好氧法}}</a>
+<ul>
+<li><a href="#org46ca2b7">1.57.1. Q</a></li>
+<li><a href="#org508a91c">1.57.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org4a972ea">1.58. 生物膜法对营养物质的要求为BOD5:N:P{{c1::100:5:1}}</a>
+<ul>
+<li><a href="#orgd5ad598">1.58.1. Q</a></li>
+<li><a href="#org5246ba0">1.58.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orge1ba28c">1.59. 有机负荷最高的生物膜法处理工艺是{{c1::接触氧化池}}</a>
+<ul>
+<li><a href="#org84d71ff">1.59.1. Q</a></li>
+<li><a href="#orga048d36">1.59.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgb821463">1.60. 生物膜法处理废水时, 滤床内水温不能超过{{c1::40摄氏度}}</a>
+<ul>
+<li><a href="#org1e5d2ff">1.60.1. Q</a></li>
+<li><a href="#org9cd06dc">1.60.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org12ed23c">1.61. 生物膜法处理废水时, 滤床内水温不能低于{{c1::5摄氏度}}</a>
+<ul>
+<li><a href="#org90e84e4">1.61.1. Q</a></li>
+<li><a href="#org39b100f">1.61.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org4ee0fc5">1.62. 塔式生物滤池的高度一般不低于{{c1::10米}}</a>
+<ul>
+<li><a href="#orgb20ee7b">1.62.1. Q</a></li>
+<li><a href="#org1292738">1.62.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgb61bb75">1.63. 下列几项影响因素中, 哪一个最集中反反映了生物滤池的工作性能?{{c1::滤率}}</a>
+<ul>
+<li><a href="#orgad3d007">1.63.1. Q</a></li>
+<li><a href="#org5fd18be">1.63.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc729c41">1.64. 出现滤床供氧不足时, 污水中COD一般超过{{c1::500mg/L}}</a>
+<ul>
+<li><a href="#org15d81f3">1.64.1. Q</a></li>
+<li><a href="#org4b0cbd4">1.64.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgb66f849">1.65. 下列几项中, 哪一项是生物转盘的缺点?{{c1::占地}}</a>
+<ul>
+<li><a href="#orgf004bca">1.65.1. Q</a></li>
+<li><a href="#org4fa4425">1.65.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc8cb89b">1.66. 下列几种工艺中, 介于活性污泥法和生物滤池法之间的是{{c1::接触氧化}}</a>
+<ul>
+<li><a href="#org8d3c485">1.66.1. Q</a></li>
+<li><a href="#org0b45ea3">1.66.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org3436d08">1.67. 接触氧化法处理污水时, 每立方米污水供气量至少为{{c1::10m<sup>3</sup>}}</a>
+<ul>
+<li><a href="#orgc0718ff">1.67.1. Q</a></li>
+<li><a href="#orge07f015">1.67.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgdd713da">1.68. 稳定塘处理污水的优点体现在{{c1::成本}}</a>
+<ul>
+<li><a href="#org861eda7">1.68.1. Q</a></li>
+<li><a href="#org28a7b70">1.68.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orga6aa9c3">1.69. 好氧塘深度布恩不能超过{{c1::1.0m}}</a>
+<ul>
+<li><a href="#org542d330">1.69.1. Q</a></li>
+<li><a href="#org98c735a">1.69.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgaad32e5">1.70. 好氧塘处理污水的BOD<sub>5一般不能超过</sub>{{c1::100mg/L}}</a>
+<ul>
+<li><a href="#org63b206c">1.70.1. Q</a></li>
+<li><a href="#org145e429">1.70.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc9099e1">1.71. 高负荷好氧塘的特点是{{c1::水浅}}</a>
+<ul>
+<li><a href="#org0148cb2">1.71.1. Q</a></li>
+<li><a href="#orge04d9c4">1.71.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc8ea8a3">1.72. 好氧塘内溶解氧弄低最低的时段是{{c1::凌晨}}</a>
+<ul>
+<li><a href="#org1e582a0">1.72.1. Q</a></li>
+<li><a href="#org8557816">1.72.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org7e0cb44">1.73. 好氧塘处理的污水在进入塘前, 经过预处理去除的是污水中的{{c1::悬浮物}}</a>
+<ul>
+<li><a href="#org08527f9">1.73.1. Q</a></li>
+<li><a href="#org0f6c21e">1.73.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgb5f79d0">1.74. 曝气塘工艺流程中, 曝气塘的数目最少为{{c1::3个}}</a>
+<ul>
+<li><a href="#org6b142ae">1.74.1. Q</a></li>
+<li><a href="#org9f42575">1.74.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org3229d9c">1.75. 曝气塘么曝气的主要原因是{{c1::塘体太深}}</a>
+<ul>
+<li><a href="#org388d1c0">1.75.1. Q</a></li>
+<li><a href="#org38bddf4">1.75.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org1d5860d">1.76. 污水土地处理系统去除悬浮物效果最好的方法是{{c1::过滤}}</a>
+<ul>
+<li><a href="#org335d0c9">1.76.1. Q</a></li>
+<li><a href="#orgce46b65">1.76.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org3bcd749">1.77. 污水土地处理系统去除有机物效果最好的方法是{{c1::降解}}</a>
+<ul>
+<li><a href="#orgcd737da">1.77.1. Q</a></li>
+<li><a href="#org2c0b273">1.77.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org001a8eb">1.78. 污水土地处理系统不宜处理的废水是{{c1::有毒废水}}</a>
+<ul>
+<li><a href="#org43e0abb">1.78.1. Q</a></li>
+<li><a href="#org0aa7c13">1.78.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org5eae8ca">1.79. 湿地的水深不超过{{c1::6m}}</a>
+<ul>
+<li><a href="#org806bd62">1.79.1. Q</a></li>
+<li><a href="#org0ac6cad">1.79.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgf88a561">1.80. 人工湿地的基建投资费用低, 最少是生物处理费用的{{c1::1/5}}</a>
+<ul>
+<li><a href="#orgc09e514">1.80.1. Q</a></li>
+<li><a href="#org3d5bde0">1.80.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org6fe752e">1.81. 能处理液态污泥的系统是{{c1::人工湿地}}</a>
+<ul>
+<li><a href="#orgadb9619">1.81.1. Q</a></li>
+<li><a href="#org582597d">1.81.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org0e57c7c">1.82. 厌氧生物处理最适合处理{{c1::高浓度污水}}</a>
+<ul>
+<li><a href="#orgb23ccd5">1.82.1. Q</a></li>
+<li><a href="#org7d96544">1.82.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org9822a65">1.83. 污泥厌氧处理的是固体有机物, 称其称其为{{c1::消化}}</a>
+<ul>
+<li><a href="#orgae140b9">1.83.1. Q</a></li>
+<li><a href="#orgf726c06">1.83.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org06315d4">1.84. 厌氧生物处理最后产生的气体的主要成分是{{c1::CH<sub>4</sub>}}</a>
+<ul>
+<li><a href="#orgdd32eab">1.84.1. Q</a></li>
+<li><a href="#org361c343">1.84.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org91215e3">1.85. 中温消化一般需时{{c1::20天}}</a>
+<ul>
+<li><a href="#org14e8f63">1.85.1. Q</a></li>
+<li><a href="#orgbd4663c">1.85.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org2b6e11c">1.86. 厌氧消化不能使用的搅拌方法是{{c1::空气搅拌}}</a>
+<ul>
+<li><a href="#org2bb0664">1.86.1. Q</a></li>
+<li><a href="#org9311f04">1.86.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org7d364a4">1.87. 消化气就是{{c1::沼气}}</a>
+<ul>
+<li><a href="#org86c4ee3">1.87.1. Q</a></li>
+<li><a href="#org9238289">1.87.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgd097ac6">1.88. 厌氧处理COD:N:P一般为{{c1::800:5:1}}</a>
+<ul>
+<li><a href="#org469bcfd">1.88.1. Q</a></li>
+<li><a href="#orgc4e4cc8">1.88.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org609781c">1.89. 消化中有机酸积累使pH降低, 使消化受到抑制的最小NH<sup>4浓度是</sup>{{c1::150mg/L}}</a>
+<ul>
+<li><a href="#orgab9adf9">1.89.1. Q</a></li>
+<li><a href="#org14c069d">1.89.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org750dacd">1.90. 最早的厌氧生物处理构筑物是{{c1::化粪池}}</a>
+<ul>
+<li><a href="#org825dbe2">1.90.1. Q</a></li>
+<li><a href="#org41d1e1a">1.90.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgb585ddf">1.91. 厌氧生物滤池是{{c1::密封}}</a>
+<ul>
+<li><a href="#orgec3b0b6">1.91.1. Q</a></li>
+<li><a href="#org79c89a3">1.91.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org15814ed">1.92. 厌氧生物滤池中微生物膜在滤料上停留的时间大约为{{c1::100天}}</a>
+<ul>
+<li><a href="#org25f1095">1.92.1. Q</a></li>
+<li><a href="#org14d7273">1.92.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org04b7aeb">1.93. 厌氧生物滤池中微生物膜在滤料上停留的时间长, 出水中{{c1::SS低}}</a>
+<ul>
+<li><a href="#org44d582b">1.93.1. Q</a></li>
+<li><a href="#org238295e">1.93.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc09939a">1.94. 不适用于厌氧生物滤池处理的污水是{{c1::SS高的污水}}</a>
+<ul>
+<li><a href="#org2f89f19">1.94.1. Q</a></li>
+<li><a href="#org5f9e976">1.94.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgd971c61">1.95. 悬浮物浓度高的污水, 厌氧处理工艺最好采用{{c1::接触法}}</a>
+<ul>
+<li><a href="#orgf6497c9">1.95.1. Q</a></li>
+<li><a href="#org8a82da7">1.95.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgf416216">1.96. 厌氧生物处理工艺中, 存在污泥回流的工艺是{{c1::接触法}}</a>
+<ul>
+<li><a href="#org22b8c8d">1.96.1. Q</a></li>
+<li><a href="#orgdde7cae">1.96.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org0599cf1">1.97. 厌氧接触法对气体的特殊操作是{{c1::真空脱沼气}}</a>
+<ul>
+<li><a href="#org91a44f5">1.97.1. Q</a></li>
+<li><a href="#org24e43ec">1.97.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc94986f">1.98. 上流式厌氧污泥床反应器的英文缩写是{{c1::UASB}}</a>
+<ul>
+<li><a href="#org453c4b5">1.98.1. Q</a></li>
+<li><a href="#org40956cc">1.98.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org8eab4c4">1.99. 下列处理方法中属于化学处理的是{{c1::沉淀法}}</a>
+<ul>
+<li><a href="#orgeca9432">1.99.1. Q</a></li>
+<li><a href="#orgb100d20">1.99.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org2ad85e4">1.100. 下列处理方法中属于化学处理的是{{c1::沉淀法}}</a>
+<ul>
+<li><a href="#org522adc8">1.100.1. Q</a></li>
+<li><a href="#orgde6a75d">1.100.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org1592556">1.101. 下列处理方法中属于化学处理的是{{c1::沉淀法}}</a>
+<ul>
+<li><a href="#orgb662dd5">1.101.1. Q</a></li>
+<li><a href="#org982e2c2">1.101.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org25bbf8e">1.102. 下列处理方法中属于化学处理的是{{c1::沉淀法}}</a>
+<ul>
+<li><a href="#org496684c">1.102.1. Q</a></li>
+<li><a href="#org6516e57">1.102.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org853df9e">1.103. 下列中和剂中属于酸性中和剂的是{{c1::烟道气}}</a>
+<ul>
+<li><a href="#org1462209">1.103.1. Q</a></li>
+<li><a href="#orgeb54958">1.103.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org68b990e">1.104. 下列处理方法中, 通常可以回收废水中有用物质的是{{c1::物理化学法}}</a>
+<ul>
+<li><a href="#org886ef7b">1.104.1. Q</a></li>
+<li><a href="#orgcd7e39d">1.104.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgb615521">1.105. 下列混凝剂中, 有毒性的是{{c1::聚丙烯酰胺}}</a>
+<ul>
+<li><a href="#orgaf42472">1.105.1. Q</a></li>
+<li><a href="#org27d1ddd">1.105.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org075b72f">1.106. 化学沉淀法工艺处理废水中的{{c1::离子}}</a>
+<ul>
+<li><a href="#org4aed365">1.106.1. Q</a></li>
+<li><a href="#org505bd12">1.106.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org680ccb5">1.107. 下列几种物质中, 属于还原剂的是{{c1::金属铁}}</a>
+<ul>
+<li><a href="#org5667f53">1.107.1. Q</a></li>
+<li><a href="#org4c9008b">1.107.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgf05de6d">1.108. 下列铬的各种化合物中, 毒性最大的是{{c1::CrO<sub>4</sub><sup>2-</sup>}}</a>
+<ul>
+<li><a href="#org03c6444">1.108.1. Q</a></li>
+<li><a href="#org40ab711">1.108.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org90ef15a">1.109. 在环境工程中, 最广泛使用的吸附剂是{{c1::活性炭}}</a>
+<ul>
+<li><a href="#org8befbda">1.109.1. Q</a></li>
+<li><a href="#org7e76e14">1.109.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgd71e451">1.110. 能多次再生, 反复使用的吸附剂是{{c1::活性炭}}</a>
+<ul>
+<li><a href="#org9f1885e">1.110.1. Q</a></li>
+<li><a href="#orgabd7ec0">1.110.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orge6521c9">1.111. 价格最便宜的吸附剂是{{c1::腐植酸}}</a>
+<ul>
+<li><a href="#orgc4e007b">1.111.1. Q</a></li>
+<li><a href="#org653047d">1.111.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org94e242b">1.112. 移动床吸附装置所称"移动"的物质是指{{c1::吸附剂}}</a>
+<ul>
+<li><a href="#orgd1cff5a">1.112.1. Q</a></li>
+<li><a href="#org3ce1db5">1.112.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orga996b39">1.113. 处理过程中不需要进行反冲洗的吸附床是{{c1::流化床}}</a>
+<ul>
+<li><a href="#org169e679">1.113.1. Q</a></li>
+<li><a href="#org23f92e9">1.113.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgbfe7028">1.114. 离子交换法主要用于处理{{c1::金属废水}}</a>
+<ul>
+<li><a href="#org3dac322">1.114.1. Q</a></li>
+<li><a href="#orgf82c38c">1.114.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org3601ef6">1.115. 来自污水生物处理系统的二沉池污泥叫{{c1::剩余污泥}}</a>
+<ul>
+<li><a href="#org81466f4">1.115.1. Q</a></li>
+<li><a href="#orgd2707cf">1.115.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org490f0cc">1.116. 来自污水厌氧生物处理系统的污泥叫{{c1::消化污泥}}</a>
+<ul>
+<li><a href="#org2048b53">1.116.1. Q</a></li>
+<li><a href="#org86a34c3">1.116.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org7861b68">1.117. 混凝法处理习系统的产生的污泥将叫{{c1::化学污泥}}</a>
+<ul>
+<li><a href="#org2cc3be0">1.117.1. Q</a></li>
+<li><a href="#org03609a4">1.117.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgcf9cc8a">1.118. 挥发性固体所指定的挥发温度是{{c1::600摄氏度}}</a>
+<ul>
+<li><a href="#orgbf86697">1.118.1. Q</a></li>
+<li><a href="#org2aaa5ad">1.118.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc0bf450">1.119. 下列污泥中含水率最高的是{{c1::活性污泥}}</a>
+<ul>
+<li><a href="#org8e1cfae">1.119.1. Q</a></li>
+<li><a href="#orga136eee">1.119.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgea2177a">1.120. 下列污泥中含水率最低的是{{c1::沉砂池污泥}}</a>
+<ul>
+<li><a href="#orga2d36d7">1.120.1. Q</a></li>
+<li><a href="#orgc14c73e">1.120.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org0341c59">1.121. 存在于污泥颗粒间隙中的水称为{{c1::游离水}}</a>
+<ul>
+<li><a href="#org0f7fbd0">1.121.1. Q</a></li>
+<li><a href="#orgeaf5faa">1.121.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org19fc855">1.122. 存在于污泥细胞中的水称为{{c1::内部水}}</a>
+<ul>
+<li><a href="#org3668c83">1.122.1. Q</a></li>
+<li><a href="#org9ac7de8">1.122.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org16c9762">1.123. 能流动的污泥含水率最低为{{c1::80%}}</a>
+<ul>
+<li><a href="#orge45fee1">1.123.1. Q</a></li>
+<li><a href="#org4972f52">1.123.2. A</a></li>
+</ul>
+</li>
+<li><a href="#org7af5a11">1.124. 通常称为固态的污泥含水率最高为{{c1::60%}}</a>
+<ul>
+<li><a href="#org0689e37">1.124.1. Q</a></li>
+<li><a href="#orgeada2eb">1.124.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgdcb81e8">1.125. 污泥含水率从99%降至98%, 污泥体积减少{{c1::50%}}</a>
+<ul>
+<li><a href="#orgaa16d7d">1.125.1. Q</a></li>
+<li><a href="#orgeacad68">1.125.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgd4c0e9e">1.126. 污泥含水率从99%降至96%, 污泥体积为原来的25%{{c1::25%}}</a>
+<ul>
+<li><a href="#org5bebbf8">1.126.1. Q</a></li>
+<li><a href="#org0b70c49">1.126.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orge17052b">1.127. 污泥好氧消化一般所采用的鼓风曝气装置是{{c1::中气泡}}</a>
+<ul>
+<li><a href="#orgc088d21">1.127.1. Q</a></li>
+<li><a href="#org6193ceb">1.127.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgc659db2">1.128. 污泥厌氧消化所产生的消化气, 其1m<sup>3的热值相当于煤</sup>{{c1::1.0kg}}</a>
+<ul>
+<li><a href="#org04ee26a">1.128.1. Q</a></li>
+<li><a href="#orgee410ad">1.128.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orge60aa33">1.129. 污泥脱水一般要将污泥含水率降至{{c1::80%}}</a>
+<ul>
+<li><a href="#orgd5aa446">1.129.1. Q</a></li>
+<li><a href="#org406105d">1.129.2. A</a></li>
+</ul>
+</li>
+<li><a href="#orgdb23df7">1.130. 下列污泥脱水方法中, 所用外力为自然力的是{{c1::干化场}}</a>
+<ul>
+<li><a href="#orgc09d344">1.130.1. Q</a></li>
+<li><a href="#orgfb5919c">1.130.2. A</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org02abcac">2. 填空题</a>
+<ul>
+<li><a href="#org6a89048">2.1. 重金属排入水体后, 可以通过食物链{{c1::富集}}</a>
+<ul>
+<li><a href="#orgd6aed57">2.1.1. Text</a></li>
+<li><a href="#orgf1f81a3">2.1.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org1f5027d">2.2. 河流的竖向混合阶段是在{{c1::深度}}方向上达到浓度分布均匀.</a>
+<ul>
+<li><a href="#org89b6445">2.2.1. Text</a></li>
+<li><a href="#orgdd78bd6">2.2.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgc38d081">2.3. 水体中怪味道经常与水中的{{c1::盐分}}有关</a>
+<ul>
+<li><a href="#org76d8cd5">2.3.1. Text</a></li>
+<li><a href="#org0aedc50">2.3.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org1b1a628">2.4. 污水中的污染物在水中能够分解的是{{c1::非持久性}}污染物</a>
+<ul>
+<li><a href="#org3136922">2.4.1. Text</a></li>
+<li><a href="#orgf21b61f">2.4.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org3104899">2.5. 反映河流等的复氧速度的是{{c1::S-P}}公式</a>
+<ul>
+<li><a href="#orgf1129cd">2.5.1. Text</a></li>
+<li><a href="#orgf81c2cf">2.5.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org26132e8">2.6. S-P公式中复氧速度是用{{c1::氧亏值}}来表示</a>
+<ul>
+<li><a href="#org046d9b7">2.6.1. Text</a></li>
+<li><a href="#org01fa39d">2.6.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org9424c4a">2.7. 利于利用水的冲击力和重力作用使筛网产生旋转运动的是{{c1::水力}}筛网</a>
+<ul>
+<li><a href="#org273ff04">2.7.1. Text</a></li>
+<li><a href="#orgf4763a6">2.7.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgef369c4">2.8. 沉淀法是利用水中悬浮颗粒的可沉降性能, 使其在{{c1::重力}}的作用下沉淀</a>
+<ul>
+<li><a href="#orgd908616">2.8.1. Text</a></li>
+<li><a href="#org18ccea9">2.8.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org6d00cb3">2.9. 在生化处理工艺之前的沉淀池叫{{c1::初沉池}}</a>
+<ul>
+<li><a href="#orga838d93">2.9.1. Text</a></li>
+<li><a href="#org6b807ed">2.9.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgb24f1a6">2.10. 比重较大的砂粒在沉砂池中的沉淀可以看做{{c1::自由}}自由沉淀</a>
+<ul>
+<li><a href="#org54a2ae5">2.10.1. Text</a></li>
+<li><a href="#org3754e10">2.10.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgfe007be">2.11. 自由沉淀的轨迹线是一条{{c1::直线}}</a>
+<ul>
+<li><a href="#orga6a5b52">2.11.1. Text</a></li>
+<li><a href="#org0ea9a0f">2.11.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org2d022df">2.12. 絮凝沉淀的轨迹是一条鞋履{{c1::越来越大}}曲线</a>
+<ul>
+<li><a href="#org05480bc">2.12.1. Text</a></li>
+<li><a href="#org4bcd09d">2.12.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgb5cc657">2.13. 反映沉淀池效率的参数q, 称为沉淀池的{{c1::表面负荷率}}</a>
+<ul>
+<li><a href="#orgf8ec8ee">2.13.1. Text</a></li>
+<li><a href="#org80fd4b5">2.13.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgf3fcd09">2.14. 当颗粒沉速u&lt;u<sub>0时</sub>, 其能否沉淀取决于进水时她的{{c1::深度}}</a>
+<ul>
+<li><a href="#org3f86630">2.14.1. Text</a></li>
+<li><a href="#org013e21e">2.14.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orga2a4f94">2.15. 人工排砂时, 排砂管的管径一般不小于{{c1::200}}mm</a>
+<ul>
+<li><a href="#orgf2bb2a7">2.15.1. Text</a></li>
+<li><a href="#org2c1d3ea">2.15.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org258718c">2.16. 旋流沉砂池中比重较大的砂粒被{{c1::离心力}}甩向池壁而沉淀</a>
+<ul>
+<li><a href="#org42ea36b">2.16.1. Text</a></li>
+<li><a href="#org0c4e91e">2.16.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org916d73a">2.17. 初沉池的去除对象是污水中的{{c1::悬浮颗粒}}</a>
+<ul>
+<li><a href="#org3b2a836">2.17.1. Text</a></li>
+<li><a href="#orgd75973d">2.17.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org39e0acf">2.18. 在沉淀过程过程中, 水流速度对颗粒的沉淀有比较大的影响的是{{c1::连续}}运行的沉淀池</a>
+<ul>
+<li><a href="#org389cdbc">2.18.1. Text</a></li>
+<li><a href="#org2266840">2.18.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orga5ece46">2.19. 异养微生物所利用的底物是{{c1::有机物}}</a>
+<ul>
+<li><a href="#org01dd5e2">2.19.1. Text</a></li>
+<li><a href="#orge1d2ab7">2.19.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgd68b9f0">2.20. 自养微生物所利用的底物是{{c1::无机物}}</a>
+<ul>
+<li><a href="#orgeb90fcf">2.20.1. Text</a></li>
+<li><a href="#org5669a40">2.20.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgfc468d6">2.21. 好氧呼吸的最终电子受体是{{c1::分子氧}}</a>
+<ul>
+<li><a href="#orgf725dd9">2.21.1. Text</a></li>
+<li><a href="#orgd99e18f">2.21.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgfdc5806">2.22. 在缺氧条件下, 污水中氮被还原为但其的反应是{{c1::反硝化反应}}</a>
+<ul>
+<li><a href="#orga3788c5">2.22.1. Text</a></li>
+<li><a href="#org9f58227">2.22.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgaffafcf">2.23. 在污水生物处理脱磷过程中, 磷最终存在于{{c1::污泥}}</a>
+<ul>
+<li><a href="#org3ef9933">2.23.1. Text</a></li>
+<li><a href="#org8a5d552">2.23.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgfd73e15">2.24. 活性污泥是类似矾花状不定形的{{c1::絮凝体}}</a>
+<ul>
+<li><a href="#orgcff8985">2.24.1. Text</a></li>
+<li><a href="#orga6888f1">2.24.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgf0f83a1">2.25. 混合液固体悬浮物浓度是指单位体积混合液中{{c1::干固体}}的含量</a>
+<ul>
+<li><a href="#orgde40cd2">2.25.1. Text</a></li>
+<li><a href="#orge266273">2.25.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org9e3810f">2.26. 污泥体积指数SVI的单位是{{c1::mL/g}}</a>
+<ul>
+<li><a href="#org89d6dde">2.26.1. Text</a></li>
+<li><a href="#org1997bff">2.26.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org8222360">2.27. 活性污泥法分解水中有机物的构筑物叫{{c1::曝气池}}</a>
+<ul>
+<li><a href="#orgd0b9f40">2.27.1. Text</a></li>
+<li><a href="#orga97f515">2.27.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgcf5041d">2.28. 活性污泥处于内源性呼吸阶段的污水处理工艺叫{{c1::延时曝气}}</a>
+<ul>
+<li><a href="#org075f200">2.28.1. Text</a></li>
+<li><a href="#orge954187">2.28.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org84125af">2.29. 曝气池中的活性污泥全部更新一次所需要的时间叫{{c1::污泥龄}}</a>
+<ul>
+<li><a href="#org023b7ea">2.29.1. Text</a></li>
+<li><a href="#orgf217764">2.29.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org6b58e5f">2.30. 中小型污水处理厂常用的鼓风机是{{c1::罗茨鼓风机}}</a>
+<ul>
+<li><a href="#org51bac87">2.30.1. Text</a></li>
+<li><a href="#orge3c060d">2.30.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org9b4ce4e">2.31. 大型污水处理厂常用的鼓风机是{{c1::离心鼓风机}}</a>
+<ul>
+<li><a href="#org6344b71">2.31.1. Text</a></li>
+<li><a href="#orgf03ff77">2.31.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgc54edaa">2.32. 污泥负荷高,污泥龄较短时, 单位质量活性污泥的需氧量较{{c1::大}}</a>
+<ul>
+<li><a href="#org2a1d40a">2.32.1. Text</a></li>
+<li><a href="#org12bdf7d">2.32.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgc16c648">2.33. 曝气池中污水的理论停留时间θ表示为{{c1::V/qᵥ}}</a>
+<ul>
+<li><a href="#org64a1e27">2.33.1. Text</a></li>
+<li><a href="#org28077f6">2.33.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgb613564">2.34. 曝气池中污水的实际停留时间θ表示为{{c1::V/[qᵥ (1+ r)]}}</a>
+<ul>
+<li><a href="#orgfe016a9">2.34.1. Text</a></li>
+<li><a href="#org440afc7">2.34.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgfa872ea">2.35. 在曝气池中是通过曝气设备来达到{{c1::充氧}}和{{c1::搅拌}}的目的</a>
+<ul>
+<li><a href="#org173b112">2.35.1. Text</a></li>
+<li><a href="#org8eeeca5">2.35.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgcfb762e">2.36. 活性污泥法处理处理废水中有机物变化过程分为兩個阶段{{c1::吸附过程}}和{{c1::稳定过程}}</a>
+<ul>
+<li><a href="#orge520edf">2.36.1. Text</a></li>
+<li><a href="#orgcb1df57">2.36.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org2de274e">2.37. 延时曝气是活性污泥处于{{c1::内源}}呼吸阶段</a>
+<ul>
+<li><a href="#org6de249e">2.37.1. Text</a></li>
+<li><a href="#org6fc599f">2.37.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgcddd805">2.38. SVI叫{{c1::污泥体积指数}}</a>
+<ul>
+<li><a href="#orgded29bd">2.38.1. Text</a></li>
+<li><a href="#orge9fc074">2.38.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgf2482eb">2.39. 推流式曝气池根据曝气头安装位置的不同, 分为{{c1::平移}}推流和{{c1::旋转}}推流</a>
+<ul>
+<li><a href="#orgf482c4c">2.39.1. Text</a></li>
+<li><a href="#orgdc13721">2.39.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgd7fa7d7">2.40. 污泥负荷是指单位重量的{{c1::活性污泥}}在单位时间所处理的BOD<sub>5量</sub></a>
+<ul>
+<li><a href="#org3882251">2.40.1. Text</a></li>
+<li><a href="#org50e725f">2.40.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgb6f84dc">2.41. 生物膜法所使用的填料是指微生物附着生长的{{c1::载体}}</a>
+<ul>
+<li><a href="#org29fdd7f">2.41.1. Text</a></li>
+<li><a href="#orgbfe0551">2.41.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org4982f52">2.42. 生物膜法处理中的生物膜是{{c1::微生物膜}}</a>
+<ul>
+<li><a href="#org0190b21">2.42.1. Text</a></li>
+<li><a href="#org0a98770">2.42.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org65203d6">2.43. 生物滤池中, 随着滤床深度的下移, 微生物种类{{c1::增加}}</a>
+<ul>
+<li><a href="#org30ca5b6">2.43.1. Text</a></li>
+<li><a href="#org1d9e7e5">2.43.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org167c228">2.44. 生物滤池的旋转式布水器的布水横杆通常是双数, 且{{c1::对称布置}}</a>
+<ul>
+<li><a href="#org619acfb">2.44.1. Text</a></li>
+<li><a href="#orgc252407">2.44.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgff16f39">2.45. 相对于活性污泥法, 生物膜法的生物相更{{c1::丰富}}</a>
+<ul>
+<li><a href="#org65a06b3">2.45.1. Text</a></li>
+<li><a href="#org1ead163">2.45.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgd6c7597">2.46. 生物滤池上层的生物数量比下层的数量{{c1::多}}</a>
+<ul>
+<li><a href="#orgf2250ec">2.46.1. Text</a></li>
+<li><a href="#org27207cc">2.46.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org14aff4d">2.47. <span class="todo TODO">TODO</span> 生物滤池上层的生物种类比下层的种类{{c1::}}</a>
+<ul>
+<li><a href="#orgb2f1de0">2.47.1. Text</a></li>
+<li><a href="#org9b558b6">2.47.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org764a47a">2.48. 水利负荷的单位是{{c1::m³/(m² d)}}</a>
+<ul>
+<li><a href="#org804047b">2.48.1. Text</a></li>
+<li><a href="#org309cfb0">2.48.2. Extra</a></li>
+<li><a href="#org5c8a24a">2.48.3. Text</a></li>
+<li><a href="#org2d21135">2.48.4. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org6e00f6c">2.49. 有机物负荷的单位是{{c1::kgBOD₅/(m³ d)}}</a>
+<ul>
+<li><a href="#org367cb4c">2.49.1. Text</a></li>
+<li><a href="#orgb6cb770">2.49.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org5cd0b70">2.50. 夏季生物滤池内气流方向{{c1::向下}}</a>
+<ul>
+<li><a href="#org62b4256">2.50.1. Text</a></li>
+<li><a href="#org9c6b27f">2.50.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org476d55d">2.51. 冬季生物滤池内气流方向{{c1::向上}}</a>
+<ul>
+<li><a href="#org3c4a021">2.51.1. Text</a></li>
+<li><a href="#org34ff6f6">2.51.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgc8d98a1">2.52. 冲击负荷对生物滤池的影响比较{{c1::小}}</a>
+<ul>
+<li><a href="#org00c7e70">2.52.1. Text</a></li>
+<li><a href="#orgf52a4e3">2.52.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org53c58cd">2.53. 生物膜法工艺产生的污泥量少的原因是微生物的{{c1::食物链长}}</a>
+<ul>
+<li><a href="#org1bccf78">2.53.1. Text</a></li>
+<li><a href="#orgb2c3238">2.53.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org497a8e6">2.54. 生物滤池培养生物膜的阶段叫{{c1::挂膜}}</a>
+<ul>
+<li><a href="#orge5dcb91">2.54.1. Text</a></li>
+<li><a href="#orgdc2ed7c">2.54.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org9eed55a">2.55. 支撑生物滤池滤料的是{{c1::假底}}</a>
+<ul>
+<li><a href="#org34e7e15">2.55.1. Text</a></li>
+<li><a href="#orgc327b24">2.55.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org54e611b">2.56. 生物滤池集水沟除了排水外, 还可以{{c1::通风}}</a>
+<ul>
+<li><a href="#orgbb4b83c">2.56.1. Text</a></li>
+<li><a href="#org2a5988e">2.56.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgd63c00c">2.57. 回流生物滤池回流的是{{c1::处理出水}}</a>
+<ul>
+<li><a href="#org4cb3461">2.57.1. Text</a></li>
+<li><a href="#orga48893d">2.57.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgcae4ca8">2.58. 交替式生物滤池必须有{{c1::回流}}</a>
+<ul>
+<li><a href="#org2b3b37b">2.58.1. Text</a></li>
+<li><a href="#org09bea3b">2.58.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgb528efa">2.59. 生物滤池的池底与假底之间的高度必须大于{{c1::0.6m}}</a>
+<ul>
+<li><a href="#orgd43a667">2.59.1. Text</a></li>
+<li><a href="#orgec6d6d0">2.59.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orge91595a">2.60. 多极生物转盘处理工艺中, 生物膜逐级{{c1::变薄}}</a>
+<ul>
+<li><a href="#org5fdbedf">2.60.1. Text</a></li>
+<li><a href="#org0b9e6db">2.60.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgb17dde2">2.61. 生物接触氧化池内既有填料还需要{{c1::曝气}}</a>
+<ul>
+<li><a href="#org74db392">2.61.1. Text</a></li>
+<li><a href="#org603a722">2.61.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org5abc9c3">2.62. 污泥消化处理的对象是{{c1::固态有机物}}</a>
+<ul>
+<li><a href="#org8a857df">2.62.1. Text</a></li>
+<li><a href="#orgb937281">2.62.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org8efc224">2.63. 中温消化所需要的时间为{{c1::20天}}</a>
+<ul>
+<li><a href="#org2dd69da">2.63.1. Text</a></li>
+<li><a href="#org0e83dd3">2.63.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org57a52e7">2.64. 高温消化所需要的时间为{{c1::10天}}</a>
+<ul>
+<li><a href="#org55b2363">2.64.1. Text</a></li>
+<li><a href="#orgfc16f74">2.64.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org289aafe">2.65. 高温消化对寄生虫卵的杀灭率可达{{c1::99%}}</a>
+<ul>
+<li><a href="#orgce126ff">2.65.1. Text</a></li>
+<li><a href="#org320127e">2.65.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org6745055">2.66. 消化池的水力停留时间等于{{c1::污泥龄}}</a>
+<ul>
+<li><a href="#org4b17e29">2.66.1. Text</a></li>
+<li><a href="#org09f58f4">2.66.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org17b0dd3">2.67. 最早的厌氧生物处理构筑物是{{c1::化粪池}}</a>
+<ul>
+<li><a href="#org47f715e">2.67.1. Text</a></li>
+<li><a href="#org2dbe108">2.67.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgf5b8799">2.68. 厌氧生物滤池必须全池{{c1::密封}}</a>
+<ul>
+<li><a href="#org053326d">2.68.1. Text</a></li>
+<li><a href="#org48801c2">2.68.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org402b7b1">2.69. UASB反应器最关键的部位是{{c1::三相分离器}}</a>
+<ul>
+<li><a href="#orge2d57e3">2.69.1. Text</a></li>
+<li><a href="#org38378e0">2.69.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org44e4f28">2.70. 烟道气体为{{c1::酸性}}</a>
+<ul>
+<li><a href="#org69da7fc">2.70.1. Text</a></li>
+<li><a href="#org8c617f0">2.70.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgb2d9434">2.71. 用石灰中和酸性废水时, 常先配置成一定浓度的{{c1::石灰乳}}</a>
+<ul>
+<li><a href="#orge5ddfa0">2.71.1. Text</a></li>
+<li><a href="#org30c318b">2.71.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org915e473">2.72. 污水处理中最常用的高分子絮凝剂是{{c1::聚丙烯酰胺}}</a>
+<ul>
+<li><a href="#org8b76f2d">2.72.1. Text</a></li>
+<li><a href="#org155e4bc">2.72.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org82a2375">2.73. 化学沉淀的最重要参数是{{c1::溶度积}}</a>
+<ul>
+<li><a href="#org8a43424">2.73.1. Text</a></li>
+<li><a href="#orgc8d62cb">2.73.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgbe4e3ca">2.74. 各种价态的含铬化合物中, 毒性最大的是{{c1::六价铬}}</a>
+<ul>
+<li><a href="#orga139f84">2.74.1. Text</a></li>
+<li><a href="#org4b5c7d5">2.74.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgdf5d74f">2.75. 离子交换法的反应具有{{c1::可逆性}}</a>
+<ul>
+<li><a href="#orgc3cf6a8">2.75.1. Text</a></li>
+<li><a href="#org1bd5fb5">2.75.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org36b00e6">2.76. 能使溶液溶液溶液中的某些物质选择性透过的膜叫{{c1::半透膜}}</a>
+<ul>
+<li><a href="#org35ae12c">2.76.1. Text</a></li>
+<li><a href="#orgdd383c9">2.76.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org345ffb5">2.77. 促使水分子反向渗透的作用力是{{c1::压力}}</a>
+<ul>
+<li><a href="#org2fe14c8">2.77.1. Text</a></li>
+<li><a href="#orgaf7e921">2.77.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org7f540a9">2.78. 污水处理中产生的剩余污泥如果不进行处理, 会产生{{c1::二次污染}}</a>
+<ul>
+<li><a href="#org1285e05">2.78.1. Text</a></li>
+<li><a href="#orgd9e1366">2.78.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org7ffd087">2.79. 来自污水生物处理系统的二沉池的污泥叫{{c1::剩余污泥}}</a>
+<ul>
+<li><a href="#org75c8e28">2.79.1. Text</a></li>
+<li><a href="#org3b58525">2.79.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org743f440">2.80. 当污泥含水率由99%降至96%, 污泥体积减少{{c1::75%}}</a>
+<ul>
+<li><a href="#org1dc8413">2.80.1. Text</a></li>
+<li><a href="#org2b1a32d">2.80.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org0166ba3">2.81. 减少污泥体积的构筑物叫{{c1::浓缩池}}</a>
+<ul>
+<li><a href="#orgc954800">2.81.1. Text</a></li>
+<li><a href="#orgfb3c328">2.81.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org63a1563">2.82. 降低污泥中有机物含量或使其暂时不分解的过程叫{{c1::污泥稳定}}</a>
+<ul>
+<li><a href="#orgd5ac0aa">2.82.1. Text</a></li>
+<li><a href="#org18c65c0">2.82.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org57160da">2.83. 投加石灰到污泥中稳定污泥的原理是, 提高污泥的{{c1::pH}}</a>
+<ul>
+<li><a href="#org2f33a6c">2.83.1. Text</a></li>
+<li><a href="#org6713c5b">2.83.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org6fd1a94">2.84. 医院污水处理产生的污泥, 最好采用{{c1::氯稳定法}}</a>
+<ul>
+<li><a href="#org060e7d5">2.84.1. Text</a></li>
+<li><a href="#org37e4b80">2.84.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgb79e874">2.85. 在污泥脱水前, 通过各种作用, 改善污泥脱水性能的操作叫{{c1::污泥调理}}</a>
+<ul>
+<li><a href="#orgc1ac9e6">2.85.1. Text</a></li>
+<li><a href="#orgfb2f319">2.85.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orga727657">2.86. 脱水后的污泥, 其含水率应该小于{{c1::80%}}</a>
+<ul>
+<li><a href="#org63a58f2">2.86.1. Text</a></li>
+<li><a href="#org0e03c85">2.86.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#orgeb044e0">2.87. 污水处理厂应选在城镇水体的{{c1::下游}}</a>
+<ul>
+<li><a href="#org45f6e43">2.87.1. Text</a></li>
+<li><a href="#org2ab22b9">2.87.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org433af93">2.88. 污水处理厂对要考虑城镇风向的主要时段是{{c1::夏季}}</a>
+<ul>
+<li><a href="#org4075a5d">2.88.1. Text</a></li>
+<li><a href="#orgd4bfd54">2.88.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org62fe533">2.89. 为了检修方便, 污水处理构筑物一般需设置{{c1::放空管}}</a>
+<ul>
+<li><a href="#org90f7f03">2.89.1. Text</a></li>
+<li><a href="#org4deafa0">2.89.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org43e7448">2.90. 为减少污水提升, 污水在处理厂内应尽量采用{{c1::重力流}}</a>
+<ul>
+<li><a href="#org20f9587">2.90.1. Text</a></li>
+<li><a href="#org924005d">2.90.2. Extra</a></li>
+</ul>
+</li>
+<li><a href="#org2e307c3">2.91. 为调节各处理单元的水量, 应设置{{c1::配水井}}</a>
+<ul>
+<li><a href="#org0adca13">2.91.1. Text</a></li>
+<li><a href="#orgac51875">2.91.2. Extra</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgff29c0e" class="outline-2">
+<h2 id="orgff29c0e"><span class="section-number-2">1</span> 选择题</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgc14cdcf" class="outline-3">
+<h3 id="orgc14cdcf"><span class="section-number-3">1.1</span> 下列哪种说法是正确的, 化学需氧量COD的大小{{c1::可相对表示污水中有机污染物的多少}}</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-orgc6eea12" class="outline-4">
+<h4 id="orgc6eea12"><span class="section-number-4">1.1.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+下列哪种说法是正确的, 化学需氧量COD的大小{{c1::可相对表示污水中有机污染物的多少}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgef6d392" class="outline-4">
+<h4 id="orgef6d392"><span class="section-number-4">1.1.2</span> A</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+可相对表示污水中有机污染物的多少
+与测定方法无关
+反映了污水的生化性能
+与BOD有固定的比例关系
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgecf6d66" class="outline-3">
+<h3 id="orgecf6d66"><span class="section-number-3">1.2</span> 大肠杆菌检测的数量{{c1::说明污水受粪便污水污染的程度}}</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-org5a081eb" class="outline-4">
+<h4 id="org5a081eb"><span class="section-number-4">1.2.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+大肠杆菌检测的数量{{c1::说明污水受粪便污水污染的程度}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgfe26bef" class="outline-4">
+<h4 id="orgfe26bef"><span class="section-number-4">1.2.2</span> A</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+说明污水受粪便污水污染的程度
+没有国家标准
+是水的化学指标
+说明污水受细菌污染的程度
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9779936" class="outline-3">
+<h3 id="org9779936"><span class="section-number-3">1.3</span> 相对而言比较窄而浅的河流{{c1::段面容易达到充分混合}}</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-org197f3b8" class="outline-4">
+<h4 id="org197f3b8"><span class="section-number-4">1.3.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+相对而言比较窄而浅的河流{{c1::段面容易达到充分混合}}
+</p>
+</div>
+</div>
+<div id="outline-container-org91dcb31" class="outline-4">
+<h4 id="org91dcb31"><span class="section-number-4">1.3.2</span> A</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<p>
+段面容易达到充分混合
+主要是竖向混合过程
+横向混合比书香混合更快完成
+在横断面污染物浓度不均匀
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge0002ea" class="outline-3">
+<h3 id="orge0002ea"><span class="section-number-3">1.4</span> 持久性污染物与非持久性污染物的区别主要在于{{c1::生化性能不同}}</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-org7e80f70" class="outline-4">
+<h4 id="org7e80f70"><span class="section-number-4">1.4.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+持久性污染物与非持久性污染物的区别主要在于{{c1::生化性能不同}}
+</p>
+</div>
+</div>
+<div id="outline-container-org473d69b" class="outline-4">
+<h4 id="org473d69b"><span class="section-number-4">1.4.2</span> A</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<p>
+生化性能不同
+在水中混合程度不同
+化学性质的不同
+浓度的不同
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9e754c5" class="outline-3">
+<h3 id="org9e754c5"><span class="section-number-3">1.5</span> 河流的氧浓度变化S-P公式中, 河水的亏氧浓度是{{c1::河水的饱和溶解氧浓度与溶解氧浓度的差值}}</h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-org8dc42da" class="outline-4">
+<h4 id="org8dc42da"><span class="section-number-4">1.5.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-5-1">
+<p>
+河流的氧浓度变化S-P公式中, 河水的亏氧浓度是{{c1::河水的饱和溶解氧浓度与溶解氧浓度的差值}}
+</p>
+</div>
+</div>
+<div id="outline-container-org260a34f" class="outline-4">
+<h4 id="org260a34f"><span class="section-number-4">1.5.2</span> A</h4>
+<div class="outline-text-4" id="text-1-5-2">
+<p>
+河水的饱和溶解氧浓度与溶解氧浓度的差值
+河水的饱和溶解氧浓度
+河水的溶解氧浓度
+河水净化的污染物的BOD浓度
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5325bd4" class="outline-3">
+<h3 id="org5325bd4"><span class="section-number-3">1.6</span> 悬浮颗粒间互相作用, 颗粒因相互聚集增大而加快沉淀速度的是{{c1::絮凝沉淀}}</h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-org9306346" class="outline-4">
+<h4 id="org9306346"><span class="section-number-4">1.6.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-6-1">
+<p>
+悬浮颗粒间互相作用, 颗粒因相互聚集增大而加快沉淀速度的是{{c1::絮凝沉淀}}
+</p>
+</div>
+</div>
+<div id="outline-container-org8c394cf" class="outline-4">
+<h4 id="org8c394cf"><span class="section-number-4">1.6.2</span> A</h4>
+<div class="outline-text-4" id="text-1-6-2">
+<p>
+絮凝沉淀
+自由沉淀
+压缩沉淀
+区域沉淀
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbd2b55c" class="outline-3">
+<h3 id="orgbd2b55c"><span class="section-number-3">1.7</span> 悬浮颗粒相互不干扰, 各自单独进行的沉淀是{{c1::自由沉淀}}</h3>
+<div class="outline-text-3" id="text-1-7">
+</div>
+<div id="outline-container-orgd32d3fa" class="outline-4">
+<h4 id="orgd32d3fa"><span class="section-number-4">1.7.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-7-1">
+<p>
+悬浮颗粒相互不干扰, 各自单独进行的沉淀是{{c1::自由沉淀}}
+</p>
+</div>
+</div>
+<div id="outline-container-org176bc82" class="outline-4">
+<h4 id="org176bc82"><span class="section-number-4">1.7.2</span> A</h4>
+<div class="outline-text-4" id="text-1-7-2">
+<p>
+自由沉淀
+絮凝沉淀
+压缩沉淀
+区域沉淀
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org334a25a" class="outline-3">
+<h3 id="org334a25a"><span class="section-number-3">1.8</span> 悬浮颗粒沉降时, 相对位置保持不变, 与澄清水之间有清晰的泥水界面的沉淀的是{{c1::区域沉淀}}</h3>
+<div class="outline-text-3" id="text-1-8">
+</div>
+<div id="outline-container-orgc2c0fee" class="outline-4">
+<h4 id="orgc2c0fee"><span class="section-number-4">1.8.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-8-1">
+<p>
+悬浮颗粒沉降时, 相对位置保持不变, 与澄清水之间有清晰的泥水界面的沉淀的是{{c1::区域沉淀}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge19429b" class="outline-4">
+<h4 id="orge19429b"><span class="section-number-4">1.8.2</span> A</h4>
+<div class="outline-text-4" id="text-1-8-2">
+<p>
+区域沉淀
+絮凝沉淀
+自由沉淀
+压缩沉淀
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb367310" class="outline-3">
+<h3 id="orgb367310"><span class="section-number-3">1.9</span> 悬浮颗粒沉降过程中, 颗粒间相互接触, 互相支承, 下层颗粒内的水在上层颗粒的重力作用下被挤出的沉淀是{{c1::压缩沉淀}}</h3>
+<div class="outline-text-3" id="text-1-9">
+</div>
+<div id="outline-container-org7422c68" class="outline-4">
+<h4 id="org7422c68"><span class="section-number-4">1.9.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-9-1">
+<p>
+悬浮颗粒沉降过程中, 颗粒间相互接触, 互相支承, 下层颗粒内的水在上层颗粒的重力作用下被挤出的沉淀是{{c1::压缩沉淀}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0cc49ca" class="outline-4">
+<h4 id="org0cc49ca"><span class="section-number-4">1.9.2</span> A</h4>
+<div class="outline-text-4" id="text-1-9-2">
+<p>
+压缩沉淀
+絮凝沉淀
+自由沉淀
+区域沉淀
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1446b04" class="outline-3">
+<h3 id="org1446b04"><span class="section-number-3">1.10</span> 理想沉淀池的沉淀效率与下列哪一个因素有关{{c1::池子表面积}}</h3>
+<div class="outline-text-3" id="text-1-10">
+</div>
+<div id="outline-container-orge853d29" class="outline-4">
+<h4 id="orge853d29"><span class="section-number-4">1.10.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-10-1">
+<p>
+理想沉淀池的沉淀效率与下列哪一个因素有关{{c1::池子表面积}}
+</p>
+</div>
+</div>
+<div id="outline-container-org7e268fa" class="outline-4">
+<h4 id="org7e268fa"><span class="section-number-4">1.10.2</span> A</h4>
+<div class="outline-text-4" id="text-1-10-2">
+<p>
+池子表面积
+池子容积
+沉淀时间
+池深
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8f9b11f" class="outline-3">
+<h3 id="org8f9b11f"><span class="section-number-3">1.11</span> 去除污水中的无机颗粒的是{{c1::沉砂池}}</h3>
+<div class="outline-text-3" id="text-1-11">
+</div>
+<div id="outline-container-org54231e8" class="outline-4">
+<h4 id="org54231e8"><span class="section-number-4">1.11.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-11-1">
+<p>
+去除污水中的无机颗粒的是{{c1::沉砂池}}
+</p>
+</div>
+</div>
+<div id="outline-container-org54fa9b3" class="outline-4">
+<h4 id="org54fa9b3"><span class="section-number-4">1.11.2</span> A</h4>
+<div class="outline-text-4" id="text-1-11-2">
+<p>
+沉砂池
+浓缩池
+二沉池
+初沉池
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7781258" class="outline-3">
+<h3 id="org7781258"><span class="section-number-3">1.12</span> 在生物处理后, 分离活性污泥与处理水而是{{c1::二沉池}}</h3>
+<div class="outline-text-3" id="text-1-12">
+</div>
+<div id="outline-container-orga5e8e1c" class="outline-4">
+<h4 id="orga5e8e1c"><span class="section-number-4">1.12.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-12-1">
+<p>
+在生物处理后, 分离活性污泥与处理水而是{{c1::二沉池}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgc5f9f45" class="outline-4">
+<h4 id="orgc5f9f45"><span class="section-number-4">1.12.2</span> A</h4>
+<div class="outline-text-4" id="text-1-12-2">
+<p>
+二沉池
+浓缩池
+沉砂池
+初沉池
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgead2ecd" class="outline-3">
+<h3 id="orgead2ecd"><span class="section-number-3">1.13</span> 在污泥处理过程中, 所用的泥水分离的池子是{{c1::浓缩池}}</h3>
+<div class="outline-text-3" id="text-1-13">
+</div>
+<div id="outline-container-org65e31cd" class="outline-4">
+<h4 id="org65e31cd"><span class="section-number-4">1.13.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-13-1">
+<p>
+在污泥处理过程中, 所用的泥水分离的池子是{{c1::浓缩池}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9f86e5c" class="outline-4">
+<h4 id="org9f86e5c"><span class="section-number-4">1.13.2</span> A</h4>
+<div class="outline-text-4" id="text-1-13-2">
+<p>
+浓缩池
+沉砂池
+二沉池
+初沉池
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4031161" class="outline-3">
+<h3 id="org4031161"><span class="section-number-3">1.14</span> 沉砂池中砂斗的存砂时间一般是{{c1::2天}}</h3>
+<div class="outline-text-3" id="text-1-14">
+</div>
+<div id="outline-container-orgbc61dcd" class="outline-4">
+<h4 id="orgbc61dcd"><span class="section-number-4">1.14.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-14-1">
+<p>
+沉砂池中砂斗的存砂时间一般是{{c1::2天}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgc98db6b" class="outline-4">
+<h4 id="orgc98db6b"><span class="section-number-4">1.14.2</span> A</h4>
+<div class="outline-text-4" id="text-1-14-2">
+<p>
+2天
+1小时
+1天
+2小时
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1a48813" class="outline-3">
+<h3 id="org1a48813"><span class="section-number-3">1.15</span> 曝气沉砂池中设置横向当班的目的是{{c1::防止短流}}</h3>
+<div class="outline-text-3" id="text-1-15">
+</div>
+<div id="outline-container-org3d28d2a" class="outline-4">
+<h4 id="org3d28d2a"><span class="section-number-4">1.15.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-15-1">
+<p>
+曝气沉砂池中设置横向当班的目的是{{c1::防止短流}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgea93352" class="outline-4">
+<h4 id="orgea93352"><span class="section-number-4">1.15.2</span> A</h4>
+<div class="outline-text-4" id="text-1-15-2">
+<p>
+防止短流
+控制方向
+控制流量
+控制流速
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3369280" class="outline-3">
+<h3 id="org3369280"><span class="section-number-3">1.16</span> 旋流沉砂池中, 污水流入方式是{{c1::切线进入}}</h3>
+<div class="outline-text-3" id="text-1-16">
+</div>
+<div id="outline-container-org5fca049" class="outline-4">
+<h4 id="org5fca049"><span class="section-number-4">1.16.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-16-1">
+<p>
+旋流沉砂池中, 污水流入方式是{{c1::切线进入}}
+</p>
+</div>
+</div>
+<div id="outline-container-org010c609" class="outline-4">
+<h4 id="org010c609"><span class="section-number-4">1.16.2</span> A</h4>
+<div class="outline-text-4" id="text-1-16-2">
+<p>
+切线进入
+空中降落
+垂直进入
+淹没式进入
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8622a6a" class="outline-3">
+<h3 id="org8622a6a"><span class="section-number-3">1.17</span> 好氧生物处理时, 污水中氧的状态为{{c1::氧分子}}</h3>
+<div class="outline-text-3" id="text-1-17">
+</div>
+<div id="outline-container-orgcdd163b" class="outline-4">
+<h4 id="orgcdd163b"><span class="section-number-4">1.17.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-17-1">
+<p>
+好氧生物处理时, 污水中氧的状态为{{c1::氧分子}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgb305680" class="outline-4">
+<h4 id="orgb305680"><span class="section-number-4">1.17.2</span> A</h4>
+<div class="outline-text-4" id="text-1-17-2">
+<p>
+氧分子
+氧原子
+厌氧
+缺氧
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org775dd6a" class="outline-3">
+<h3 id="org775dd6a"><span class="section-number-3">1.18</span> 好氧呼吸的最终电子受体是{{c1::分子氧}}</h3>
+<div class="outline-text-3" id="text-1-18">
+</div>
+<div id="outline-container-orga806de4" class="outline-4">
+<h4 id="orga806de4"><span class="section-number-4">1.18.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-18-1">
+<p>
+好氧呼吸的最终电子受体是{{c1::分子氧}}
+</p>
+</div>
+</div>
+<div id="outline-container-org98ca37f" class="outline-4">
+<h4 id="org98ca37f"><span class="section-number-4">1.18.2</span> A</h4>
+<div class="outline-text-4" id="text-1-18-2">
+<p>
+分子氧
+化合态氧
+有机物
+离子氧
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfb5eada" class="outline-3">
+<h3 id="orgfb5eada"><span class="section-number-3">1.19</span> 好氧生物处理中, 有机物被微生物通过新陈代谢后, 被分解的有机物占{{c1::1/3}}</h3>
+<div class="outline-text-3" id="text-1-19">
+</div>
+<div id="outline-container-org62458f6" class="outline-4">
+<h4 id="org62458f6"><span class="section-number-4">1.19.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-19-1">
+<p>
+好氧生物处理中, 有机物被微生物通过新陈代谢后, 被分解的有机物占{{c1::1/3}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgf1425f7" class="outline-4">
+<h4 id="orgf1425f7"><span class="section-number-4">1.19.2</span> A</h4>
+<div class="outline-text-4" id="text-1-19-2">
+<p>
+1/3
+1/2
+1/4
+1/5
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org07239c0" class="outline-3">
+<h3 id="org07239c0"><span class="section-number-3">1.20</span> 好氧生物处理中, 有机物被微生物通过新陈代谢后, 被合成利用的有机物占{{c1::2/3}}</h3>
+<div class="outline-text-3" id="text-1-20">
+</div>
+<div id="outline-container-org42550b5" class="outline-4">
+<h4 id="org42550b5"><span class="section-number-4">1.20.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-20-1">
+<p>
+好氧生物处理中, 有机物被微生物通过新陈代谢后, 被合成利用的有机物占{{c1::2/3}}
+</p>
+</div>
+</div>
+<div id="outline-container-org18cd43b" class="outline-4">
+<h4 id="org18cd43b"><span class="section-number-4">1.20.2</span> A</h4>
+<div class="outline-text-4" id="text-1-20-2">
+<p>
+2/3
+1/3
+1/4
+1/5
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9eed205" class="outline-3">
+<h3 id="org9eed205"><span class="section-number-3">1.21</span> 在污水生物处理过程中, 蛋白质被分解的反应是{{c1::氨化反应}}</h3>
+<div class="outline-text-3" id="text-1-21">
+</div>
+<div id="outline-container-org8eb3b16" class="outline-4">
+<h4 id="org8eb3b16"><span class="section-number-4">1.21.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-21-1">
+<p>
+在污水生物处理过程中, 蛋白质被分解的反应是{{c1::氨化反应}}
+</p>
+</div>
+</div>
+<div id="outline-container-org481bd2d" class="outline-4">
+<h4 id="org481bd2d"><span class="section-number-4">1.21.2</span> A</h4>
+<div class="outline-text-4" id="text-1-21-2">
+<p>
+氨化反应
+硝化反应
+反硝化反应
+同化反应
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org38b7f78" class="outline-3">
+<h3 id="org38b7f78"><span class="section-number-3">1.22</span> 在污水生物处理过程中, 氨被氧化的反应是{{c1::硝化反应}}</h3>
+<div class="outline-text-3" id="text-1-22">
+</div>
+<div id="outline-container-org033786b" class="outline-4">
+<h4 id="org033786b"><span class="section-number-4">1.22.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-22-1">
+<p>
+在污水生物处理过程中, 氨被氧化的反应是{{c1::硝化反应}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5e91050" class="outline-4">
+<h4 id="org5e91050"><span class="section-number-4">1.22.2</span> A</h4>
+<div class="outline-text-4" id="text-1-22-2">
+<p>
+硝化反应
+反硝化反应
+同化反应
+氨化反应
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org83481b4" class="outline-3">
+<h3 id="org83481b4"><span class="section-number-3">1.23</span> 在污水生物处理脱磷过程中, 磷最终存在于污泥{{c1::污泥}}</h3>
+<div class="outline-text-3" id="text-1-23">
+</div>
+<div id="outline-container-orgb1bad63" class="outline-4">
+<h4 id="orgb1bad63"><span class="section-number-4">1.23.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-23-1">
+<p>
+在污水生物处理脱磷过程中, 磷最终存在于污泥{{c1::污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-org66d1c57" class="outline-4">
+<h4 id="org66d1c57"><span class="section-number-4">1.23.2</span> A</h4>
+<div class="outline-text-4" id="text-1-23-2">
+<p>
+污泥
+污水
+气体
+无机物
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8e4c498" class="outline-3">
+<h3 id="org8e4c498"><span class="section-number-3">1.24</span> 微生物生长速率最快的时期是{{c1::对数期}}</h3>
+<div class="outline-text-3" id="text-1-24">
+</div>
+<div id="outline-container-orgcd72c4c" class="outline-4">
+<h4 id="orgcd72c4c"><span class="section-number-4">1.24.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-24-1">
+<p>
+微生物生长速率最快的时期是{{c1::对数期}}
+</p>
+</div>
+</div>
+<div id="outline-container-org34abafe" class="outline-4">
+<h4 id="org34abafe"><span class="section-number-4">1.24.2</span> A</h4>
+<div class="outline-text-4" id="text-1-24-2">
+<p>
+对数期
+稳定期
+衰亡期
+延迟期
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org6045d4d" class="outline-3">
+<h3 id="org6045d4d"><span class="section-number-3">1.25</span> 污水生物处理中, 剩余污泥数量最少的时期是{{c1::衰亡期}}</h3>
+<div class="outline-text-3" id="text-1-25">
+</div>
+<div id="outline-container-org3fcaf07" class="outline-4">
+<h4 id="org3fcaf07"><span class="section-number-4">1.25.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-25-1">
+<p>
+污水生物处理中, 剩余污泥数量最少的时期是{{c1::衰亡期}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgffda409" class="outline-4">
+<h4 id="orgffda409"><span class="section-number-4">1.25.2</span> A</h4>
+<div class="outline-text-4" id="text-1-25-2">
+<p>
+衰亡期
+稳定期
+对数期
+延迟期
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgea351af" class="outline-3">
+<h3 id="orgea351af"><span class="section-number-3">1.26</span> 污水生物处理中, 缺氧反硝化时, 溶解氧最大为{{c1::0.5mg/L}}</h3>
+<div class="outline-text-3" id="text-1-26">
+</div>
+<div id="outline-container-org07a9ae4" class="outline-4">
+<h4 id="org07a9ae4"><span class="section-number-4">1.26.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-26-1">
+<p>
+污水生物处理中, 缺氧反硝化时, 溶解氧最大为{{c1::0.5mg/L}}
+</p>
+</div>
+</div>
+<div id="outline-container-org3057542" class="outline-4">
+<h4 id="org3057542"><span class="section-number-4">1.26.2</span> A</h4>
+<div class="outline-text-4" id="text-1-26-2">
+<p>
+0.5mg/L
+0.6mg/L
+0.4mg/L
+0.3mg/L
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb73fa4c" class="outline-3">
+<h3 id="orgb73fa4c"><span class="section-number-3">1.27</span> 正常曝气池的污泥沉降比大约为{{c1::30%}}</h3>
+<div class="outline-text-3" id="text-1-27">
+</div>
+<div id="outline-container-orgc1f7126" class="outline-4">
+<h4 id="orgc1f7126"><span class="section-number-4">1.27.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-27-1">
+<p>
+正常曝气池的污泥沉降比大约为{{c1::30%}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgde57d30" class="outline-4">
+<h4 id="orgde57d30"><span class="section-number-4">1.27.2</span> A</h4>
+<div class="outline-text-4" id="text-1-27-2">
+<p>
+30%
+40%
+50%
+20%
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4d6a244" class="outline-3">
+<h3 id="org4d6a244"><span class="section-number-3">1.28</span> 污泥沉降性能差时, 其SVI值超过{{c1::200}}</h3>
+<div class="outline-text-3" id="text-1-28">
+</div>
+<div id="outline-container-org5853de3" class="outline-4">
+<h4 id="org5853de3"><span class="section-number-4">1.28.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-28-1">
+<p>
+污泥沉降性能差时, 其SVI值超过{{c1::200}}
+</p>
+</div>
+</div>
+<div id="outline-container-org01ee00c" class="outline-4">
+<h4 id="org01ee00c"><span class="section-number-4">1.28.2</span> A</h4>
+<div class="outline-text-4" id="text-1-28-2">
+<p>
+200
+250
+150
+100
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org26cdf7c" class="outline-3">
+<h3 id="org26cdf7c"><span class="section-number-3">1.29</span> 活性污泥法工艺流程最主要的构筑物是{{c1::曝气池}}</h3>
+<div class="outline-text-3" id="text-1-29">
+</div>
+<div id="outline-container-org28613ef" class="outline-4">
+<h4 id="org28613ef"><span class="section-number-4">1.29.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-29-1">
+<p>
+活性污泥法工艺流程最主要的构筑物是{{c1::曝气池}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge763ade" class="outline-4">
+<h4 id="orge763ade"><span class="section-number-4">1.29.2</span> A</h4>
+<div class="outline-text-4" id="text-1-29-2">
+<p>
+曝气池
+沉砂池
+初沉池
+二沉池
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7d94cd6" class="outline-3">
+<h3 id="org7d94cd6"><span class="section-number-3">1.30</span> 曝气池中活性污泥存在的状态是{{c1::悬浮态}}</h3>
+<div class="outline-text-3" id="text-1-30">
+</div>
+<div id="outline-container-org6667d2f" class="outline-4">
+<h4 id="org6667d2f"><span class="section-number-4">1.30.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-30-1">
+<p>
+曝气池中活性污泥存在的状态是{{c1::悬浮态}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgb09f110" class="outline-4">
+<h4 id="orgb09f110"><span class="section-number-4">1.30.2</span> A</h4>
+<div class="outline-text-4" id="text-1-30-2">
+<p>
+悬浮态
+沉降态
+溶解态
+胶体态
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7da99f1" class="outline-3">
+<h3 id="org7da99f1"><span class="section-number-3">1.31</span> 每日增殖的污泥叫{{c1::剩余污泥}}</h3>
+<div class="outline-text-3" id="text-1-31">
+</div>
+<div id="outline-container-org9ef3cf1" class="outline-4">
+<h4 id="org9ef3cf1"><span class="section-number-4">1.31.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-31-1">
+<p>
+每日增殖的污泥叫{{c1::剩余污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgb386499" class="outline-4">
+<h4 id="orgb386499"><span class="section-number-4">1.31.2</span> A</h4>
+<div class="outline-text-4" id="text-1-31-2">
+<p>
+剩余污泥
+浓缩污泥
+回流污泥
+悬浮污泥
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org58f8df4" class="outline-3">
+<h3 id="org58f8df4"><span class="section-number-3">1.32</span> 用于补充曝气池刘流失的污泥称为{{c1::回流污泥}}</h3>
+<div class="outline-text-3" id="text-1-32">
+</div>
+<div id="outline-container-org5ea7f0e" class="outline-4">
+<h4 id="org5ea7f0e"><span class="section-number-4">1.32.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-32-1">
+<p>
+用于补充曝气池刘流失的污泥称为{{c1::回流污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge1f3580" class="outline-4">
+<h4 id="orge1f3580"><span class="section-number-4">1.32.2</span> A</h4>
+<div class="outline-text-4" id="text-1-32-2">
+<p>
+回流污泥
+剩余污泥
+浓缩污泥
+悬浮污泥
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5a76b09" class="outline-3">
+<h3 id="org5a76b09"><span class="section-number-3">1.33</span> 推流式曝气池的供养量特点是{{c1::前段不足}}</h3>
+<div class="outline-text-3" id="text-1-33">
+</div>
+<div id="outline-container-org132fa12" class="outline-4">
+<h4 id="org132fa12"><span class="section-number-4">1.33.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-33-1">
+<p>
+推流式曝气池的供养量特点是{{c1::前段不足}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgcb304cb" class="outline-4">
+<h4 id="orgcb304cb"><span class="section-number-4">1.33.2</span> A</h4>
+<div class="outline-text-4" id="text-1-33-2">
+<p>
+前段不足
+后段不足
+过量
+不足
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org151048d" class="outline-3">
+<h3 id="org151048d"><span class="section-number-3">1.34</span> 渐减曝气池公鸭供养量的调节的是{{c1::曝气头密度}}</h3>
+<div class="outline-text-3" id="text-1-34">
+</div>
+<div id="outline-container-orgacbb68b" class="outline-4">
+<h4 id="orgacbb68b"><span class="section-number-4">1.34.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-34-1">
+<p>
+渐减曝气池公鸭供养量的调节的是{{c1::曝气头密度}}
+</p>
+</div>
+</div>
+<div id="outline-container-org341ec85" class="outline-4">
+<h4 id="org341ec85"><span class="section-number-4">1.34.2</span> A</h4>
+<div class="outline-text-4" id="text-1-34-2">
+<p>
+曝气头密度
+风量
+风压
+含氧量
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc7b39d9" class="outline-3">
+<h3 id="orgc7b39d9"><span class="section-number-3">1.35</span> 多点进水的曝气方法叫{{c1::阶段曝气}}</h3>
+<div class="outline-text-3" id="text-1-35">
+</div>
+<div id="outline-container-org53a48c9" class="outline-4">
+<h4 id="org53a48c9"><span class="section-number-4">1.35.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-35-1">
+<p>
+多点进水的曝气方法叫{{c1::阶段曝气}}
+</p>
+</div>
+</div>
+<div id="outline-container-org1d4f8c7" class="outline-4">
+<h4 id="org1d4f8c7"><span class="section-number-4">1.35.2</span> A</h4>
+<div class="outline-text-4" id="text-1-35-2">
+<p>
+阶段曝气
+延时曝气
+渐减曝气
+高负荷曝气
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf9fbeb9" class="outline-3">
+<h3 id="orgf9fbeb9"><span class="section-number-3">1.36</span> 使活性污泥长期处于内源呼吸阶段的曝气方法叫{{c1::延时曝气}}</h3>
+<div class="outline-text-3" id="text-1-36">
+</div>
+<div id="outline-container-org9548a6c" class="outline-4">
+<h4 id="org9548a6c"><span class="section-number-4">1.36.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-36-1">
+<p>
+使活性污泥长期处于内源呼吸阶段的曝气方法叫{{c1::延时曝气}}
+</p>
+</div>
+</div>
+<div id="outline-container-org47d784f" class="outline-4">
+<h4 id="org47d784f"><span class="section-number-4">1.36.2</span> A</h4>
+<div class="outline-text-4" id="text-1-36-2">
+<p>
+延时曝气
+阶段曝气
+高负荷曝气
+渐减曝气
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9c3c557" class="outline-3">
+<h3 id="org9c3c557"><span class="section-number-3">1.37</span> 使活性污泥长期处于对数期阶段的曝气方法叫{{c1::高负荷曝气}}</h3>
+<div class="outline-text-3" id="text-1-37">
+</div>
+<div id="outline-container-orge8597db" class="outline-4">
+<h4 id="orge8597db"><span class="section-number-4">1.37.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-37-1">
+<p>
+使活性污泥长期处于对数期阶段的曝气方法叫{{c1::高负荷曝气}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgcd1ad56" class="outline-4">
+<h4 id="orgcd1ad56"><span class="section-number-4">1.37.2</span> A</h4>
+<div class="outline-text-4" id="text-1-37-2">
+<p>
+高负荷曝气
+阶段曝气
+延时曝气
+渐减曝气
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga1eb911" class="outline-3">
+<h3 id="orga1eb911"><span class="section-number-3">1.38</span> 吸附-生物降解工艺的英文缩写是{{c1::AB}}</h3>
+<div class="outline-text-3" id="text-1-38">
+</div>
+<div id="outline-container-org9c100bb" class="outline-4">
+<h4 id="org9c100bb"><span class="section-number-4">1.38.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-38-1">
+<p>
+吸附-生物降解工艺的英文缩写是{{c1::AB}}
+</p>
+</div>
+</div>
+<div id="outline-container-org262e602" class="outline-4">
+<h4 id="org262e602"><span class="section-number-4">1.38.2</span> A</h4>
+<div class="outline-text-4" id="text-1-38-2">
+<p>
+AB
+UASB
+CASS
+SBR
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgef216d9" class="outline-3">
+<h3 id="orgef216d9"><span class="section-number-3">1.39</span> 序批式活性污泥工艺的英文缩写是{{c1::SBR}}</h3>
+<div class="outline-text-3" id="text-1-39">
+</div>
+<div id="outline-container-orgd9164b6" class="outline-4">
+<h4 id="orgd9164b6"><span class="section-number-4">1.39.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-39-1">
+<p>
+序批式活性污泥工艺的英文缩写是{{c1::SBR}}
+</p>
+</div>
+</div>
+<div id="outline-container-orga623d4c" class="outline-4">
+<h4 id="orga623d4c"><span class="section-number-4">1.39.2</span> A</h4>
+<div class="outline-text-4" id="text-1-39-2">
+<p>
+SBR
+CASS
+UASB
+AB
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org74849cf" class="outline-3">
+<h3 id="org74849cf"><span class="section-number-3">1.40</span> 循环活性污泥工艺的英文缩写是{{c1::CASS}}</h3>
+<div class="outline-text-3" id="text-1-40">
+</div>
+<div id="outline-container-orgda2d2fd" class="outline-4">
+<h4 id="orgda2d2fd"><span class="section-number-4">1.40.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-40-1">
+<p>
+循环活性污泥工艺的英文缩写是{{c1::CASS}}
+</p>
+</div>
+</div>
+<div id="outline-container-org23a895c" class="outline-4">
+<h4 id="org23a895c"><span class="section-number-4">1.40.2</span> A</h4>
+<div class="outline-text-4" id="text-1-40-2">
+<p>
+CASS
+SBR
+UASB
+AB
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc196009" class="outline-3">
+<h3 id="orgc196009"><span class="section-number-3">1.41</span> 不是活性污泥法的三要素之一的是{{c1::水}}</h3>
+<div class="outline-text-3" id="text-1-41">
+</div>
+<div id="outline-container-orge65df9b" class="outline-4">
+<h4 id="orge65df9b"><span class="section-number-4">1.41.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-41-1">
+<p>
+不是活性污泥法的三要素之一的是{{c1::水}}
+</p>
+</div>
+</div>
+<div id="outline-container-org083c7cc" class="outline-4">
+<h4 id="org083c7cc"><span class="section-number-4">1.41.2</span> A</h4>
+<div class="outline-text-4" id="text-1-41-2">
+<p>
+水
+微生物
+有机物
+溶解氧
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org175706e" class="outline-3">
+<h3 id="org175706e"><span class="section-number-3">1.42</span> 微气泡扩散器形成的气泡直径约为{{c1::0.1mm}}</h3>
+<div class="outline-text-3" id="text-1-42">
+</div>
+<div id="outline-container-orgfac8742" class="outline-4">
+<h4 id="orgfac8742"><span class="section-number-4">1.42.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-42-1">
+<p>
+微气泡扩散器形成的气泡直径约为{{c1::0.1mm}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5d4e364" class="outline-4">
+<h4 id="org5d4e364"><span class="section-number-4">1.42.2</span> A</h4>
+<div class="outline-text-4" id="text-1-42-2">
+<p>
+0.1mm
+1.5mm
+5mm
+15mm
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge1fde82" class="outline-3">
+<h3 id="orge1fde82"><span class="section-number-3">1.43</span> 小气泡扩散器形成的气泡直径一般为{{c1::1.5mm}}</h3>
+<div class="outline-text-3" id="text-1-43">
+</div>
+<div id="outline-container-org7ba4945" class="outline-4">
+<h4 id="org7ba4945"><span class="section-number-4">1.43.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-43-1">
+<p>
+小气泡扩散器形成的气泡直径一般为{{c1::1.5mm}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgfc253cd" class="outline-4">
+<h4 id="orgfc253cd"><span class="section-number-4">1.43.2</span> A</h4>
+<div class="outline-text-4" id="text-1-43-2">
+<p>
+1.5mm
+5mm
+15mm
+0.1mm
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0695f6b" class="outline-3">
+<h3 id="org0695f6b"><span class="section-number-3">1.44</span> 大气泡扩散器形成的气泡直径一般为{{c1::15mm}}</h3>
+<div class="outline-text-3" id="text-1-44">
+</div>
+<div id="outline-container-org86a2bc0" class="outline-4">
+<h4 id="org86a2bc0"><span class="section-number-4">1.44.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-44-1">
+<p>
+大气泡扩散器形成的气泡直径一般为{{c1::15mm}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0a0ffd6" class="outline-4">
+<h4 id="org0a0ffd6"><span class="section-number-4">1.44.2</span> A</h4>
+<div class="outline-text-4" id="text-1-44-2">
+<p>
+15mm
+1.5mm
+5mm
+0.1mm
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9abfd76" class="outline-3">
+<h3 id="org9abfd76"><span class="section-number-3">1.45</span> 下列扩散器中, 氧传递效率最高的是{{c1::微孔}}</h3>
+<div class="outline-text-3" id="text-1-45">
+</div>
+<div id="outline-container-orgd2b5454" class="outline-4">
+<h4 id="orgd2b5454"><span class="section-number-4">1.45.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-45-1">
+<p>
+下列扩散器中, 氧传递效率最高的是{{c1::微孔}}
+</p>
+</div>
+</div>
+<div id="outline-container-org6bd3ad4" class="outline-4">
+<h4 id="org6bd3ad4"><span class="section-number-4">1.45.2</span> A</h4>
+<div class="outline-text-4" id="text-1-45-2">
+<p>
+微孔
+纱纶管
+中气泡
+大气泡
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfe4c6ad" class="outline-3">
+<h3 id="orgfe4c6ad"><span class="section-number-3">1.46</span> 污泥龄的英文缩写是{{c1::SRT}}</h3>
+<div class="outline-text-3" id="text-1-46">
+</div>
+<div id="outline-container-orgc8d2cf4" class="outline-4">
+<h4 id="orgc8d2cf4"><span class="section-number-4">1.46.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-46-1">
+<p>
+污泥龄的英文缩写是{{c1::SRT}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgbfb0306" class="outline-4">
+<h4 id="orgbfb0306"><span class="section-number-4">1.46.2</span> A</h4>
+<div class="outline-text-4" id="text-1-46-2">
+<p>
+SRT
+Q
+X
+Y
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf8977df" class="outline-3">
+<h3 id="orgf8977df"><span class="section-number-3">1.47</span> 活性污泥的产率系数是{{c1::Y}}</h3>
+<div class="outline-text-3" id="text-1-47">
+</div>
+<div id="outline-container-orge151e72" class="outline-4">
+<h4 id="orge151e72"><span class="section-number-4">1.47.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-47-1">
+<p>
+活性污泥的产率系数是{{c1::Y}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgd1ed34e" class="outline-4">
+<h4 id="orgd1ed34e"><span class="section-number-4">1.47.2</span> A</h4>
+<div class="outline-text-4" id="text-1-47-2">
+<p>
+Y
+X
+K<sub>d</sub>
+SRT
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcac09c1" class="outline-3">
+<h3 id="orgcac09c1"><span class="section-number-3">1.48</span> 内源呼吸系数是{{c1::K<sub>d</sub>}}</h3>
+<div class="outline-text-3" id="text-1-48">
+</div>
+<div id="outline-container-org72b18e4" class="outline-4">
+<h4 id="org72b18e4"><span class="section-number-4">1.48.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-48-1">
+<p>
+内源呼吸系数是{{c1::K<sub>d</sub>}}
+</p>
+</div>
+</div>
+<div id="outline-container-org4a23537" class="outline-4">
+<h4 id="org4a23537"><span class="section-number-4">1.48.2</span> A</h4>
+<div class="outline-text-4" id="text-1-48-2">
+<p>
+K<sub>d</sub>
+X
+Y
+SRT
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org6e60b8c" class="outline-3">
+<h3 id="org6e60b8c"><span class="section-number-3">1.49</span> 二沉池出水堰不宜大于{{c1::1.7L/(s.m)}}</h3>
+<div class="outline-text-3" id="text-1-49">
+</div>
+<div id="outline-container-orgd853bda" class="outline-4">
+<h4 id="orgd853bda"><span class="section-number-4">1.49.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-49-1">
+<p>
+二沉池出水堰不宜大于{{c1::1.7L/(s.m)}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge215aa7" class="outline-4">
+<h4 id="orge215aa7"><span class="section-number-4">1.49.2</span> A</h4>
+<div class="outline-text-4" id="text-1-49-2">
+<p>
+1.7L/(s.m)
+1.3L/(s.m)
+2.2L/(s.m)
+1.0L/(s.m)
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org24b6919" class="outline-3">
+<h3 id="org24b6919"><span class="section-number-3">1.50</span> 二沉池污泥斗内污泥停留时间一般为{{c1::2小时}}</h3>
+<div class="outline-text-3" id="text-1-50">
+</div>
+<div id="outline-container-org1ee547a" class="outline-4">
+<h4 id="org1ee547a"><span class="section-number-4">1.50.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-50-1">
+<p>
+二沉池污泥斗内污泥停留时间一般为{{c1::2小时}}
+</p>
+</div>
+</div>
+<div id="outline-container-org2f33679" class="outline-4">
+<h4 id="org2f33679"><span class="section-number-4">1.50.2</span> A</h4>
+<div class="outline-text-4" id="text-1-50-2">
+<p>
+2小时
+3小时
+4小时
+1小时
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org945df0a" class="outline-3">
+<h3 id="org945df0a"><span class="section-number-3">1.51</span> 二沉池污泥区与澄清区之间的缓冲层高度, 在非机械排泥时为{{c1::0.5m}}</h3>
+<div class="outline-text-3" id="text-1-51">
+</div>
+<div id="outline-container-org9447b99" class="outline-4">
+<h4 id="org9447b99"><span class="section-number-4">1.51.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-51-1">
+<p>
+二沉池污泥区与澄清区之间的缓冲层高度, 在非机械排泥时为{{c1::0.5m}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgda51c0f" class="outline-4">
+<h4 id="orgda51c0f"><span class="section-number-4">1.51.2</span> A</h4>
+<div class="outline-text-4" id="text-1-51-2">
+<p>
+0.5m
+0.6m
+0.4m
+0.3m
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8ee3c41" class="outline-3">
+<h3 id="org8ee3c41"><span class="section-number-3">1.52</span> 活性污泥法系统的微生物平均停留时间约为水力停留时间的{{c1::20倍}}</h3>
+<div class="outline-text-3" id="text-1-52">
+</div>
+<div id="outline-container-org01bbb63" class="outline-4">
+<h4 id="org01bbb63"><span class="section-number-4">1.52.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-52-1">
+<p>
+活性污泥法系统的微生物平均停留时间约为水力停留时间的{{c1::20倍}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgdff7497" class="outline-4">
+<h4 id="orgdff7497"><span class="section-number-4">1.52.2</span> A</h4>
+<div class="outline-text-4" id="text-1-52-2">
+<p>
+20倍
+30倍
+40倍
+10倍
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org15222b3" class="outline-3">
+<h3 id="org15222b3"><span class="section-number-3">1.53</span> 延时曝气法微生物平均停留时间约为水力停留时间的{{c1::40倍}}</h3>
+<div class="outline-text-3" id="text-1-53">
+</div>
+<div id="outline-container-org923a004" class="outline-4">
+<h4 id="org923a004"><span class="section-number-4">1.53.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-53-1">
+<p>
+延时曝气法微生物平均停留时间约为水力停留时间的{{c1::40倍}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5cf26cd" class="outline-4">
+<h4 id="org5cf26cd"><span class="section-number-4">1.53.2</span> A</h4>
+<div class="outline-text-4" id="text-1-53-2">
+<p>
+40倍
+30倍
+20倍
+10倍
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8fd6568" class="outline-3">
+<h3 id="org8fd6568"><span class="section-number-3">1.54</span> 高负荷活性污泥法系统的微生物平均停留时间约为水力停留时间的{{c1::10倍}}</h3>
+<div class="outline-text-3" id="text-1-54">
+</div>
+<div id="outline-container-org879956a" class="outline-4">
+<h4 id="org879956a"><span class="section-number-4">1.54.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-54-1">
+<p>
+高负荷活性污泥法系统的微生物平均停留时间约为水力停留时间的{{c1::10倍}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5593409" class="outline-4">
+<h4 id="org5593409"><span class="section-number-4">1.54.2</span> A</h4>
+<div class="outline-text-4" id="text-1-54-2">
+<p>
+10倍
+20倍
+30倍
+40倍
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8440130" class="outline-3">
+<h3 id="org8440130"><span class="section-number-3">1.55</span> 污水处理时, 发生活性污泥丝状膨胀的最低温度为{{c1::15摄氏度}}</h3>
+<div class="outline-text-3" id="text-1-55">
+</div>
+<div id="outline-container-org5734018" class="outline-4">
+<h4 id="org5734018"><span class="section-number-4">1.55.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-55-1">
+<p>
+污水处理时, 发生活性污泥丝状膨胀的最低温度为{{c1::15摄氏度}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5fa0b2d" class="outline-4">
+<h4 id="org5fa0b2d"><span class="section-number-4">1.55.2</span> A</h4>
+<div class="outline-text-4" id="text-1-55-2">
+<p>
+15摄氏度
+5摄氏度
+10摄氏度
+0摄氏度
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0eb3547" class="outline-3">
+<h3 id="org0eb3547"><span class="section-number-3">1.56</span> 下列几种污水处理工艺中, 不属于生物膜法的是{{c1::氧化沟}}</h3>
+<div class="outline-text-3" id="text-1-56">
+</div>
+<div id="outline-container-org19eb14b" class="outline-4">
+<h4 id="org19eb14b"><span class="section-number-4">1.56.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-56-1">
+<p>
+下列几种污水处理工艺中, 不属于生物膜法的是{{c1::氧化沟}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgc95c91b" class="outline-4">
+<h4 id="orgc95c91b"><span class="section-number-4">1.56.2</span> A</h4>
+<div class="outline-text-4" id="text-1-56-2">
+<p>
+氧化沟
+生物转盘
+接触氧化池
+生物滤池
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgefbfcc1" class="outline-3">
+<h3 id="orgefbfcc1"><span class="section-number-3">1.57</span> 生物转盘法工艺是{{c1::好氧法}}</h3>
+<div class="outline-text-3" id="text-1-57">
+</div>
+<div id="outline-container-org46ca2b7" class="outline-4">
+<h4 id="org46ca2b7"><span class="section-number-4">1.57.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-57-1">
+<p>
+生物转盘法工艺是{{c1::好氧法}}
+</p>
+</div>
+</div>
+<div id="outline-container-org508a91c" class="outline-4">
+<h4 id="org508a91c"><span class="section-number-4">1.57.2</span> A</h4>
+<div class="outline-text-4" id="text-1-57-2">
+<p>
+好氧法
+厌氧法
+物理法
+化学法
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4a972ea" class="outline-3">
+<h3 id="org4a972ea"><span class="section-number-3">1.58</span> 生物膜法对营养物质的要求为BOD5:N:P{{c1::100:5:1}}</h3>
+<div class="outline-text-3" id="text-1-58">
+</div>
+<div id="outline-container-orgd5ad598" class="outline-4">
+<h4 id="orgd5ad598"><span class="section-number-4">1.58.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-58-1">
+<p>
+生物膜法对营养物质的要求为BOD5:N:P{{c1::100:5:1}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5246ba0" class="outline-4">
+<h4 id="org5246ba0"><span class="section-number-4">1.58.2</span> A</h4>
+<div class="outline-text-4" id="text-1-58-2">
+<p>
+100:5:1
+100:6:1
+100:7:1
+100:4:1
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge1ba28c" class="outline-3">
+<h3 id="orge1ba28c"><span class="section-number-3">1.59</span> 有机负荷最高的生物膜法处理工艺是{{c1::接触氧化池}}</h3>
+<div class="outline-text-3" id="text-1-59">
+</div>
+<div id="outline-container-org84d71ff" class="outline-4">
+<h4 id="org84d71ff"><span class="section-number-4">1.59.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-59-1">
+<p>
+有机负荷最高的生物膜法处理工艺是{{c1::接触氧化池}}
+</p>
+</div>
+</div>
+<div id="outline-container-orga048d36" class="outline-4">
+<h4 id="orga048d36"><span class="section-number-4">1.59.2</span> A</h4>
+<div class="outline-text-4" id="text-1-59-2">
+<p>
+接触氧化池
+塔式滤池
+高负荷滤池
+普通滤池
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb821463" class="outline-3">
+<h3 id="orgb821463"><span class="section-number-3">1.60</span> 生物膜法处理废水时, 滤床内水温不能超过{{c1::40摄氏度}}</h3>
+<div class="outline-text-3" id="text-1-60">
+</div>
+<div id="outline-container-org1e5d2ff" class="outline-4">
+<h4 id="org1e5d2ff"><span class="section-number-4">1.60.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-60-1">
+<p>
+生物膜法处理废水时, 滤床内水温不能超过{{c1::40摄氏度}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9cd06dc" class="outline-4">
+<h4 id="org9cd06dc"><span class="section-number-4">1.60.2</span> A</h4>
+<div class="outline-text-4" id="text-1-60-2">
+<p>
+40摄氏度
+50摄氏度
+30摄氏度
+20摄氏度
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org12ed23c" class="outline-3">
+<h3 id="org12ed23c"><span class="section-number-3">1.61</span> 生物膜法处理废水时, 滤床内水温不能低于{{c1::5摄氏度}}</h3>
+<div class="outline-text-3" id="text-1-61">
+</div>
+<div id="outline-container-org90e84e4" class="outline-4">
+<h4 id="org90e84e4"><span class="section-number-4">1.61.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-61-1">
+<p>
+生物膜法处理废水时, 滤床内水温不能低于{{c1::5摄氏度}}
+</p>
+</div>
+</div>
+<div id="outline-container-org39b100f" class="outline-4">
+<h4 id="org39b100f"><span class="section-number-4">1.61.2</span> A</h4>
+<div class="outline-text-4" id="text-1-61-2">
+<p>
+5摄氏度
+10摄氏度
+0摄氏度
+-5摄氏度
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4ee0fc5" class="outline-3">
+<h3 id="org4ee0fc5"><span class="section-number-3">1.62</span> 塔式生物滤池的高度一般不低于{{c1::10米}}</h3>
+<div class="outline-text-3" id="text-1-62">
+</div>
+<div id="outline-container-orgb20ee7b" class="outline-4">
+<h4 id="orgb20ee7b"><span class="section-number-4">1.62.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-62-1">
+<p>
+塔式生物滤池的高度一般不低于{{c1::10米}}
+</p>
+</div>
+</div>
+<div id="outline-container-org1292738" class="outline-4">
+<h4 id="org1292738"><span class="section-number-4">1.62.2</span> A</h4>
+<div class="outline-text-4" id="text-1-62-2">
+<p>
+10米
+7米
+5米
+3米
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb61bb75" class="outline-3">
+<h3 id="orgb61bb75"><span class="section-number-3">1.63</span> 下列几项影响因素中, 哪一个最集中反反映了生物滤池的工作性能?{{c1::滤率}}</h3>
+<div class="outline-text-3" id="text-1-63">
+</div>
+<div id="outline-container-orgad3d007" class="outline-4">
+<h4 id="orgad3d007"><span class="section-number-4">1.63.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-63-1">
+<p>
+{{c1::滤率}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5fd18be" class="outline-4">
+<h4 id="org5fd18be"><span class="section-number-4">1.63.2</span> A</h4>
+<div class="outline-text-4" id="text-1-63-2">
+<p>
+滤率
+高度
+回流
+供氧
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc729c41" class="outline-3">
+<h3 id="orgc729c41"><span class="section-number-3">1.64</span> 出现滤床供氧不足时, 污水中COD一般超过{{c1::500mg/L}}</h3>
+<div class="outline-text-3" id="text-1-64">
+</div>
+<div id="outline-container-org15d81f3" class="outline-4">
+<h4 id="org15d81f3"><span class="section-number-4">1.64.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-64-1">
+<p>
+出{{c1::500mg/L}}
+</p>
+</div>
+</div>
+<div id="outline-container-org4b0cbd4" class="outline-4">
+<h4 id="org4b0cbd4"><span class="section-number-4">1.64.2</span> A</h4>
+<div class="outline-text-4" id="text-1-64-2">
+<p>
+500mg/L
+400mg/L
+600mg/L
+700mg/L
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb66f849" class="outline-3">
+<h3 id="orgb66f849"><span class="section-number-3">1.65</span> 下列几项中, 哪一项是生物转盘的缺点?{{c1::占地}}</h3>
+<div class="outline-text-3" id="text-1-65">
+</div>
+<div id="outline-container-orgf004bca" class="outline-4">
+<h4 id="orgf004bca"><span class="section-number-4">1.65.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-65-1">
+<p>
+下列几项中, 哪一项是生物转盘的缺点?{{c1::占地}}
+</p>
+</div>
+</div>
+<div id="outline-container-org4fa4425" class="outline-4">
+<h4 id="org4fa4425"><span class="section-number-4">1.65.2</span> A</h4>
+<div class="outline-text-4" id="text-1-65-2">
+<p>
+占地
+能耗
+管理
+冲击负荷
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc8cb89b" class="outline-3">
+<h3 id="orgc8cb89b"><span class="section-number-3">1.66</span> 下列几种工艺中, 介于活性污泥法和生物滤池法之间的是{{c1::接触氧化}}</h3>
+<div class="outline-text-3" id="text-1-66">
+</div>
+<div id="outline-container-org8d3c485" class="outline-4">
+<h4 id="org8d3c485"><span class="section-number-4">1.66.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-66-1">
+<p>
+下列几种工艺中, 介于活性污泥法和生物滤池法之间的是{{c1::接触氧化}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0b45ea3" class="outline-4">
+<h4 id="org0b45ea3"><span class="section-number-4">1.66.2</span> A</h4>
+<div class="outline-text-4" id="text-1-66-2">
+<p>
+接触氧化
+氧化沟
+曝气池
+生物转盘
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3436d08" class="outline-3">
+<h3 id="org3436d08"><span class="section-number-3">1.67</span> 接触氧化法处理污水时, 每立方米污水供气量至少为{{c1::10m<sup>3</sup>}}</h3>
+<div class="outline-text-3" id="text-1-67">
+</div>
+<div id="outline-container-orgc0718ff" class="outline-4">
+<h4 id="orgc0718ff"><span class="section-number-4">1.67.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-67-1">
+<p>
+接触氧化法处理污水时, 每立方米污水供气量至少为{{c1::10m<sup>3</sup>}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge07f015" class="outline-4">
+<h4 id="orge07f015"><span class="section-number-4">1.67.2</span> A</h4>
+<div class="outline-text-4" id="text-1-67-2">
+<p>
+10m<sup>3</sup>
+15m<sup>3</sup>
+20m<sup>3</sup>
+5m<sup>3</sup>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdd713da" class="outline-3">
+<h3 id="orgdd713da"><span class="section-number-3">1.68</span> 稳定塘处理污水的优点体现在{{c1::成本}}</h3>
+<div class="outline-text-3" id="text-1-68">
+</div>
+<div id="outline-container-org861eda7" class="outline-4">
+<h4 id="org861eda7"><span class="section-number-4">1.68.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-68-1">
+<p>
+稳定塘处理污水的优点体现在{{c1::成本}}
+</p>
+</div>
+</div>
+<div id="outline-container-org28a7b70" class="outline-4">
+<h4 id="org28a7b70"><span class="section-number-4">1.68.2</span> A</h4>
+<div class="outline-text-4" id="text-1-68-2">
+<p>
+成本
+环境
+气候
+占地
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga6aa9c3" class="outline-3">
+<h3 id="orga6aa9c3"><span class="section-number-3">1.69</span> 好氧塘深度布恩不能超过{{c1::1.0m}}</h3>
+<div class="outline-text-3" id="text-1-69">
+</div>
+<div id="outline-container-org542d330" class="outline-4">
+<h4 id="org542d330"><span class="section-number-4">1.69.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-69-1">
+<p>
+好氧塘深度布恩不能超过{{c1::1.0m}}
+</p>
+</div>
+</div>
+<div id="outline-container-org98c735a" class="outline-4">
+<h4 id="org98c735a"><span class="section-number-4">1.69.2</span> A</h4>
+<div class="outline-text-4" id="text-1-69-2">
+<p>
+1.0m
+1.5m
+2.0m
+0.5m
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgaad32e5" class="outline-3">
+<h3 id="orgaad32e5"><span class="section-number-3">1.70</span> 好氧塘处理污水的BOD<sub>5一般不能超过</sub>{{c1::100mg/L}}</h3>
+<div class="outline-text-3" id="text-1-70">
+</div>
+<div id="outline-container-org63b206c" class="outline-4">
+<h4 id="org63b206c"><span class="section-number-4">1.70.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-70-1">
+<p>
+好氧塘处理污水的BOD<sub>5一般不能超过</sub>{{c1::100mg/L}}
+</p>
+</div>
+</div>
+<div id="outline-container-org145e429" class="outline-4">
+<h4 id="org145e429"><span class="section-number-4">1.70.2</span> A</h4>
+<div class="outline-text-4" id="text-1-70-2">
+<p>
+100mg/L
+150mg/L
+200mg/L
+250mg/L
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc9099e1" class="outline-3">
+<h3 id="orgc9099e1"><span class="section-number-3">1.71</span> 高负荷好氧塘的特点是{{c1::水浅}}</h3>
+<div class="outline-text-3" id="text-1-71">
+</div>
+<div id="outline-container-org0148cb2" class="outline-4">
+<h4 id="org0148cb2"><span class="section-number-4">1.71.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-71-1">
+<p>
+高负荷好氧塘的特点是{{c1::水浅}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge04d9c4" class="outline-4">
+<h4 id="orge04d9c4"><span class="section-number-4">1.71.2</span> A</h4>
+<div class="outline-text-4" id="text-1-71-2">
+<p>
+水浅
+水深
+容积小
+容积大
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc8ea8a3" class="outline-3">
+<h3 id="orgc8ea8a3"><span class="section-number-3">1.72</span> 好氧塘内溶解氧弄低最低的时段是{{c1::凌晨}}</h3>
+<div class="outline-text-3" id="text-1-72">
+</div>
+<div id="outline-container-org1e582a0" class="outline-4">
+<h4 id="org1e582a0"><span class="section-number-4">1.72.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-72-1">
+<p>
+好氧塘内溶解氧弄低最低的时段是{{c1::凌晨}}
+</p>
+</div>
+</div>
+<div id="outline-container-org8557816" class="outline-4">
+<h4 id="org8557816"><span class="section-number-4">1.72.2</span> A</h4>
+<div class="outline-text-4" id="text-1-72-2">
+<p>
+凌晨
+深夜
+下午
+上午
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7e0cb44" class="outline-3">
+<h3 id="org7e0cb44"><span class="section-number-3">1.73</span> 好氧塘处理的污水在进入塘前, 经过预处理去除的是污水中的{{c1::悬浮物}}</h3>
+<div class="outline-text-3" id="text-1-73">
+</div>
+<div id="outline-container-org08527f9" class="outline-4">
+<h4 id="org08527f9"><span class="section-number-4">1.73.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-73-1">
+<p>
+好氧塘处理的污水在进入塘前, 经过预处理去除的是污水中的{{c1::悬浮物}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0f6c21e" class="outline-4">
+<h4 id="org0f6c21e"><span class="section-number-4">1.73.2</span> A</h4>
+<div class="outline-text-4" id="text-1-73-2">
+<p>
+悬浮物
+毒物
+无机物
+有机物
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb5f79d0" class="outline-3">
+<h3 id="orgb5f79d0"><span class="section-number-3">1.74</span> 曝气塘工艺流程中, 曝气塘的数目最少为{{c1::3个}}</h3>
+<div class="outline-text-3" id="text-1-74">
+</div>
+<div id="outline-container-org6b142ae" class="outline-4">
+<h4 id="org6b142ae"><span class="section-number-4">1.74.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-74-1">
+<p>
+曝气塘工艺流程中, 曝气塘的数目最少为{{c1::3个}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9f42575" class="outline-4">
+<h4 id="org9f42575"><span class="section-number-4">1.74.2</span> A</h4>
+<div class="outline-text-4" id="text-1-74-2">
+<p>
+3个
+4个
+2个
+1个
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3229d9c" class="outline-3">
+<h3 id="org3229d9c"><span class="section-number-3">1.75</span> 曝气塘么曝气的主要原因是{{c1::塘体太深}}</h3>
+<div class="outline-text-3" id="text-1-75">
+</div>
+<div id="outline-container-org388d1c0" class="outline-4">
+<h4 id="org388d1c0"><span class="section-number-4">1.75.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-75-1">
+<p>
+曝气塘么曝气的主要原因是{{c1::塘体太深}}
+</p>
+</div>
+</div>
+<div id="outline-container-org38bddf4" class="outline-4">
+<h4 id="org38bddf4"><span class="section-number-4">1.75.2</span> A</h4>
+<div class="outline-text-4" id="text-1-75-2">
+<p>
+塘体太深
+塘体太浅
+塘体太大
+塘体太小
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1d5860d" class="outline-3">
+<h3 id="org1d5860d"><span class="section-number-3">1.76</span> 污水土地处理系统去除悬浮物效果最好的方法是{{c1::过滤}}</h3>
+<div class="outline-text-3" id="text-1-76">
+</div>
+<div id="outline-container-org335d0c9" class="outline-4">
+<h4 id="org335d0c9"><span class="section-number-4">1.76.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-76-1">
+<p>
+污水土地处理系统去除悬浮物效果最好的方法是{{c1::过滤}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgce46b65" class="outline-4">
+<h4 id="orgce46b65"><span class="section-number-4">1.76.2</span> A</h4>
+<div class="outline-text-4" id="text-1-76-2">
+<p>
+过滤
+植物阻截
+吸附
+沉淀
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3bcd749" class="outline-3">
+<h3 id="org3bcd749"><span class="section-number-3">1.77</span> 污水土地处理系统去除有机物效果最好的方法是{{c1::降解}}</h3>
+<div class="outline-text-3" id="text-1-77">
+</div>
+<div id="outline-container-orgcd737da" class="outline-4">
+<h4 id="orgcd737da"><span class="section-number-4">1.77.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-77-1">
+<p>
+污水土地处理系统去除有机物效果最好的方法是{{c1::降解}}
+</p>
+</div>
+</div>
+<div id="outline-container-org2c0b273" class="outline-4">
+<h4 id="org2c0b273"><span class="section-number-4">1.77.2</span> A</h4>
+<div class="outline-text-4" id="text-1-77-2">
+<p>
+降解
+过滤
+吸附
+沉淀
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org001a8eb" class="outline-3">
+<h3 id="org001a8eb"><span class="section-number-3">1.78</span> 污水土地处理系统不宜处理的废水是{{c1::有毒废水}}</h3>
+<div class="outline-text-3" id="text-1-78">
+</div>
+<div id="outline-container-org43e0abb" class="outline-4">
+<h4 id="org43e0abb"><span class="section-number-4">1.78.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-78-1">
+<p>
+污水土地处理系统不宜处理的废水是{{c1::有毒废水}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0aa7c13" class="outline-4">
+<h4 id="org0aa7c13"><span class="section-number-4">1.78.2</span> A</h4>
+<div class="outline-text-4" id="text-1-78-2">
+<p>
+有毒废水
+工业废水
+含磷废水
+含氮废水
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5eae8ca" class="outline-3">
+<h3 id="org5eae8ca"><span class="section-number-3">1.79</span> 湿地的水深不超过{{c1::6m}}</h3>
+<div class="outline-text-3" id="text-1-79">
+</div>
+<div id="outline-container-org806bd62" class="outline-4">
+<h4 id="org806bd62"><span class="section-number-4">1.79.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-79-1">
+<p>
+湿地的水深不超过{{c1::6m}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0ac6cad" class="outline-4">
+<h4 id="org0ac6cad"><span class="section-number-4">1.79.2</span> A</h4>
+<div class="outline-text-4" id="text-1-79-2">
+<p>
+6m
+7m
+5m
+4m
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf88a561" class="outline-3">
+<h3 id="orgf88a561"><span class="section-number-3">1.80</span> 人工湿地的基建投资费用低, 最少是生物处理费用的{{c1::1/5}}</h3>
+<div class="outline-text-3" id="text-1-80">
+</div>
+<div id="outline-container-orgc09e514" class="outline-4">
+<h4 id="orgc09e514"><span class="section-number-4">1.80.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-80-1">
+<p>
+人工湿地的基建投资费用低, 最少是生物处理费用的{{c1::1/5}}
+</p>
+</div>
+</div>
+<div id="outline-container-org3d5bde0" class="outline-4">
+<h4 id="org3d5bde0"><span class="section-number-4">1.80.2</span> A</h4>
+<div class="outline-text-4" id="text-1-80-2">
+<p>
+1/5
+1/4
+1/3
+1/2
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org6fe752e" class="outline-3">
+<h3 id="org6fe752e"><span class="section-number-3">1.81</span> 能处理液态污泥的系统是{{c1::人工湿地}}</h3>
+<div class="outline-text-3" id="text-1-81">
+</div>
+<div id="outline-container-orgadb9619" class="outline-4">
+<h4 id="orgadb9619"><span class="section-number-4">1.81.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-81-1">
+<p>
+能处理液态污泥的系统是{{c1::人工湿地}}
+</p>
+</div>
+</div>
+<div id="outline-container-org582597d" class="outline-4">
+<h4 id="org582597d"><span class="section-number-4">1.81.2</span> A</h4>
+<div class="outline-text-4" id="text-1-81-2">
+<p>
+人工湿地
+快速渗滤
+慢速渗滤
+地表漫流
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0e57c7c" class="outline-3">
+<h3 id="org0e57c7c"><span class="section-number-3">1.82</span> 厌氧生物处理最适合处理{{c1::高浓度污水}}</h3>
+<div class="outline-text-3" id="text-1-82">
+</div>
+<div id="outline-container-orgb23ccd5" class="outline-4">
+<h4 id="orgb23ccd5"><span class="section-number-4">1.82.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-82-1">
+<p>
+厌氧生物处理最适合处理{{c1::高浓度污水}}
+</p>
+</div>
+</div>
+<div id="outline-container-org7d96544" class="outline-4">
+<h4 id="org7d96544"><span class="section-number-4">1.82.2</span> A</h4>
+<div class="outline-text-4" id="text-1-82-2">
+<p>
+高浓度污水
+有毒废水
+无机废水
+低浓度污水
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9822a65" class="outline-3">
+<h3 id="org9822a65"><span class="section-number-3">1.83</span> 污泥厌氧处理的是固体有机物, 称其称其为{{c1::消化}}</h3>
+<div class="outline-text-3" id="text-1-83">
+</div>
+<div id="outline-container-orgae140b9" class="outline-4">
+<h4 id="orgae140b9"><span class="section-number-4">1.83.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-83-1">
+<p>
+污泥厌氧处理的是固体有机物, 称其称其为{{c1::消化}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgf726c06" class="outline-4">
+<h4 id="orgf726c06"><span class="section-number-4">1.83.2</span> A</h4>
+<div class="outline-text-4" id="text-1-83-2">
+<p>
+消化
+硝化
+反硝化
+液化
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org06315d4" class="outline-3">
+<h3 id="org06315d4"><span class="section-number-3">1.84</span> 厌氧生物处理最后产生的气体的主要成分是{{c1::CH<sub>4</sub>}}</h3>
+<div class="outline-text-3" id="text-1-84">
+</div>
+<div id="outline-container-orgdd32eab" class="outline-4">
+<h4 id="orgdd32eab"><span class="section-number-4">1.84.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-84-1">
+<p>
+厌氧生物处理最后产生的气体的主要成分是{{c1::CH<sub>4</sub>}}
+</p>
+</div>
+</div>
+<div id="outline-container-org361c343" class="outline-4">
+<h4 id="org361c343"><span class="section-number-4">1.84.2</span> A</h4>
+<div class="outline-text-4" id="text-1-84-2">
+<p>
+CH<sub>4</sub>
+CO<sub>2</sub>
+H<sub>2</sub>O
+NH<sub>3</sub>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org91215e3" class="outline-3">
+<h3 id="org91215e3"><span class="section-number-3">1.85</span> 中温消化一般需时{{c1::20天}}</h3>
+<div class="outline-text-3" id="text-1-85">
+</div>
+<div id="outline-container-org14e8f63" class="outline-4">
+<h4 id="org14e8f63"><span class="section-number-4">1.85.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-85-1">
+<p>
+中温消化一般需时{{c1::20天}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgbd4663c" class="outline-4">
+<h4 id="orgbd4663c"><span class="section-number-4">1.85.2</span> A</h4>
+<div class="outline-text-4" id="text-1-85-2">
+<p>
+20天
+10天
+15天
+5天
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2b6e11c" class="outline-3">
+<h3 id="org2b6e11c"><span class="section-number-3">1.86</span> 厌氧消化不能使用的搅拌方法是{{c1::空气搅拌}}</h3>
+<div class="outline-text-3" id="text-1-86">
+</div>
+<div id="outline-container-org2bb0664" class="outline-4">
+<h4 id="org2bb0664"><span class="section-number-4">1.86.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-86-1">
+<p>
+厌氧消化不能使用的搅拌方法是{{c1::空气搅拌}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9311f04" class="outline-4">
+<h4 id="org9311f04"><span class="section-number-4">1.86.2</span> A</h4>
+<div class="outline-text-4" id="text-1-86-2">
+<p>
+空气搅拌
+消化气搅拌
+水射流搅拌
+机械搅拌
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7d364a4" class="outline-3">
+<h3 id="org7d364a4"><span class="section-number-3">1.87</span> 消化气就是{{c1::沼气}}</h3>
+<div class="outline-text-3" id="text-1-87">
+</div>
+<div id="outline-container-org86c4ee3" class="outline-4">
+<h4 id="org86c4ee3"><span class="section-number-4">1.87.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-87-1">
+<p>
+消化气就是{{c1::沼气}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9238289" class="outline-4">
+<h4 id="org9238289"><span class="section-number-4">1.87.2</span> A</h4>
+<div class="outline-text-4" id="text-1-87-2">
+<p>
+沼气
+氨气
+水蒸气
+氮气
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd097ac6" class="outline-3">
+<h3 id="orgd097ac6"><span class="section-number-3">1.88</span> 厌氧处理COD:N:P一般为{{c1::800:5:1}}</h3>
+<div class="outline-text-3" id="text-1-88">
+</div>
+<div id="outline-container-org469bcfd" class="outline-4">
+<h4 id="org469bcfd"><span class="section-number-4">1.88.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-88-1">
+<p>
+厌氧处理COD:N:P一般为{{c1::800:5:1}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgc4e4cc8" class="outline-4">
+<h4 id="orgc4e4cc8"><span class="section-number-4">1.88.2</span> A</h4>
+<div class="outline-text-4" id="text-1-88-2">
+<p>
+800:5:1
+700:5:1
+600:5:1
+500:5:1
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org609781c" class="outline-3">
+<h3 id="org609781c"><span class="section-number-3">1.89</span> 消化中有机酸积累使pH降低, 使消化受到抑制的最小NH<sup>4浓度是</sup>{{c1::150mg/L}}</h3>
+<div class="outline-text-3" id="text-1-89">
+</div>
+<div id="outline-container-orgab9adf9" class="outline-4">
+<h4 id="orgab9adf9"><span class="section-number-4">1.89.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-89-1">
+<p>
+消化中有机酸积累使pH降低, 使消化受到抑制的最小NH<sup>4浓度是</sup>{{c1::150mg/L}}
+</p>
+</div>
+</div>
+<div id="outline-container-org14c069d" class="outline-4">
+<h4 id="org14c069d"><span class="section-number-4">1.89.2</span> A</h4>
+<div class="outline-text-4" id="text-1-89-2">
+<p>
+150mg/L
+200mg/L
+250mg/L
+100mg/L
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org750dacd" class="outline-3">
+<h3 id="org750dacd"><span class="section-number-3">1.90</span> 最早的厌氧生物处理构筑物是{{c1::化粪池}}</h3>
+<div class="outline-text-3" id="text-1-90">
+</div>
+<div id="outline-container-org825dbe2" class="outline-4">
+<h4 id="org825dbe2"><span class="section-number-4">1.90.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-90-1">
+<p>
+最早的厌氧生物处理构筑物是{{c1::化粪池}}
+</p>
+</div>
+</div>
+<div id="outline-container-org41d1e1a" class="outline-4">
+<h4 id="org41d1e1a"><span class="section-number-4">1.90.2</span> A</h4>
+<div class="outline-text-4" id="text-1-90-2">
+<p>
+化粪池
+厌氧流化床
+厌氧接触池
+厌氧滤池
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb585ddf" class="outline-3">
+<h3 id="orgb585ddf"><span class="section-number-3">1.91</span> 厌氧生物滤池是{{c1::密封}}</h3>
+<div class="outline-text-3" id="text-1-91">
+</div>
+<div id="outline-container-orgec3b0b6" class="outline-4">
+<h4 id="orgec3b0b6"><span class="section-number-4">1.91.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-91-1">
+<p>
+厌氧生物滤池是{{c1::密封}}
+</p>
+</div>
+</div>
+<div id="outline-container-org79c89a3" class="outline-4">
+<h4 id="org79c89a3"><span class="section-number-4">1.91.2</span> A</h4>
+<div class="outline-text-4" id="text-1-91-2">
+<p>
+密封
+开放
+无滤料
+鼓风
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org15814ed" class="outline-3">
+<h3 id="org15814ed"><span class="section-number-3">1.92</span> 厌氧生物滤池中微生物膜在滤料上停留的时间大约为{{c1::100天}}</h3>
+<div class="outline-text-3" id="text-1-92">
+</div>
+<div id="outline-container-org25f1095" class="outline-4">
+<h4 id="org25f1095"><span class="section-number-4">1.92.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-92-1">
+<p>
+厌氧生物滤池中微生物膜在滤料上停留的时间大约为{{c1::100天}}
+</p>
+</div>
+</div>
+<div id="outline-container-org14d7273" class="outline-4">
+<h4 id="org14d7273"><span class="section-number-4">1.92.2</span> A</h4>
+<div class="outline-text-4" id="text-1-92-2">
+<p>
+100天
+80天
+60天
+40天
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org04b7aeb" class="outline-3">
+<h3 id="org04b7aeb"><span class="section-number-3">1.93</span> 厌氧生物滤池中微生物膜在滤料上停留的时间长, 出水中{{c1::SS低}}</h3>
+<div class="outline-text-3" id="text-1-93">
+</div>
+<div id="outline-container-org44d582b" class="outline-4">
+<h4 id="org44d582b"><span class="section-number-4">1.93.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-93-1">
+<p>
+厌氧生物滤池中微生物膜在滤料上停留的时间长, 出水中{{c1::SS低}}
+</p>
+</div>
+</div>
+<div id="outline-container-org238295e" class="outline-4">
+<h4 id="org238295e"><span class="section-number-4">1.93.2</span> A</h4>
+<div class="outline-text-4" id="text-1-93-2">
+<p>
+SS低
+SS高
+BOD高
+BOD低
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc09939a" class="outline-3">
+<h3 id="orgc09939a"><span class="section-number-3">1.94</span> 不适用于厌氧生物滤池处理的污水是{{c1::SS高的污水}}</h3>
+<div class="outline-text-3" id="text-1-94">
+</div>
+<div id="outline-container-org2f89f19" class="outline-4">
+<h4 id="org2f89f19"><span class="section-number-4">1.94.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-94-1">
+<p>
+不适用于厌氧生物滤池处理的污水是{{c1::SS高的污水}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5f9e976" class="outline-4">
+<h4 id="org5f9e976"><span class="section-number-4">1.94.2</span> A</h4>
+<div class="outline-text-4" id="text-1-94-2">
+<p>
+SS高的污水
+SS低的污水
+工业污水
+剩余污泥
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd971c61" class="outline-3">
+<h3 id="orgd971c61"><span class="section-number-3">1.95</span> 悬浮物浓度高的污水, 厌氧处理工艺最好采用{{c1::接触法}}</h3>
+<div class="outline-text-3" id="text-1-95">
+</div>
+<div id="outline-container-orgf6497c9" class="outline-4">
+<h4 id="orgf6497c9"><span class="section-number-4">1.95.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-95-1">
+<p>
+悬浮物浓度高的污水, 厌氧处理工艺最好采用{{c1::接触法}}
+</p>
+</div>
+</div>
+<div id="outline-container-org8a82da7" class="outline-4">
+<h4 id="org8a82da7"><span class="section-number-4">1.95.2</span> A</h4>
+<div class="outline-text-4" id="text-1-95-2">
+<p>
+接触法
+化粪池
+反应床
+生物滤池
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf416216" class="outline-3">
+<h3 id="orgf416216"><span class="section-number-3">1.96</span> 厌氧生物处理工艺中, 存在污泥回流的工艺是{{c1::接触法}}</h3>
+<div class="outline-text-3" id="text-1-96">
+</div>
+<div id="outline-container-org22b8c8d" class="outline-4">
+<h4 id="org22b8c8d"><span class="section-number-4">1.96.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-96-1">
+<p>
+厌氧生物处理工艺中, 存在污泥回流的工艺是{{c1::接触法}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgdde7cae" class="outline-4">
+<h4 id="orgdde7cae"><span class="section-number-4">1.96.2</span> A</h4>
+<div class="outline-text-4" id="text-1-96-2">
+<p>
+接触法
+生物滤池
+化粪池
+反应床
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0599cf1" class="outline-3">
+<h3 id="org0599cf1"><span class="section-number-3">1.97</span> 厌氧接触法对气体的特殊操作是{{c1::真空脱沼气}}</h3>
+<div class="outline-text-3" id="text-1-97">
+</div>
+<div id="outline-container-org91a44f5" class="outline-4">
+<h4 id="org91a44f5"><span class="section-number-4">1.97.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-97-1">
+<p>
+厌氧接触法对气体的特殊操作是{{c1::真空脱沼气}}
+</p>
+</div>
+</div>
+<div id="outline-container-org24e43ec" class="outline-4">
+<h4 id="org24e43ec"><span class="section-number-4">1.97.2</span> A</h4>
+<div class="outline-text-4" id="text-1-97-2">
+<p>
+真空脱沼气
+真空脱空气
+曝沼气
+曝空气
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc94986f" class="outline-3">
+<h3 id="orgc94986f"><span class="section-number-3">1.98</span> 上流式厌氧污泥床反应器的英文缩写是{{c1::UASB}}</h3>
+<div class="outline-text-3" id="text-1-98">
+</div>
+<div id="outline-container-org453c4b5" class="outline-4">
+<h4 id="org453c4b5"><span class="section-number-4">1.98.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-98-1">
+<p>
+上流式厌氧污泥床反应器的英文缩写是{{c1::UASB}}
+</p>
+</div>
+</div>
+<div id="outline-container-org40956cc" class="outline-4">
+<h4 id="org40956cc"><span class="section-number-4">1.98.2</span> A</h4>
+<div class="outline-text-4" id="text-1-98-2">
+<p>
+UASB
+AB
+CASS
+SBR
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8eab4c4" class="outline-3">
+<h3 id="org8eab4c4"><span class="section-number-3">1.99</span> 下列处理方法中属于化学处理的是{{c1::沉淀法}}</h3>
+<div class="outline-text-3" id="text-1-99">
+</div>
+<div id="outline-container-orgeca9432" class="outline-4">
+<h4 id="orgeca9432"><span class="section-number-4">1.99.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-99-1">
+<p>
+下列处理方法中属于化学处理的是{{c1::沉淀法}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgb100d20" class="outline-4">
+<h4 id="orgb100d20"><span class="section-number-4">1.99.2</span> A</h4>
+<div class="outline-text-4" id="text-1-99-2">
+<p>
+沉淀法
+膜析法
+吸附法
+离子交换法
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2ad85e4" class="outline-3">
+<h3 id="org2ad85e4"><span class="section-number-3">1.100</span> 下列处理方法中属于化学处理的是{{c1::沉淀法}}</h3>
+<div class="outline-text-3" id="text-1-100">
+</div>
+<div id="outline-container-org522adc8" class="outline-4">
+<h4 id="org522adc8"><span class="section-number-4">1.100.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-100-1">
+<p>
+下列处理方法中属于化学处理的是{{c1::沉淀法}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgde6a75d" class="outline-4">
+<h4 id="orgde6a75d"><span class="section-number-4">1.100.2</span> A</h4>
+<div class="outline-text-4" id="text-1-100-2">
+<p>
+混凝法
+吸附法
+膜析法
+萃取法
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1592556" class="outline-3">
+<h3 id="org1592556"><span class="section-number-3">1.101</span> 下列处理方法中属于化学处理的是{{c1::沉淀法}}</h3>
+<div class="outline-text-3" id="text-1-101">
+</div>
+<div id="outline-container-orgb662dd5" class="outline-4">
+<h4 id="orgb662dd5"><span class="section-number-4">1.101.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-101-1">
+<p>
+下列处理方法中属于化学处理的是{{c1::沉淀法}}
+</p>
+</div>
+</div>
+<div id="outline-container-org982e2c2" class="outline-4">
+<h4 id="org982e2c2"><span class="section-number-4">1.101.2</span> A</h4>
+<div class="outline-text-4" id="text-1-101-2">
+<p>
+中和法
+膜析法
+吸附法
+萃取法
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org25bbf8e" class="outline-3">
+<h3 id="org25bbf8e"><span class="section-number-3">1.102</span> 下列处理方法中属于化学处理的是{{c1::沉淀法}}</h3>
+<div class="outline-text-3" id="text-1-102">
+</div>
+<div id="outline-container-org496684c" class="outline-4">
+<h4 id="org496684c"><span class="section-number-4">1.102.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-102-1">
+<p>
+下列处理方法中属于化学处理的是{{c1::沉淀法}}
+</p>
+</div>
+</div>
+<div id="outline-container-org6516e57" class="outline-4">
+<h4 id="org6516e57"><span class="section-number-4">1.102.2</span> A</h4>
+<div class="outline-text-4" id="text-1-102-2">
+<p>
+氧化还原法
+膜析法
+吸附法
+萃取法
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org853df9e" class="outline-3">
+<h3 id="org853df9e"><span class="section-number-3">1.103</span> 下列中和剂中属于酸性中和剂的是{{c1::烟道气}}</h3>
+<div class="outline-text-3" id="text-1-103">
+</div>
+<div id="outline-container-org1462209" class="outline-4">
+<h4 id="org1462209"><span class="section-number-4">1.103.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-103-1">
+<p>
+下列中和剂中属于酸性中和剂的是{{c1::烟道气}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgeb54958" class="outline-4">
+<h4 id="orgeb54958"><span class="section-number-4">1.103.2</span> A</h4>
+<div class="outline-text-4" id="text-1-103-2">
+<p>
+烟道气
+石灰石
+白云石
+电石渣
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org68b990e" class="outline-3">
+<h3 id="org68b990e"><span class="section-number-3">1.104</span> 下列处理方法中, 通常可以回收废水中有用物质的是{{c1::物理化学法}}</h3>
+<div class="outline-text-3" id="text-1-104">
+</div>
+<div id="outline-container-org886ef7b" class="outline-4">
+<h4 id="org886ef7b"><span class="section-number-4">1.104.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-104-1">
+<p>
+下列处理方法中, 通常可以回收废水中有用物质的是{{c1::物理化学法}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgcd7e39d" class="outline-4">
+<h4 id="orgcd7e39d"><span class="section-number-4">1.104.2</span> A</h4>
+<div class="outline-text-4" id="text-1-104-2">
+<p>
+物理化学法
+化学法
+好氧法
+厌氧法
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb615521" class="outline-3">
+<h3 id="orgb615521"><span class="section-number-3">1.105</span> 下列混凝剂中, 有毒性的是{{c1::聚丙烯酰胺}}</h3>
+<div class="outline-text-3" id="text-1-105">
+</div>
+<div id="outline-container-orgaf42472" class="outline-4">
+<h4 id="orgaf42472"><span class="section-number-4">1.105.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-105-1">
+<p>
+下列混凝剂中, 有毒性的是{{c1::聚丙烯酰胺}}
+</p>
+</div>
+</div>
+<div id="outline-container-org27d1ddd" class="outline-4">
+<h4 id="org27d1ddd"><span class="section-number-4">1.105.2</span> A</h4>
+<div class="outline-text-4" id="text-1-105-2">
+<p>
+聚丙烯酰胺
+三氯化铁
+硫酸铁
+硫酸铝
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org075b72f" class="outline-3">
+<h3 id="org075b72f"><span class="section-number-3">1.106</span> 化学沉淀法工艺处理废水中的{{c1::离子}}</h3>
+<div class="outline-text-3" id="text-1-106">
+</div>
+<div id="outline-container-org4aed365" class="outline-4">
+<h4 id="org4aed365"><span class="section-number-4">1.106.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-106-1">
+<p>
+化学沉淀法工艺处理废水中的{{c1::离子}}
+</p>
+</div>
+</div>
+<div id="outline-container-org505bd12" class="outline-4">
+<h4 id="org505bd12"><span class="section-number-4">1.106.2</span> A</h4>
+<div class="outline-text-4" id="text-1-106-2">
+<p>
+离子
+悬浮物
+BOD
+COD
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org680ccb5" class="outline-3">
+<h3 id="org680ccb5"><span class="section-number-3">1.107</span> 下列几种物质中, 属于还原剂的是{{c1::金属铁}}</h3>
+<div class="outline-text-3" id="text-1-107">
+</div>
+<div id="outline-container-org5667f53" class="outline-4">
+<h4 id="org5667f53"><span class="section-number-4">1.107.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-107-1">
+<p>
+下列几种物质中, 属于还原剂的是{{c1::金属铁}}
+</p>
+</div>
+</div>
+<div id="outline-container-org4c9008b" class="outline-4">
+<h4 id="org4c9008b"><span class="section-number-4">1.107.2</span> A</h4>
+<div class="outline-text-4" id="text-1-107-2">
+<p>
+金属铁
+氯气
+臭氧
+过氧化氢
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf05de6d" class="outline-3">
+<h3 id="orgf05de6d"><span class="section-number-3">1.108</span> 下列铬的各种化合物中, 毒性最大的是{{c1::CrO<sub>4</sub><sup>2-</sup>}}</h3>
+<div class="outline-text-3" id="text-1-108">
+</div>
+<div id="outline-container-org03c6444" class="outline-4">
+<h4 id="org03c6444"><span class="section-number-4">1.108.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-108-1">
+<p>
+下列铬的各种化合物中, 毒性最大的是{{c1::CrO<sub>4</sub><sup>2-</sup>}}
+</p>
+</div>
+</div>
+<div id="outline-container-org40ab711" class="outline-4">
+<h4 id="org40ab711"><span class="section-number-4">1.108.2</span> A</h4>
+<div class="outline-text-4" id="text-1-108-2">
+<p>
+CrO<sub>4</sub><sup>2-</sup>
+Cr(OH)<sub>3</sub>
+Cr<sup>3+</sup>
+Cr
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org90ef15a" class="outline-3">
+<h3 id="org90ef15a"><span class="section-number-3">1.109</span> 在环境工程中, 最广泛使用的吸附剂是{{c1::活性炭}}</h3>
+<div class="outline-text-3" id="text-1-109">
+</div>
+<div id="outline-container-org8befbda" class="outline-4">
+<h4 id="org8befbda"><span class="section-number-4">1.109.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-109-1">
+<p>
+在环境工程中, 最广泛使用的吸附剂是{{c1::活性炭}}
+</p>
+</div>
+</div>
+<div id="outline-container-org7e76e14" class="outline-4">
+<h4 id="org7e76e14"><span class="section-number-4">1.109.2</span> A</h4>
+<div class="outline-text-4" id="text-1-109-2">
+<p>
+活性炭
+硅胶
+沸石
+硅藻土
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd71e451" class="outline-3">
+<h3 id="orgd71e451"><span class="section-number-3">1.110</span> 能多次再生, 反复使用的吸附剂是{{c1::活性炭}}</h3>
+<div class="outline-text-3" id="text-1-110">
+</div>
+<div id="outline-container-org9f1885e" class="outline-4">
+<h4 id="org9f1885e"><span class="section-number-4">1.110.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-110-1">
+<p>
+能多次再生, 反复使用的吸附剂是{{c1::活性炭}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgabd7ec0" class="outline-4">
+<h4 id="orgabd7ec0"><span class="section-number-4">1.110.2</span> A</h4>
+<div class="outline-text-4" id="text-1-110-2">
+<p>
+活性炭
+沸石
+硅胶
+硅藻土
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge6521c9" class="outline-3">
+<h3 id="orge6521c9"><span class="section-number-3">1.111</span> 价格最便宜的吸附剂是{{c1::腐植酸}}</h3>
+<div class="outline-text-3" id="text-1-111">
+</div>
+<div id="outline-container-orgc4e007b" class="outline-4">
+<h4 id="orgc4e007b"><span class="section-number-4">1.111.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-111-1">
+<p>
+价格最便宜的吸附剂是{{c1::腐植酸}}
+</p>
+</div>
+</div>
+<div id="outline-container-org653047d" class="outline-4">
+<h4 id="org653047d"><span class="section-number-4">1.111.2</span> A</h4>
+<div class="outline-text-4" id="text-1-111-2">
+<p>
+腐植酸
+沸石
+活性炭
+硅藻土
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org94e242b" class="outline-3">
+<h3 id="org94e242b"><span class="section-number-3">1.112</span> 移动床吸附装置所称"移动"的物质是指{{c1::吸附剂}}</h3>
+<div class="outline-text-3" id="text-1-112">
+</div>
+<div id="outline-container-orgd1cff5a" class="outline-4">
+<h4 id="orgd1cff5a"><span class="section-number-4">1.112.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-112-1">
+<p>
+移动床吸附装置所称"移动"的物质是指{{c1::吸附剂}}
+</p>
+</div>
+</div>
+<div id="outline-container-org3ce1db5" class="outline-4">
+<h4 id="org3ce1db5"><span class="section-number-4">1.112.2</span> A</h4>
+<div class="outline-text-4" id="text-1-112-2">
+<p>
+吸附剂
+床体
+水
+污染物
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga996b39" class="outline-3">
+<h3 id="orga996b39"><span class="section-number-3">1.113</span> 处理过程中不需要进行反冲洗的吸附床是{{c1::流化床}}</h3>
+<div class="outline-text-3" id="text-1-113">
+</div>
+<div id="outline-container-org169e679" class="outline-4">
+<h4 id="org169e679"><span class="section-number-4">1.113.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-113-1">
+<p>
+处理过程中不需要进行反冲洗的吸附床是{{c1::流化床}}
+</p>
+</div>
+</div>
+<div id="outline-container-org23f92e9" class="outline-4">
+<h4 id="org23f92e9"><span class="section-number-4">1.113.2</span> A</h4>
+<div class="outline-text-4" id="text-1-113-2">
+<p>
+流化床
+固定床
+串联床
+移动床
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbfe7028" class="outline-3">
+<h3 id="orgbfe7028"><span class="section-number-3">1.114</span> 离子交换法主要用于处理{{c1::金属废水}}</h3>
+<div class="outline-text-3" id="text-1-114">
+</div>
+<div id="outline-container-org3dac322" class="outline-4">
+<h4 id="org3dac322"><span class="section-number-4">1.114.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-114-1">
+<p>
+离子交换法主要用于处理{{c1::金属废水}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgf82c38c" class="outline-4">
+<h4 id="orgf82c38c"><span class="section-number-4">1.114.2</span> A</h4>
+<div class="outline-text-4" id="text-1-114-2">
+<p>
+金属废水
+无机废水
+有机废水
+生活废水
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3601ef6" class="outline-3">
+<h3 id="org3601ef6"><span class="section-number-3">1.115</span> 来自污水生物处理系统的二沉池污泥叫{{c1::剩余污泥}}</h3>
+<div class="outline-text-3" id="text-1-115">
+</div>
+<div id="outline-container-org81466f4" class="outline-4">
+<h4 id="org81466f4"><span class="section-number-4">1.115.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-115-1">
+<p>
+来自污水生物处理系统的二沉池污泥叫{{c1::剩余污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgd2707cf" class="outline-4">
+<h4 id="orgd2707cf"><span class="section-number-4">1.115.2</span> A</h4>
+<div class="outline-text-4" id="text-1-115-2">
+<p>
+剩余污泥
+初沉污泥
+消化污泥
+化学污泥
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org490f0cc" class="outline-3">
+<h3 id="org490f0cc"><span class="section-number-3">1.116</span> 来自污水厌氧生物处理系统的污泥叫{{c1::消化污泥}}</h3>
+<div class="outline-text-3" id="text-1-116">
+</div>
+<div id="outline-container-org2048b53" class="outline-4">
+<h4 id="org2048b53"><span class="section-number-4">1.116.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-116-1">
+<p>
+来自污水厌氧生物处理系统的污泥叫{{c1::消化污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-org86a34c3" class="outline-4">
+<h4 id="org86a34c3"><span class="section-number-4">1.116.2</span> A</h4>
+<div class="outline-text-4" id="text-1-116-2">
+<p>
+消化污泥
+剩余污泥
+初沉污泥
+化学污泥
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7861b68" class="outline-3">
+<h3 id="org7861b68"><span class="section-number-3">1.117</span> 混凝法处理习系统的产生的污泥将叫{{c1::化学污泥}}</h3>
+<div class="outline-text-3" id="text-1-117">
+</div>
+<div id="outline-container-org2cc3be0" class="outline-4">
+<h4 id="org2cc3be0"><span class="section-number-4">1.117.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-117-1">
+<p>
+混凝法处理习系统的产生的污泥将叫{{c1::化学污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-org03609a4" class="outline-4">
+<h4 id="org03609a4"><span class="section-number-4">1.117.2</span> A</h4>
+<div class="outline-text-4" id="text-1-117-2">
+<p>
+化学污泥
+消化污泥
+初沉污泥
+剩余污泥
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcf9cc8a" class="outline-3">
+<h3 id="orgcf9cc8a"><span class="section-number-3">1.118</span> 挥发性固体所指定的挥发温度是{{c1::600摄氏度}}</h3>
+<div class="outline-text-3" id="text-1-118">
+</div>
+<div id="outline-container-orgbf86697" class="outline-4">
+<h4 id="orgbf86697"><span class="section-number-4">1.118.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-118-1">
+<p>
+挥发性固体所指定的挥发温度是{{c1::600摄氏度}}
+</p>
+</div>
+</div>
+<div id="outline-container-org2aaa5ad" class="outline-4">
+<h4 id="org2aaa5ad"><span class="section-number-4">1.118.2</span> A</h4>
+<div class="outline-text-4" id="text-1-118-2">
+<p>
+600摄氏度
+700摄氏度
+800摄氏度
+500摄氏度
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc0bf450" class="outline-3">
+<h3 id="orgc0bf450"><span class="section-number-3">1.119</span> 下列污泥中含水率最高的是{{c1::活性污泥}}</h3>
+<div class="outline-text-3" id="text-1-119">
+</div>
+<div id="outline-container-org8e1cfae" class="outline-4">
+<h4 id="org8e1cfae"><span class="section-number-4">1.119.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-119-1">
+<p>
+下列污泥中含水率最高的是{{c1::活性污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-orga136eee" class="outline-4">
+<h4 id="orga136eee"><span class="section-number-4">1.119.2</span> A</h4>
+<div class="outline-text-4" id="text-1-119-2">
+<p>
+活性污泥
+生物膜污泥
+初沉污泥
+沉砂池污泥
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgea2177a" class="outline-3">
+<h3 id="orgea2177a"><span class="section-number-3">1.120</span> 下列污泥中含水率最低的是{{c1::沉砂池污泥}}</h3>
+<div class="outline-text-3" id="text-1-120">
+</div>
+<div id="outline-container-orga2d36d7" class="outline-4">
+<h4 id="orga2d36d7"><span class="section-number-4">1.120.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-120-1">
+<p>
+下列污泥中含水率最低的是{{c1::沉砂池污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgc14c73e" class="outline-4">
+<h4 id="orgc14c73e"><span class="section-number-4">1.120.2</span> A</h4>
+<div class="outline-text-4" id="text-1-120-2">
+<p>
+沉砂池污泥
+活性污泥
+生物膜污泥
+初沉污泥
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0341c59" class="outline-3">
+<h3 id="org0341c59"><span class="section-number-3">1.121</span> 存在于污泥颗粒间隙中的水称为{{c1::游离水}}</h3>
+<div class="outline-text-3" id="text-1-121">
+</div>
+<div id="outline-container-org0f7fbd0" class="outline-4">
+<h4 id="org0f7fbd0"><span class="section-number-4">1.121.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-121-1">
+<p>
+存在于污泥颗粒间隙中的水称为{{c1::游离水}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgeaf5faa" class="outline-4">
+<h4 id="orgeaf5faa"><span class="section-number-4">1.121.2</span> A</h4>
+<div class="outline-text-4" id="text-1-121-2">
+<p>
+游离水
+内部水
+附着水
+毛细水
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org19fc855" class="outline-3">
+<h3 id="org19fc855"><span class="section-number-3">1.122</span> 存在于污泥细胞中的水称为{{c1::内部水}}</h3>
+<div class="outline-text-3" id="text-1-122">
+</div>
+<div id="outline-container-org3668c83" class="outline-4">
+<h4 id="org3668c83"><span class="section-number-4">1.122.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-122-1">
+<p>
+存在于污泥细胞中的水称为存在于污泥颗粒间隙中的水称为{{c1::内部水}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9ac7de8" class="outline-4">
+<h4 id="org9ac7de8"><span class="section-number-4">1.122.2</span> A</h4>
+<div class="outline-text-4" id="text-1-122-2">
+<p>
+内部水
+游离水
+附着水
+毛细水
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org16c9762" class="outline-3">
+<h3 id="org16c9762"><span class="section-number-3">1.123</span> 能流动的污泥含水率最低为{{c1::80%}}</h3>
+<div class="outline-text-3" id="text-1-123">
+</div>
+<div id="outline-container-orge45fee1" class="outline-4">
+<h4 id="orge45fee1"><span class="section-number-4">1.123.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-123-1">
+<p>
+能流动的污泥含水率最低为{{c1::80%}}
+</p>
+</div>
+</div>
+<div id="outline-container-org4972f52" class="outline-4">
+<h4 id="org4972f52"><span class="section-number-4">1.123.2</span> A</h4>
+<div class="outline-text-4" id="text-1-123-2">
+<p>
+80%
+70%
+60%
+50%
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7af5a11" class="outline-3">
+<h3 id="org7af5a11"><span class="section-number-3">1.124</span> 通常称为固态的污泥含水率最高为{{c1::60%}}</h3>
+<div class="outline-text-3" id="text-1-124">
+</div>
+<div id="outline-container-org0689e37" class="outline-4">
+<h4 id="org0689e37"><span class="section-number-4">1.124.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-124-1">
+<p>
+通常称为固态的污泥含水率最高为{{c1::60%}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgeada2eb" class="outline-4">
+<h4 id="orgeada2eb"><span class="section-number-4">1.124.2</span> A</h4>
+<div class="outline-text-4" id="text-1-124-2">
+<p>
+60%
+70%
+80%
+50%
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdcb81e8" class="outline-3">
+<h3 id="orgdcb81e8"><span class="section-number-3">1.125</span> 污泥含水率从99%降至98%, 污泥体积减少{{c1::50%}}</h3>
+<div class="outline-text-3" id="text-1-125">
+</div>
+<div id="outline-container-orgaa16d7d" class="outline-4">
+<h4 id="orgaa16d7d"><span class="section-number-4">1.125.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-125-1">
+<p>
+污泥含水率从99%降至98%, 污泥体积减少{{c1::50%}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgeacad68" class="outline-4">
+<h4 id="orgeacad68"><span class="section-number-4">1.125.2</span> A</h4>
+<div class="outline-text-4" id="text-1-125-2">
+<p>
+50%
+100%
+10%
+1%
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd4c0e9e" class="outline-3">
+<h3 id="orgd4c0e9e"><span class="section-number-3">1.126</span> 污泥含水率从99%降至96%, 污泥体积为原来的25%{{c1::25%}}</h3>
+<div class="outline-text-3" id="text-1-126">
+</div>
+<div id="outline-container-org5bebbf8" class="outline-4">
+<h4 id="org5bebbf8"><span class="section-number-4">1.126.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-126-1">
+<p>
+污泥含水率从99%降至96%, 污泥体积为原来的25%{{c1::25%}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0b70c49" class="outline-4">
+<h4 id="org0b70c49"><span class="section-number-4">1.126.2</span> A</h4>
+<div class="outline-text-4" id="text-1-126-2">
+<p>
+25%
+50%
+75%
+10%
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge17052b" class="outline-3">
+<h3 id="orge17052b"><span class="section-number-3">1.127</span> 污泥好氧消化一般所采用的鼓风曝气装置是{{c1::中气泡}}</h3>
+<div class="outline-text-3" id="text-1-127">
+</div>
+<div id="outline-container-orgc088d21" class="outline-4">
+<h4 id="orgc088d21"><span class="section-number-4">1.127.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-127-1">
+<p>
+污泥好氧消化一般所采用的鼓风曝气装置是{{c1::中气泡}}
+</p>
+</div>
+</div>
+<div id="outline-container-org6193ceb" class="outline-4">
+<h4 id="org6193ceb"><span class="section-number-4">1.127.2</span> A</h4>
+<div class="outline-text-4" id="text-1-127-2">
+<p>
+中气泡
+大气泡
+小气泡
+微气泡
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc659db2" class="outline-3">
+<h3 id="orgc659db2"><span class="section-number-3">1.128</span> 污泥厌氧消化所产生的消化气, 其1m<sup>3的热值相当于煤</sup>{{c1::1.0kg}}</h3>
+<div class="outline-text-3" id="text-1-128">
+</div>
+<div id="outline-container-org04ee26a" class="outline-4">
+<h4 id="org04ee26a"><span class="section-number-4">1.128.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-128-1">
+<p>
+污泥厌氧消化所产生的消化气, 其1m<sup>3的热值相当于煤</sup>{{c1::1.0kg}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgee410ad" class="outline-4">
+<h4 id="orgee410ad"><span class="section-number-4">1.128.2</span> A</h4>
+<div class="outline-text-4" id="text-1-128-2">
+<p>
+1.0kg
+1.5kg
+2.0kg
+0.5kg
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge60aa33" class="outline-3">
+<h3 id="orge60aa33"><span class="section-number-3">1.129</span> 污泥脱水一般要将污泥含水率降至{{c1::80%}}</h3>
+<div class="outline-text-3" id="text-1-129">
+</div>
+<div id="outline-container-orgd5aa446" class="outline-4">
+<h4 id="orgd5aa446"><span class="section-number-4">1.129.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-129-1">
+<p>
+污泥脱水一般要将污泥含水率降至{{c1::80%}}
+</p>
+</div>
+</div>
+<div id="outline-container-org406105d" class="outline-4">
+<h4 id="org406105d"><span class="section-number-4">1.129.2</span> A</h4>
+<div class="outline-text-4" id="text-1-129-2">
+<p>
+80%
+70%
+60%
+50%
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdb23df7" class="outline-3">
+<h3 id="orgdb23df7"><span class="section-number-3">1.130</span> 下列污泥脱水方法中, 所用外力为自然力的是{{c1::干化场}}</h3>
+<div class="outline-text-3" id="text-1-130">
+</div>
+<div id="outline-container-orgc09d344" class="outline-4">
+<h4 id="orgc09d344"><span class="section-number-4">1.130.1</span> Q</h4>
+<div class="outline-text-4" id="text-1-130-1">
+<p>
+下列污泥脱水方法中, 所用外力为自然力的是{{c1::干化场}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgfb5919c" class="outline-4">
+<h4 id="orgfb5919c"><span class="section-number-4">1.130.2</span> A</h4>
+<div class="outline-text-4" id="text-1-130-2">
+<p>
+干化场
+真空过滤
+压滤
+离心脱水
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org02abcac" class="outline-2">
+<h2 id="org02abcac"><span class="section-number-2">2</span> 填空题</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org6a89048" class="outline-3">
+<h3 id="org6a89048"><span class="section-number-3">2.1</span> 重金属排入水体后, 可以通过食物链{{c1::富集}}</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgd6aed57" class="outline-4">
+<h4 id="orgd6aed57"><span class="section-number-4">2.1.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+重金属排入水体后, 可以通过食物链{{c1::富集}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgf1f81a3" class="outline-4">
+<h4 id="orgf1f81a3"><span class="section-number-4">2.1.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org1f5027d" class="outline-3">
+<h3 id="org1f5027d"><span class="section-number-3">2.2</span> 河流的竖向混合阶段是在{{c1::深度}}方向上达到浓度分布均匀.</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org89b6445" class="outline-4">
+<h4 id="org89b6445"><span class="section-number-4">2.2.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+河流的竖向混合阶段是在{{c1::深度}}方向上达到浓度分布均匀.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdd78bd6" class="outline-4">
+<h4 id="orgdd78bd6"><span class="section-number-4">2.2.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgc38d081" class="outline-3">
+<h3 id="orgc38d081"><span class="section-number-3">2.3</span> 水体中怪味道经常与水中的{{c1::盐分}}有关</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-org76d8cd5" class="outline-4">
+<h4 id="org76d8cd5"><span class="section-number-4">2.3.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<p>
+水体中怪味道经常与水中的{{c1::盐分}}有关
+</p>
+</div>
+</div>
+<div id="outline-container-org0aedc50" class="outline-4">
+<h4 id="org0aedc50"><span class="section-number-4">2.3.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org1b1a628" class="outline-3">
+<h3 id="org1b1a628"><span class="section-number-3">2.4</span> 污水中的污染物在水中能够分解的是{{c1::非持久性}}污染物</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-org3136922" class="outline-4">
+<h4 id="org3136922"><span class="section-number-4">2.4.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<p>
+污水中的污染物在水中能够分解的是{{c1::非持久性}}污染物
+</p>
+</div>
+</div>
+<div id="outline-container-orgf21b61f" class="outline-4">
+<h4 id="orgf21b61f"><span class="section-number-4">2.4.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org3104899" class="outline-3">
+<h3 id="org3104899"><span class="section-number-3">2.5</span> 反映河流等的复氧速度的是{{c1::S-P}}公式</h3>
+<div class="outline-text-3" id="text-2-5">
+</div>
+<div id="outline-container-orgf1129cd" class="outline-4">
+<h4 id="orgf1129cd"><span class="section-number-4">2.5.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-5-1">
+<p>
+反映河流等的复氧速度的是{{c1::S-P}}公式
+</p>
+</div>
+</div>
+<div id="outline-container-orgf81c2cf" class="outline-4">
+<h4 id="orgf81c2cf"><span class="section-number-4">2.5.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org26132e8" class="outline-3">
+<h3 id="org26132e8"><span class="section-number-3">2.6</span> S-P公式中复氧速度是用{{c1::氧亏值}}来表示</h3>
+<div class="outline-text-3" id="text-2-6">
+</div>
+<div id="outline-container-org046d9b7" class="outline-4">
+<h4 id="org046d9b7"><span class="section-number-4">2.6.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-6-1">
+<p>
+S-P公式中复氧速度是用{{c1::氧亏值}}来表示
+</p>
+</div>
+</div>
+<div id="outline-container-org01fa39d" class="outline-4">
+<h4 id="org01fa39d"><span class="section-number-4">2.6.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org9424c4a" class="outline-3">
+<h3 id="org9424c4a"><span class="section-number-3">2.7</span> 利于利用水的冲击力和重力作用使筛网产生旋转运动的是{{c1::水力}}筛网</h3>
+<div class="outline-text-3" id="text-2-7">
+</div>
+<div id="outline-container-org273ff04" class="outline-4">
+<h4 id="org273ff04"><span class="section-number-4">2.7.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-7-1">
+<p>
+利于利用水的冲击力和重力作用使筛网产生旋转运动的是{{c1::水力}}筛网
+</p>
+</div>
+</div>
+<div id="outline-container-orgf4763a6" class="outline-4">
+<h4 id="orgf4763a6"><span class="section-number-4">2.7.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgef369c4" class="outline-3">
+<h3 id="orgef369c4"><span class="section-number-3">2.8</span> 沉淀法是利用水中悬浮颗粒的可沉降性能, 使其在{{c1::重力}}的作用下沉淀</h3>
+<div class="outline-text-3" id="text-2-8">
+</div>
+<div id="outline-container-orgd908616" class="outline-4">
+<h4 id="orgd908616"><span class="section-number-4">2.8.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-8-1">
+<p>
+沉淀法是利用水中悬浮颗粒的可沉降性能, 使其在{{c1::重力}}的作用下沉淀
+</p>
+</div>
+</div>
+<div id="outline-container-org18ccea9" class="outline-4">
+<h4 id="org18ccea9"><span class="section-number-4">2.8.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org6d00cb3" class="outline-3">
+<h3 id="org6d00cb3"><span class="section-number-3">2.9</span> 在生化处理工艺之前的沉淀池叫{{c1::初沉池}}</h3>
+<div class="outline-text-3" id="text-2-9">
+</div>
+<div id="outline-container-orga838d93" class="outline-4">
+<h4 id="orga838d93"><span class="section-number-4">2.9.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-9-1">
+<p>
+在生化处理工艺之前的沉淀池叫{{c1::初沉池}}
+</p>
+</div>
+</div>
+<div id="outline-container-org6b807ed" class="outline-4">
+<h4 id="org6b807ed"><span class="section-number-4">2.9.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgb24f1a6" class="outline-3">
+<h3 id="orgb24f1a6"><span class="section-number-3">2.10</span> 比重较大的砂粒在沉砂池中的沉淀可以看做{{c1::自由}}自由沉淀</h3>
+<div class="outline-text-3" id="text-2-10">
+</div>
+<div id="outline-container-org54a2ae5" class="outline-4">
+<h4 id="org54a2ae5"><span class="section-number-4">2.10.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-10-1">
+<p>
+比重较大的砂粒在沉砂池中的沉淀可以看做{{c1::自由}}自由沉淀
+</p>
+</div>
+</div>
+<div id="outline-container-org3754e10" class="outline-4">
+<h4 id="org3754e10"><span class="section-number-4">2.10.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgfe007be" class="outline-3">
+<h3 id="orgfe007be"><span class="section-number-3">2.11</span> 自由沉淀的轨迹线是一条{{c1::直线}}</h3>
+<div class="outline-text-3" id="text-2-11">
+</div>
+<div id="outline-container-orga6a5b52" class="outline-4">
+<h4 id="orga6a5b52"><span class="section-number-4">2.11.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-11-1">
+<p>
+自由沉淀的轨迹线是一条{{c1::直线}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0ea9a0f" class="outline-4">
+<h4 id="org0ea9a0f"><span class="section-number-4">2.11.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org2d022df" class="outline-3">
+<h3 id="org2d022df"><span class="section-number-3">2.12</span> 絮凝沉淀的轨迹是一条鞋履{{c1::越来越大}}曲线</h3>
+<div class="outline-text-3" id="text-2-12">
+</div>
+<div id="outline-container-org05480bc" class="outline-4">
+<h4 id="org05480bc"><span class="section-number-4">2.12.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-12-1">
+<p>
+絮凝沉淀的轨迹是一条鞋履{{c1::越来越大}}曲线
+</p>
+</div>
+</div>
+<div id="outline-container-org4bcd09d" class="outline-4">
+<h4 id="org4bcd09d"><span class="section-number-4">2.12.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgb5cc657" class="outline-3">
+<h3 id="orgb5cc657"><span class="section-number-3">2.13</span> 反映沉淀池效率的参数q, 称为沉淀池的{{c1::表面负荷率}}</h3>
+<div class="outline-text-3" id="text-2-13">
+</div>
+<div id="outline-container-orgf8ec8ee" class="outline-4">
+<h4 id="orgf8ec8ee"><span class="section-number-4">2.13.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-13-1">
+<p>
+反映沉淀池效率的参数q, 称为沉淀池的{{c1::表面负荷率}}
+</p>
+</div>
+</div>
+<div id="outline-container-org80fd4b5" class="outline-4">
+<h4 id="org80fd4b5"><span class="section-number-4">2.13.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgf3fcd09" class="outline-3">
+<h3 id="orgf3fcd09"><span class="section-number-3">2.14</span> 当颗粒沉速u&lt;u<sub>0时</sub>, 其能否沉淀取决于进水时她的{{c1::深度}}</h3>
+<div class="outline-text-3" id="text-2-14">
+</div>
+<div id="outline-container-org3f86630" class="outline-4">
+<h4 id="org3f86630"><span class="section-number-4">2.14.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-14-1">
+<p>
+当颗粒沉速u&lt;u<sub>0时</sub>, 其能否沉淀取决于进水时她的{{c1::深度}}
+</p>
+</div>
+</div>
+<div id="outline-container-org013e21e" class="outline-4">
+<h4 id="org013e21e"><span class="section-number-4">2.14.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orga2a4f94" class="outline-3">
+<h3 id="orga2a4f94"><span class="section-number-3">2.15</span> 人工排砂时, 排砂管的管径一般不小于{{c1::200}}mm</h3>
+<div class="outline-text-3" id="text-2-15">
+</div>
+<div id="outline-container-orgf2bb2a7" class="outline-4">
+<h4 id="orgf2bb2a7"><span class="section-number-4">2.15.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-15-1">
+<p>
+人工排砂时, 排砂管的管径一般不小于{{c1::200}}mm
+</p>
+</div>
+</div>
+<div id="outline-container-org2c1d3ea" class="outline-4">
+<h4 id="org2c1d3ea"><span class="section-number-4">2.15.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org258718c" class="outline-3">
+<h3 id="org258718c"><span class="section-number-3">2.16</span> 旋流沉砂池中比重较大的砂粒被{{c1::离心力}}甩向池壁而沉淀</h3>
+<div class="outline-text-3" id="text-2-16">
+</div>
+<div id="outline-container-org42ea36b" class="outline-4">
+<h4 id="org42ea36b"><span class="section-number-4">2.16.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-16-1">
+<p>
+旋流沉砂池中比重较大的砂粒被{{c1::离心力}}甩向池壁而沉淀
+</p>
+</div>
+</div>
+<div id="outline-container-org0c4e91e" class="outline-4">
+<h4 id="org0c4e91e"><span class="section-number-4">2.16.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org916d73a" class="outline-3">
+<h3 id="org916d73a"><span class="section-number-3">2.17</span> 初沉池的去除对象是污水中的{{c1::悬浮颗粒}}</h3>
+<div class="outline-text-3" id="text-2-17">
+</div>
+<div id="outline-container-org3b2a836" class="outline-4">
+<h4 id="org3b2a836"><span class="section-number-4">2.17.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-17-1">
+<p>
+初沉池的去除对象是污水中的{{c1::悬浮颗粒}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgd75973d" class="outline-4">
+<h4 id="orgd75973d"><span class="section-number-4">2.17.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org39e0acf" class="outline-3">
+<h3 id="org39e0acf"><span class="section-number-3">2.18</span> 在沉淀过程过程中, 水流速度对颗粒的沉淀有比较大的影响的是{{c1::连续}}运行的沉淀池</h3>
+<div class="outline-text-3" id="text-2-18">
+</div>
+<div id="outline-container-org389cdbc" class="outline-4">
+<h4 id="org389cdbc"><span class="section-number-4">2.18.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-18-1">
+<p>
+在沉淀过程过程中, 水流速度对颗粒的沉淀有比较大的影响的是{{c1::连续}}运行的沉淀池
+</p>
+</div>
+</div>
+<div id="outline-container-org2266840" class="outline-4">
+<h4 id="org2266840"><span class="section-number-4">2.18.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orga5ece46" class="outline-3">
+<h3 id="orga5ece46"><span class="section-number-3">2.19</span> 异养微生物所利用的底物是{{c1::有机物}}</h3>
+<div class="outline-text-3" id="text-2-19">
+</div>
+<div id="outline-container-org01dd5e2" class="outline-4">
+<h4 id="org01dd5e2"><span class="section-number-4">2.19.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-19-1">
+<p>
+异养微生物所利用的底物是{{c1::有机物}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge1d2ab7" class="outline-4">
+<h4 id="orge1d2ab7"><span class="section-number-4">2.19.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgd68b9f0" class="outline-3">
+<h3 id="orgd68b9f0"><span class="section-number-3">2.20</span> 自养微生物所利用的底物是{{c1::无机物}}</h3>
+<div class="outline-text-3" id="text-2-20">
+</div>
+<div id="outline-container-orgeb90fcf" class="outline-4">
+<h4 id="orgeb90fcf"><span class="section-number-4">2.20.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-20-1">
+<p>
+自养微生物所利用的底物是{{c1::无机物}}
+</p>
+</div>
+</div>
+<div id="outline-container-org5669a40" class="outline-4">
+<h4 id="org5669a40"><span class="section-number-4">2.20.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgfc468d6" class="outline-3">
+<h3 id="orgfc468d6"><span class="section-number-3">2.21</span> 好氧呼吸的最终电子受体是{{c1::分子氧}}</h3>
+<div class="outline-text-3" id="text-2-21">
+</div>
+<div id="outline-container-orgf725dd9" class="outline-4">
+<h4 id="orgf725dd9"><span class="section-number-4">2.21.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-21-1">
+<p>
+好氧呼吸的最终电子受体是{{c1::分子氧}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgd99e18f" class="outline-4">
+<h4 id="orgd99e18f"><span class="section-number-4">2.21.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgfdc5806" class="outline-3">
+<h3 id="orgfdc5806"><span class="section-number-3">2.22</span> 在缺氧条件下, 污水中氮被还原为但其的反应是{{c1::反硝化反应}}</h3>
+<div class="outline-text-3" id="text-2-22">
+</div>
+<div id="outline-container-orga3788c5" class="outline-4">
+<h4 id="orga3788c5"><span class="section-number-4">2.22.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-22-1">
+<p>
+在缺氧条件下, 污水中氮被还原为但其的反应是{{c1::反硝化反应}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9f58227" class="outline-4">
+<h4 id="org9f58227"><span class="section-number-4">2.22.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgaffafcf" class="outline-3">
+<h3 id="orgaffafcf"><span class="section-number-3">2.23</span> 在污水生物处理脱磷过程中, 磷最终存在于{{c1::污泥}}</h3>
+<div class="outline-text-3" id="text-2-23">
+</div>
+<div id="outline-container-org3ef9933" class="outline-4">
+<h4 id="org3ef9933"><span class="section-number-4">2.23.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-23-1">
+<p>
+在污水生物处理脱磷过程中, 磷最终存在于{{c1::污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-org8a5d552" class="outline-4">
+<h4 id="org8a5d552"><span class="section-number-4">2.23.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgfd73e15" class="outline-3">
+<h3 id="orgfd73e15"><span class="section-number-3">2.24</span> 活性污泥是类似矾花状不定形的{{c1::絮凝体}}</h3>
+<div class="outline-text-3" id="text-2-24">
+</div>
+<div id="outline-container-orgcff8985" class="outline-4">
+<h4 id="orgcff8985"><span class="section-number-4">2.24.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-24-1">
+<p>
+活性污泥是类似矾花状不定形的{{c1::絮凝体}}
+</p>
+</div>
+</div>
+<div id="outline-container-orga6888f1" class="outline-4">
+<h4 id="orga6888f1"><span class="section-number-4">2.24.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgf0f83a1" class="outline-3">
+<h3 id="orgf0f83a1"><span class="section-number-3">2.25</span> 混合液固体悬浮物浓度是指单位体积混合液中{{c1::干固体}}的含量</h3>
+<div class="outline-text-3" id="text-2-25">
+</div>
+<div id="outline-container-orgde40cd2" class="outline-4">
+<h4 id="orgde40cd2"><span class="section-number-4">2.25.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-25-1">
+<p>
+混合液固体悬浮物浓度是指单位体积混合液中{{c1::干固体}}的含量
+</p>
+</div>
+</div>
+<div id="outline-container-orge266273" class="outline-4">
+<h4 id="orge266273"><span class="section-number-4">2.25.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org9e3810f" class="outline-3">
+<h3 id="org9e3810f"><span class="section-number-3">2.26</span> 污泥体积指数SVI的单位是{{c1::mL/g}}</h3>
+<div class="outline-text-3" id="text-2-26">
+</div>
+<div id="outline-container-org89d6dde" class="outline-4">
+<h4 id="org89d6dde"><span class="section-number-4">2.26.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-26-1">
+<p>
+污泥体积指数SVI的单位是{{c1::mL/g}}
+</p>
+</div>
+</div>
+<div id="outline-container-org1997bff" class="outline-4">
+<h4 id="org1997bff"><span class="section-number-4">2.26.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org8222360" class="outline-3">
+<h3 id="org8222360"><span class="section-number-3">2.27</span> 活性污泥法分解水中有机物的构筑物叫{{c1::曝气池}}</h3>
+<div class="outline-text-3" id="text-2-27">
+</div>
+<div id="outline-container-orgd0b9f40" class="outline-4">
+<h4 id="orgd0b9f40"><span class="section-number-4">2.27.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-27-1">
+<p>
+活性污泥法分解水中有机物的构筑物叫{{c1::曝气池}}
+</p>
+</div>
+</div>
+<div id="outline-container-orga97f515" class="outline-4">
+<h4 id="orga97f515"><span class="section-number-4">2.27.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgcf5041d" class="outline-3">
+<h3 id="orgcf5041d"><span class="section-number-3">2.28</span> 活性污泥处于内源性呼吸阶段的污水处理工艺叫{{c1::延时曝气}}</h3>
+<div class="outline-text-3" id="text-2-28">
+</div>
+<div id="outline-container-org075f200" class="outline-4">
+<h4 id="org075f200"><span class="section-number-4">2.28.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-28-1">
+<p>
+活性污泥处于内源性呼吸阶段的污水处理工艺叫{{c1::延时曝气}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge954187" class="outline-4">
+<h4 id="orge954187"><span class="section-number-4">2.28.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org84125af" class="outline-3">
+<h3 id="org84125af"><span class="section-number-3">2.29</span> 曝气池中的活性污泥全部更新一次所需要的时间叫{{c1::污泥龄}}</h3>
+<div class="outline-text-3" id="text-2-29">
+</div>
+<div id="outline-container-org023b7ea" class="outline-4">
+<h4 id="org023b7ea"><span class="section-number-4">2.29.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-29-1">
+<p>
+曝气池中的活性污泥全部更新一次所需要的时间叫{{c1::污泥龄}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgf217764" class="outline-4">
+<h4 id="orgf217764"><span class="section-number-4">2.29.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org6b58e5f" class="outline-3">
+<h3 id="org6b58e5f"><span class="section-number-3">2.30</span> 中小型污水处理厂常用的鼓风机是{{c1::罗茨鼓风机}}</h3>
+<div class="outline-text-3" id="text-2-30">
+</div>
+<div id="outline-container-org51bac87" class="outline-4">
+<h4 id="org51bac87"><span class="section-number-4">2.30.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-30-1">
+<p>
+中小型污水处理厂常用的鼓风机是{{c1::罗茨鼓风机}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge3c060d" class="outline-4">
+<h4 id="orge3c060d"><span class="section-number-4">2.30.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org9b4ce4e" class="outline-3">
+<h3 id="org9b4ce4e"><span class="section-number-3">2.31</span> 大型污水处理厂常用的鼓风机是{{c1::离心鼓风机}}</h3>
+<div class="outline-text-3" id="text-2-31">
+</div>
+<div id="outline-container-org6344b71" class="outline-4">
+<h4 id="org6344b71"><span class="section-number-4">2.31.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-31-1">
+<p>
+大型污水处理厂常用的鼓风机是{{c1::离心鼓风机}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgf03ff77" class="outline-4">
+<h4 id="orgf03ff77"><span class="section-number-4">2.31.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgc54edaa" class="outline-3">
+<h3 id="orgc54edaa"><span class="section-number-3">2.32</span> 污泥负荷高,污泥龄较短时, 单位质量活性污泥的需氧量较{{c1::大}}</h3>
+<div class="outline-text-3" id="text-2-32">
+</div>
+<div id="outline-container-org2a1d40a" class="outline-4">
+<h4 id="org2a1d40a"><span class="section-number-4">2.32.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-32-1">
+<p>
+污泥负荷高,污泥龄较短时, 单位质量活性污泥的需氧量较{{c1::大}}
+</p>
+</div>
+</div>
+<div id="outline-container-org12bdf7d" class="outline-4">
+<h4 id="org12bdf7d"><span class="section-number-4">2.32.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgc16c648" class="outline-3">
+<h3 id="orgc16c648"><span class="section-number-3">2.33</span> 曝气池中污水的理论停留时间θ表示为{{c1::V/qᵥ}}</h3>
+<div class="outline-text-3" id="text-2-33">
+</div>
+<div id="outline-container-org64a1e27" class="outline-4">
+<h4 id="org64a1e27"><span class="section-number-4">2.33.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-33-1">
+<p>
+曝气池中污水的理论停留时间θ表示为{{c1::V/qᵥ}}
+</p>
+</div>
+</div>
+<div id="outline-container-org28077f6" class="outline-4">
+<h4 id="org28077f6"><span class="section-number-4">2.33.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgb613564" class="outline-3">
+<h3 id="orgb613564"><span class="section-number-3">2.34</span> 曝气池中污水的实际停留时间θ表示为{{c1::V/[qᵥ (1+ r)]}}</h3>
+<div class="outline-text-3" id="text-2-34">
+<p>
+:ANKI<sub>DECK</sub>: water
+:ANKI<sub>NOTE</sub><sub>TYPE</sub>: Cloze
+</p>
+</div>
+<div id="outline-container-orgfe016a9" class="outline-4">
+<h4 id="orgfe016a9"><span class="section-number-4">2.34.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-34-1">
+<p>
+曝气池中污水的实际停留时间θ表示为{{c1::V/[qᵥ (1+ r)]}}
+</p>
+</div>
+</div>
+<div id="outline-container-org440afc7" class="outline-4">
+<h4 id="org440afc7"><span class="section-number-4">2.34.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgfa872ea" class="outline-3">
+<h3 id="orgfa872ea"><span class="section-number-3">2.35</span> 在曝气池中是通过曝气设备来达到{{c1::充氧}}和{{c1::搅拌}}的目的</h3>
+<div class="outline-text-3" id="text-2-35">
+</div>
+<div id="outline-container-org173b112" class="outline-4">
+<h4 id="org173b112"><span class="section-number-4">2.35.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-35-1">
+<p>
+在曝气池中是通过曝气设备来达到{{c1::充氧}}和{{c1::搅拌}}的目的
+</p>
+</div>
+</div>
+<div id="outline-container-org8eeeca5" class="outline-4">
+<h4 id="org8eeeca5"><span class="section-number-4">2.35.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgcfb762e" class="outline-3">
+<h3 id="orgcfb762e"><span class="section-number-3">2.36</span> 活性污泥法处理处理废水中有机物变化过程分为兩個阶段{{c1::吸附过程}}和{{c1::稳定过程}}</h3>
+<div class="outline-text-3" id="text-2-36">
+</div>
+<div id="outline-container-orge520edf" class="outline-4">
+<h4 id="orge520edf"><span class="section-number-4">2.36.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-36-1">
+<p>
+活性污泥法处理处理废水中有机物变化过程分为兩個阶段{{c1::吸附过程}}和{{c1::稳定过程}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgcb1df57" class="outline-4">
+<h4 id="orgcb1df57"><span class="section-number-4">2.36.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org2de274e" class="outline-3">
+<h3 id="org2de274e"><span class="section-number-3">2.37</span> 延时曝气是活性污泥处于{{c1::内源}}呼吸阶段</h3>
+<div class="outline-text-3" id="text-2-37">
+</div>
+<div id="outline-container-org6de249e" class="outline-4">
+<h4 id="org6de249e"><span class="section-number-4">2.37.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-37-1">
+<p>
+延时曝气是活性污泥处于{{c1::内源}}呼吸阶段
+</p>
+</div>
+</div>
+<div id="outline-container-org6fc599f" class="outline-4">
+<h4 id="org6fc599f"><span class="section-number-4">2.37.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgcddd805" class="outline-3">
+<h3 id="orgcddd805"><span class="section-number-3">2.38</span> SVI叫{{c1::污泥体积指数}}</h3>
+<div class="outline-text-3" id="text-2-38">
+</div>
+<div id="outline-container-orgded29bd" class="outline-4">
+<h4 id="orgded29bd"><span class="section-number-4">2.38.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-38-1">
+<p>
+SVI叫{{c1::污泥体积指数}}
+</p>
+</div>
+</div>
+<div id="outline-container-orge9fc074" class="outline-4">
+<h4 id="orge9fc074"><span class="section-number-4">2.38.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgf2482eb" class="outline-3">
+<h3 id="orgf2482eb"><span class="section-number-3">2.39</span> 推流式曝气池根据曝气头安装位置的不同, 分为{{c1::平移}}推流和{{c1::旋转}}推流</h3>
+<div class="outline-text-3" id="text-2-39">
+</div>
+<div id="outline-container-orgf482c4c" class="outline-4">
+<h4 id="orgf482c4c"><span class="section-number-4">2.39.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-39-1">
+<p>
+推流式曝气池根据曝气头安装位置的不同, 分为{{c1::平移}}推流和{{c1::旋转}}推流
+</p>
+</div>
+</div>
+<div id="outline-container-orgdc13721" class="outline-4">
+<h4 id="orgdc13721"><span class="section-number-4">2.39.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgd7fa7d7" class="outline-3">
+<h3 id="orgd7fa7d7"><span class="section-number-3">2.40</span> 污泥负荷是指单位重量的{{c1::活性污泥}}在单位时间所处理的BOD<sub>5量</sub></h3>
+<div class="outline-text-3" id="text-2-40">
+</div>
+<div id="outline-container-org3882251" class="outline-4">
+<h4 id="org3882251"><span class="section-number-4">2.40.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-40-1">
+<p>
+污泥负荷是指单位重量的{{c1::活性污泥}}在单位时间所处理的BOD<sub>5量</sub>
+</p>
+</div>
+</div>
+<div id="outline-container-org50e725f" class="outline-4">
+<h4 id="org50e725f"><span class="section-number-4">2.40.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgb6f84dc" class="outline-3">
+<h3 id="orgb6f84dc"><span class="section-number-3">2.41</span> 生物膜法所使用的填料是指微生物附着生长的{{c1::载体}}</h3>
+<div class="outline-text-3" id="text-2-41">
+</div>
+<div id="outline-container-org29fdd7f" class="outline-4">
+<h4 id="org29fdd7f"><span class="section-number-4">2.41.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-41-1">
+<p>
+生物膜法所使用的填料是指微生物附着生长的{{c1::载体}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgbfe0551" class="outline-4">
+<h4 id="orgbfe0551"><span class="section-number-4">2.41.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org4982f52" class="outline-3">
+<h3 id="org4982f52"><span class="section-number-3">2.42</span> 生物膜法处理中的生物膜是{{c1::微生物膜}}</h3>
+<div class="outline-text-3" id="text-2-42">
+</div>
+<div id="outline-container-org0190b21" class="outline-4">
+<h4 id="org0190b21"><span class="section-number-4">2.42.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-42-1">
+<p>
+生物膜法处理中的生物膜是{{c1::微生物膜}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0a98770" class="outline-4">
+<h4 id="org0a98770"><span class="section-number-4">2.42.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org65203d6" class="outline-3">
+<h3 id="org65203d6"><span class="section-number-3">2.43</span> 生物滤池中, 随着滤床深度的下移, 微生物种类{{c1::增加}}</h3>
+<div class="outline-text-3" id="text-2-43">
+</div>
+<div id="outline-container-org30ca5b6" class="outline-4">
+<h4 id="org30ca5b6"><span class="section-number-4">2.43.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-43-1">
+<p>
+生物滤池中, 随着滤床深度的下移, 微生物种类{{c1::增加}}
+</p>
+</div>
+</div>
+<div id="outline-container-org1d9e7e5" class="outline-4">
+<h4 id="org1d9e7e5"><span class="section-number-4">2.43.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org167c228" class="outline-3">
+<h3 id="org167c228"><span class="section-number-3">2.44</span> 生物滤池的旋转式布水器的布水横杆通常是双数, 且{{c1::对称布置}}</h3>
+<div class="outline-text-3" id="text-2-44">
+</div>
+<div id="outline-container-org619acfb" class="outline-4">
+<h4 id="org619acfb"><span class="section-number-4">2.44.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-44-1">
+<p>
+生物滤池的旋转式布水器的布水横杆通常是双数, 且{{c1::对称布置}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgc252407" class="outline-4">
+<h4 id="orgc252407"><span class="section-number-4">2.44.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgff16f39" class="outline-3">
+<h3 id="orgff16f39"><span class="section-number-3">2.45</span> 相对于活性污泥法, 生物膜法的生物相更{{c1::丰富}}</h3>
+<div class="outline-text-3" id="text-2-45">
+</div>
+<div id="outline-container-org65a06b3" class="outline-4">
+<h4 id="org65a06b3"><span class="section-number-4">2.45.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-45-1">
+<p>
+相对于活性污泥法, 生物膜法的生物相更{{c1::丰富}}
+</p>
+</div>
+</div>
+<div id="outline-container-org1ead163" class="outline-4">
+<h4 id="org1ead163"><span class="section-number-4">2.45.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgd6c7597" class="outline-3">
+<h3 id="orgd6c7597"><span class="section-number-3">2.46</span> 生物滤池上层的生物数量比下层的数量{{c1::多}}</h3>
+<div class="outline-text-3" id="text-2-46">
+</div>
+<div id="outline-container-orgf2250ec" class="outline-4">
+<h4 id="orgf2250ec"><span class="section-number-4">2.46.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-46-1">
+<p>
+生物滤池上层的生物数量比下层的数量{{c1::多}}
+</p>
+</div>
+</div>
+<div id="outline-container-org27207cc" class="outline-4">
+<h4 id="org27207cc"><span class="section-number-4">2.46.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org14aff4d" class="outline-3">
+<h3 id="org14aff4d"><span class="section-number-3">2.47</span> <span class="todo TODO">TODO</span> 生物滤池上层的生物种类比下层的种类{{c1::}}</h3>
+<div class="outline-text-3" id="text-2-47">
+</div>
+<div id="outline-container-orgb2f1de0" class="outline-4">
+<h4 id="orgb2f1de0"><span class="section-number-4">2.47.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-47-1">
+<p>
+生物滤池上层的生物种类比下层的种类{{c1::}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9b558b6" class="outline-4">
+<h4 id="org9b558b6"><span class="section-number-4">2.47.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org764a47a" class="outline-3">
+<h3 id="org764a47a"><span class="section-number-3">2.48</span> 水利负荷的单位是{{c1::m³/(m² d)}}</h3>
+<div class="outline-text-3" id="text-2-48">
+</div>
+<div id="outline-container-org804047b" class="outline-4">
+<h4 id="org804047b"><span class="section-number-4">2.48.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-48-1">
+<p>
+水利负荷的单位是{{c1::m³/(m² d)}}
+</p>
+</div>
+</div>
+<div id="outline-container-org309cfb0" class="outline-4">
+<h4 id="org309cfb0"><span class="section-number-4">2.48.2</span> Extra</h4>
+<div class="outline-text-4" id="text-2-48-2">
+<p>
+m³/(m² d)}}
+</p>
+<p>
+:ANKI<sub>DECK</sub>: water
+:ANKI<sub>NOTE</sub><sub>TYPE</sub>: Cloze
+</p>
+</div>
+</div>
+<div id="outline-container-org5c8a24a" class="outline-4">
+<h4 id="org5c8a24a"><span class="section-number-4">2.48.3</span> Text</h4>
+<div class="outline-text-4" id="text-2-48-3">
+<p>
+水利负荷的单位是{{c1::m³/(m² d)}}
+</p>
+</div>
+</div>
+<div id="outline-container-org2d21135" class="outline-4">
+<h4 id="org2d21135"><span class="section-number-4">2.48.4</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org6e00f6c" class="outline-3">
+<h3 id="org6e00f6c"><span class="section-number-3">2.49</span> 有机物负荷的单位是{{c1::kgBOD₅/(m³ d)}}</h3>
+<div class="outline-text-3" id="text-2-49">
+</div>
+<div id="outline-container-org367cb4c" class="outline-4">
+<h4 id="org367cb4c"><span class="section-number-4">2.49.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-49-1">
+<p>
+有机物负荷的单位是{{c1::kgBOD₅/(m³ d)}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgb6cb770" class="outline-4">
+<h4 id="orgb6cb770"><span class="section-number-4">2.49.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org5cd0b70" class="outline-3">
+<h3 id="org5cd0b70"><span class="section-number-3">2.50</span> 夏季生物滤池内气流方向{{c1::向下}}</h3>
+<div class="outline-text-3" id="text-2-50">
+</div>
+<div id="outline-container-org62b4256" class="outline-4">
+<h4 id="org62b4256"><span class="section-number-4">2.50.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-50-1">
+<p>
+夏季生物滤池内气流方向{{c1::向下}}
+</p>
+</div>
+</div>
+<div id="outline-container-org9c6b27f" class="outline-4">
+<h4 id="org9c6b27f"><span class="section-number-4">2.50.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org476d55d" class="outline-3">
+<h3 id="org476d55d"><span class="section-number-3">2.51</span> 冬季生物滤池内气流方向{{c1::向上}}</h3>
+<div class="outline-text-3" id="text-2-51">
+</div>
+<div id="outline-container-org3c4a021" class="outline-4">
+<h4 id="org3c4a021"><span class="section-number-4">2.51.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-51-1">
+<p>
+冬季生物滤池内气流方向{{c1::向上}}
+</p>
+</div>
+</div>
+<div id="outline-container-org34ff6f6" class="outline-4">
+<h4 id="org34ff6f6"><span class="section-number-4">2.51.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgc8d98a1" class="outline-3">
+<h3 id="orgc8d98a1"><span class="section-number-3">2.52</span> 冲击负荷对生物滤池的影响比较{{c1::小}}</h3>
+<div class="outline-text-3" id="text-2-52">
+</div>
+<div id="outline-container-org00c7e70" class="outline-4">
+<h4 id="org00c7e70"><span class="section-number-4">2.52.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-52-1">
+<p>
+冲击负荷对生物滤池的影响比较{{c1::小}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgf52a4e3" class="outline-4">
+<h4 id="orgf52a4e3"><span class="section-number-4">2.52.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org53c58cd" class="outline-3">
+<h3 id="org53c58cd"><span class="section-number-3">2.53</span> 生物膜法工艺产生的污泥量少的原因是微生物的{{c1::食物链长}}</h3>
+<div class="outline-text-3" id="text-2-53">
+</div>
+<div id="outline-container-org1bccf78" class="outline-4">
+<h4 id="org1bccf78"><span class="section-number-4">2.53.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-53-1">
+<p>
+生物膜法工艺产生的污泥量少的原因是微生物的{{c1::食物链长}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgb2c3238" class="outline-4">
+<h4 id="orgb2c3238"><span class="section-number-4">2.53.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org497a8e6" class="outline-3">
+<h3 id="org497a8e6"><span class="section-number-3">2.54</span> 生物滤池培养生物膜的阶段叫{{c1::挂膜}}</h3>
+<div class="outline-text-3" id="text-2-54">
+</div>
+<div id="outline-container-orge5dcb91" class="outline-4">
+<h4 id="orge5dcb91"><span class="section-number-4">2.54.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-54-1">
+<p>
+生物滤池培养生物膜的阶段叫{{c1::挂膜}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgdc2ed7c" class="outline-4">
+<h4 id="orgdc2ed7c"><span class="section-number-4">2.54.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org9eed55a" class="outline-3">
+<h3 id="org9eed55a"><span class="section-number-3">2.55</span> 支撑生物滤池滤料的是{{c1::假底}}</h3>
+<div class="outline-text-3" id="text-2-55">
+</div>
+<div id="outline-container-org34e7e15" class="outline-4">
+<h4 id="org34e7e15"><span class="section-number-4">2.55.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-55-1">
+<p>
+支撑生物滤池滤料的是{{c1::假底}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgc327b24" class="outline-4">
+<h4 id="orgc327b24"><span class="section-number-4">2.55.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org54e611b" class="outline-3">
+<h3 id="org54e611b"><span class="section-number-3">2.56</span> 生物滤池集水沟除了排水外, 还可以{{c1::通风}}</h3>
+<div class="outline-text-3" id="text-2-56">
+</div>
+<div id="outline-container-orgbb4b83c" class="outline-4">
+<h4 id="orgbb4b83c"><span class="section-number-4">2.56.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-56-1">
+<p>
+生物滤池集水沟除了排水外, 还可以{{c1::通风}}
+</p>
+</div>
+</div>
+<div id="outline-container-org2a5988e" class="outline-4">
+<h4 id="org2a5988e"><span class="section-number-4">2.56.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgd63c00c" class="outline-3">
+<h3 id="orgd63c00c"><span class="section-number-3">2.57</span> 回流生物滤池回流的是{{c1::处理出水}}</h3>
+<div class="outline-text-3" id="text-2-57">
+</div>
+<div id="outline-container-org4cb3461" class="outline-4">
+<h4 id="org4cb3461"><span class="section-number-4">2.57.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-57-1">
+<p>
+回流生物滤池回流的是{{c1::处理出水}}
+</p>
+</div>
+</div>
+<div id="outline-container-orga48893d" class="outline-4">
+<h4 id="orga48893d"><span class="section-number-4">2.57.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgcae4ca8" class="outline-3">
+<h3 id="orgcae4ca8"><span class="section-number-3">2.58</span> 交替式生物滤池必须有{{c1::回流}}</h3>
+<div class="outline-text-3" id="text-2-58">
+</div>
+<div id="outline-container-org2b3b37b" class="outline-4">
+<h4 id="org2b3b37b"><span class="section-number-4">2.58.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-58-1">
+<p>
+交替式生物滤池必须有{{c1::回流}}
+</p>
+</div>
+</div>
+<div id="outline-container-org09bea3b" class="outline-4">
+<h4 id="org09bea3b"><span class="section-number-4">2.58.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgb528efa" class="outline-3">
+<h3 id="orgb528efa"><span class="section-number-3">2.59</span> 生物滤池的池底与假底之间的高度必须大于{{c1::0.6m}}</h3>
+<div class="outline-text-3" id="text-2-59">
+</div>
+<div id="outline-container-orgd43a667" class="outline-4">
+<h4 id="orgd43a667"><span class="section-number-4">2.59.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-59-1">
+<p>
+生物滤池的池底与假底之间的高度必须大于{{c1::0.6m}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgec6d6d0" class="outline-4">
+<h4 id="orgec6d6d0"><span class="section-number-4">2.59.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orge91595a" class="outline-3">
+<h3 id="orge91595a"><span class="section-number-3">2.60</span> 多极生物转盘处理工艺中, 生物膜逐级{{c1::变薄}}</h3>
+<div class="outline-text-3" id="text-2-60">
+</div>
+<div id="outline-container-org5fdbedf" class="outline-4">
+<h4 id="org5fdbedf"><span class="section-number-4">2.60.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-60-1">
+<p>
+多极生物转盘处理工艺中, 生物膜逐级{{c1::变薄}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0b9e6db" class="outline-4">
+<h4 id="org0b9e6db"><span class="section-number-4">2.60.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgb17dde2" class="outline-3">
+<h3 id="orgb17dde2"><span class="section-number-3">2.61</span> 生物接触氧化池内既有填料还需要{{c1::曝气}}</h3>
+<div class="outline-text-3" id="text-2-61">
+</div>
+<div id="outline-container-org74db392" class="outline-4">
+<h4 id="org74db392"><span class="section-number-4">2.61.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-61-1">
+<p>
+生物接触氧化池内既有填料还需要{{c1::曝气}}
+</p>
+</div>
+</div>
+<div id="outline-container-org603a722" class="outline-4">
+<h4 id="org603a722"><span class="section-number-4">2.61.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org5abc9c3" class="outline-3">
+<h3 id="org5abc9c3"><span class="section-number-3">2.62</span> 污泥消化处理的对象是{{c1::固态有机物}}</h3>
+<div class="outline-text-3" id="text-2-62">
+</div>
+<div id="outline-container-org8a857df" class="outline-4">
+<h4 id="org8a857df"><span class="section-number-4">2.62.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-62-1">
+<p>
+污泥消化处理的对象是{{c1::固态有机物}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgb937281" class="outline-4">
+<h4 id="orgb937281"><span class="section-number-4">2.62.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org8efc224" class="outline-3">
+<h3 id="org8efc224"><span class="section-number-3">2.63</span> 中温消化所需要的时间为{{c1::20天}}</h3>
+<div class="outline-text-3" id="text-2-63">
+</div>
+<div id="outline-container-org2dd69da" class="outline-4">
+<h4 id="org2dd69da"><span class="section-number-4">2.63.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-63-1">
+<p>
+中温消化所需要的时间为{{c1::20天}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0e83dd3" class="outline-4">
+<h4 id="org0e83dd3"><span class="section-number-4">2.63.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org57a52e7" class="outline-3">
+<h3 id="org57a52e7"><span class="section-number-3">2.64</span> 高温消化所需要的时间为{{c1::10天}}</h3>
+<div class="outline-text-3" id="text-2-64">
+</div>
+<div id="outline-container-org55b2363" class="outline-4">
+<h4 id="org55b2363"><span class="section-number-4">2.64.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-64-1">
+<p>
+高温消化所需要的时间为{{c1::10天}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgfc16f74" class="outline-4">
+<h4 id="orgfc16f74"><span class="section-number-4">2.64.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org289aafe" class="outline-3">
+<h3 id="org289aafe"><span class="section-number-3">2.65</span> 高温消化对寄生虫卵的杀灭率可达{{c1::99%}}</h3>
+<div class="outline-text-3" id="text-2-65">
+</div>
+<div id="outline-container-orgce126ff" class="outline-4">
+<h4 id="orgce126ff"><span class="section-number-4">2.65.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-65-1">
+<p>
+高温消化对寄生虫卵的杀灭率可达{{c1::99%}}
+</p>
+</div>
+</div>
+<div id="outline-container-org320127e" class="outline-4">
+<h4 id="org320127e"><span class="section-number-4">2.65.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org6745055" class="outline-3">
+<h3 id="org6745055"><span class="section-number-3">2.66</span> 消化池的水力停留时间等于{{c1::污泥龄}}</h3>
+<div class="outline-text-3" id="text-2-66">
+</div>
+<div id="outline-container-org4b17e29" class="outline-4">
+<h4 id="org4b17e29"><span class="section-number-4">2.66.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-66-1">
+<p>
+消化池的水力停留时间等于{{c1::污泥龄}}
+</p>
+</div>
+</div>
+<div id="outline-container-org09f58f4" class="outline-4">
+<h4 id="org09f58f4"><span class="section-number-4">2.66.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org17b0dd3" class="outline-3">
+<h3 id="org17b0dd3"><span class="section-number-3">2.67</span> 最早的厌氧生物处理构筑物是{{c1::化粪池}}</h3>
+<div class="outline-text-3" id="text-2-67">
+</div>
+<div id="outline-container-org47f715e" class="outline-4">
+<h4 id="org47f715e"><span class="section-number-4">2.67.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-67-1">
+<p>
+最早的厌氧生物处理构筑物是{{c1::化粪池}}
+</p>
+</div>
+</div>
+<div id="outline-container-org2dbe108" class="outline-4">
+<h4 id="org2dbe108"><span class="section-number-4">2.67.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgf5b8799" class="outline-3">
+<h3 id="orgf5b8799"><span class="section-number-3">2.68</span> 厌氧生物滤池必须全池{{c1::密封}}</h3>
+<div class="outline-text-3" id="text-2-68">
+</div>
+<div id="outline-container-org053326d" class="outline-4">
+<h4 id="org053326d"><span class="section-number-4">2.68.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-68-1">
+<p>
+厌氧生物滤池必须全池{{c1::密封}}
+</p>
+</div>
+</div>
+<div id="outline-container-org48801c2" class="outline-4">
+<h4 id="org48801c2"><span class="section-number-4">2.68.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org402b7b1" class="outline-3">
+<h3 id="org402b7b1"><span class="section-number-3">2.69</span> UASB反应器最关键的部位是{{c1::三相分离器}}</h3>
+<div class="outline-text-3" id="text-2-69">
+</div>
+<div id="outline-container-orge2d57e3" class="outline-4">
+<h4 id="orge2d57e3"><span class="section-number-4">2.69.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-69-1">
+<p>
+UASB反应器最关键的部位是{{c1::三相分离器}}
+</p>
+</div>
+</div>
+<div id="outline-container-org38378e0" class="outline-4">
+<h4 id="org38378e0"><span class="section-number-4">2.69.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org44e4f28" class="outline-3">
+<h3 id="org44e4f28"><span class="section-number-3">2.70</span> 烟道气体为{{c1::酸性}}</h3>
+<div class="outline-text-3" id="text-2-70">
+</div>
+<div id="outline-container-org69da7fc" class="outline-4">
+<h4 id="org69da7fc"><span class="section-number-4">2.70.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-70-1">
+<p>
+烟道气体为{{c1::酸性}}
+</p>
+</div>
+</div>
+<div id="outline-container-org8c617f0" class="outline-4">
+<h4 id="org8c617f0"><span class="section-number-4">2.70.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgb2d9434" class="outline-3">
+<h3 id="orgb2d9434"><span class="section-number-3">2.71</span> 用石灰中和酸性废水时, 常先配置成一定浓度的{{c1::石灰乳}}</h3>
+<div class="outline-text-3" id="text-2-71">
+</div>
+<div id="outline-container-orge5ddfa0" class="outline-4">
+<h4 id="orge5ddfa0"><span class="section-number-4">2.71.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-71-1">
+<p>
+用石灰中和酸性废水时, 常先配置成一定浓度的{{c1::石灰乳}}
+</p>
+</div>
+</div>
+<div id="outline-container-org30c318b" class="outline-4">
+<h4 id="org30c318b"><span class="section-number-4">2.71.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org915e473" class="outline-3">
+<h3 id="org915e473"><span class="section-number-3">2.72</span> 污水处理中最常用的高分子絮凝剂是{{c1::聚丙烯酰胺}}</h3>
+<div class="outline-text-3" id="text-2-72">
+</div>
+<div id="outline-container-org8b76f2d" class="outline-4">
+<h4 id="org8b76f2d"><span class="section-number-4">2.72.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-72-1">
+<p>
+污水处理中最常用的高分子絮凝剂是{{c1::聚丙烯酰胺}}
+</p>
+</div>
+</div>
+<div id="outline-container-org155e4bc" class="outline-4">
+<h4 id="org155e4bc"><span class="section-number-4">2.72.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org82a2375" class="outline-3">
+<h3 id="org82a2375"><span class="section-number-3">2.73</span> 化学沉淀的最重要参数是{{c1::溶度积}}</h3>
+<div class="outline-text-3" id="text-2-73">
+</div>
+<div id="outline-container-org8a43424" class="outline-4">
+<h4 id="org8a43424"><span class="section-number-4">2.73.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-73-1">
+<p>
+化学沉淀的最重要参数是{{c1::溶度积}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgc8d62cb" class="outline-4">
+<h4 id="orgc8d62cb"><span class="section-number-4">2.73.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgbe4e3ca" class="outline-3">
+<h3 id="orgbe4e3ca"><span class="section-number-3">2.74</span> 各种价态的含铬化合物中, 毒性最大的是{{c1::六价铬}}</h3>
+<div class="outline-text-3" id="text-2-74">
+</div>
+<div id="outline-container-orga139f84" class="outline-4">
+<h4 id="orga139f84"><span class="section-number-4">2.74.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-74-1">
+<p>
+各种价态的含铬化合物中, 毒性最大的是{{c1::六价铬}}
+</p>
+</div>
+</div>
+<div id="outline-container-org4b5c7d5" class="outline-4">
+<h4 id="org4b5c7d5"><span class="section-number-4">2.74.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgdf5d74f" class="outline-3">
+<h3 id="orgdf5d74f"><span class="section-number-3">2.75</span> 离子交换法的反应具有{{c1::可逆性}}</h3>
+<div class="outline-text-3" id="text-2-75">
+</div>
+<div id="outline-container-orgc3cf6a8" class="outline-4">
+<h4 id="orgc3cf6a8"><span class="section-number-4">2.75.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-75-1">
+<p>
+离子交换法的反应具有{{c1::可逆性}}
+</p>
+</div>
+</div>
+<div id="outline-container-org1bd5fb5" class="outline-4">
+<h4 id="org1bd5fb5"><span class="section-number-4">2.75.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org36b00e6" class="outline-3">
+<h3 id="org36b00e6"><span class="section-number-3">2.76</span> 能使溶液溶液溶液中的某些物质选择性透过的膜叫{{c1::半透膜}}</h3>
+<div class="outline-text-3" id="text-2-76">
+</div>
+<div id="outline-container-org35ae12c" class="outline-4">
+<h4 id="org35ae12c"><span class="section-number-4">2.76.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-76-1">
+<p>
+能使溶液溶液溶液中的某些物质选择性透过的膜叫{{c1::半透膜}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgdd383c9" class="outline-4">
+<h4 id="orgdd383c9"><span class="section-number-4">2.76.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org345ffb5" class="outline-3">
+<h3 id="org345ffb5"><span class="section-number-3">2.77</span> 促使水分子反向渗透的作用力是{{c1::压力}}</h3>
+<div class="outline-text-3" id="text-2-77">
+</div>
+<div id="outline-container-org2fe14c8" class="outline-4">
+<h4 id="org2fe14c8"><span class="section-number-4">2.77.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-77-1">
+<p>
+促使水分子反向渗透的作用力是{{c1::压力}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgaf7e921" class="outline-4">
+<h4 id="orgaf7e921"><span class="section-number-4">2.77.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org7f540a9" class="outline-3">
+<h3 id="org7f540a9"><span class="section-number-3">2.78</span> 污水处理中产生的剩余污泥如果不进行处理, 会产生{{c1::二次污染}}</h3>
+<div class="outline-text-3" id="text-2-78">
+</div>
+<div id="outline-container-org1285e05" class="outline-4">
+<h4 id="org1285e05"><span class="section-number-4">2.78.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-78-1">
+<p>
+污水处理中产生的剩余污泥如果不进行处理, 会产生{{c1::二次污染}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgd9e1366" class="outline-4">
+<h4 id="orgd9e1366"><span class="section-number-4">2.78.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org7ffd087" class="outline-3">
+<h3 id="org7ffd087"><span class="section-number-3">2.79</span> 来自污水生物处理系统的二沉池的污泥叫{{c1::剩余污泥}}</h3>
+<div class="outline-text-3" id="text-2-79">
+</div>
+<div id="outline-container-org75c8e28" class="outline-4">
+<h4 id="org75c8e28"><span class="section-number-4">2.79.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-79-1">
+<p>
+来自污水生物处理系统的二沉池的污泥叫{{c1::剩余污泥}}
+</p>
+</div>
+</div>
+<div id="outline-container-org3b58525" class="outline-4">
+<h4 id="org3b58525"><span class="section-number-4">2.79.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org743f440" class="outline-3">
+<h3 id="org743f440"><span class="section-number-3">2.80</span> 当污泥含水率由99%降至96%, 污泥体积减少{{c1::75%}}</h3>
+<div class="outline-text-3" id="text-2-80">
+</div>
+<div id="outline-container-org1dc8413" class="outline-4">
+<h4 id="org1dc8413"><span class="section-number-4">2.80.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-80-1">
+<p>
+当污泥含水率由99%降至96%, 污泥体积减少{{c1::75%}}
+</p>
+</div>
+</div>
+<div id="outline-container-org2b1a32d" class="outline-4">
+<h4 id="org2b1a32d"><span class="section-number-4">2.80.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org0166ba3" class="outline-3">
+<h3 id="org0166ba3"><span class="section-number-3">2.81</span> 减少污泥体积的构筑物叫{{c1::浓缩池}}</h3>
+<div class="outline-text-3" id="text-2-81">
+</div>
+<div id="outline-container-orgc954800" class="outline-4">
+<h4 id="orgc954800"><span class="section-number-4">2.81.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-81-1">
+<p>
+减少污泥体积的构筑物叫{{c1::浓缩池}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgfb3c328" class="outline-4">
+<h4 id="orgfb3c328"><span class="section-number-4">2.81.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org63a1563" class="outline-3">
+<h3 id="org63a1563"><span class="section-number-3">2.82</span> 降低污泥中有机物含量或使其暂时不分解的过程叫{{c1::污泥稳定}}</h3>
+<div class="outline-text-3" id="text-2-82">
+</div>
+<div id="outline-container-orgd5ac0aa" class="outline-4">
+<h4 id="orgd5ac0aa"><span class="section-number-4">2.82.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-82-1">
+<p>
+降低污泥中有机物含量或使其暂时不分解的过程叫{{c1::污泥稳定}}
+</p>
+</div>
+</div>
+<div id="outline-container-org18c65c0" class="outline-4">
+<h4 id="org18c65c0"><span class="section-number-4">2.82.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org57160da" class="outline-3">
+<h3 id="org57160da"><span class="section-number-3">2.83</span> 投加石灰到污泥中稳定污泥的原理是, 提高污泥的{{c1::pH}}</h3>
+<div class="outline-text-3" id="text-2-83">
+</div>
+<div id="outline-container-org2f33a6c" class="outline-4">
+<h4 id="org2f33a6c"><span class="section-number-4">2.83.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-83-1">
+<p>
+投加石灰到污泥中稳定污泥的原理是, 提高污泥的{{c1::pH}}
+</p>
+</div>
+</div>
+<div id="outline-container-org6713c5b" class="outline-4">
+<h4 id="org6713c5b"><span class="section-number-4">2.83.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org6fd1a94" class="outline-3">
+<h3 id="org6fd1a94"><span class="section-number-3">2.84</span> 医院污水处理产生的污泥, 最好采用{{c1::氯稳定法}}</h3>
+<div class="outline-text-3" id="text-2-84">
+</div>
+<div id="outline-container-org060e7d5" class="outline-4">
+<h4 id="org060e7d5"><span class="section-number-4">2.84.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-84-1">
+<p>
+医院污水处理产生的污泥, 最好采用{{c1::氯稳定法}}
+</p>
+</div>
+</div>
+<div id="outline-container-org37e4b80" class="outline-4">
+<h4 id="org37e4b80"><span class="section-number-4">2.84.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgb79e874" class="outline-3">
+<h3 id="orgb79e874"><span class="section-number-3">2.85</span> 在污泥脱水前, 通过各种作用, 改善污泥脱水性能的操作叫{{c1::污泥调理}}</h3>
+<div class="outline-text-3" id="text-2-85">
+</div>
+<div id="outline-container-orgc1ac9e6" class="outline-4">
+<h4 id="orgc1ac9e6"><span class="section-number-4">2.85.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-85-1">
+<p>
+在污泥脱水前, 通过各种作用, 改善污泥脱水性能的操作叫{{c1::污泥调理}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgfb2f319" class="outline-4">
+<h4 id="orgfb2f319"><span class="section-number-4">2.85.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orga727657" class="outline-3">
+<h3 id="orga727657"><span class="section-number-3">2.86</span> 脱水后的污泥, 其含水率应该小于{{c1::80%}}</h3>
+<div class="outline-text-3" id="text-2-86">
+</div>
+<div id="outline-container-org63a58f2" class="outline-4">
+<h4 id="org63a58f2"><span class="section-number-4">2.86.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-86-1">
+<p>
+脱水后的污泥, 其含水率应该小于{{c1::80%}}
+</p>
+</div>
+</div>
+<div id="outline-container-org0e03c85" class="outline-4">
+<h4 id="org0e03c85"><span class="section-number-4">2.86.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-orgeb044e0" class="outline-3">
+<h3 id="orgeb044e0"><span class="section-number-3">2.87</span> 污水处理厂应选在城镇水体的{{c1::下游}}</h3>
+<div class="outline-text-3" id="text-2-87">
+</div>
+<div id="outline-container-org45f6e43" class="outline-4">
+<h4 id="org45f6e43"><span class="section-number-4">2.87.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-87-1">
+<p>
+污水处理厂应选在城镇水体的{{c1::下游}}
+</p>
+</div>
+</div>
+<div id="outline-container-org2ab22b9" class="outline-4">
+<h4 id="org2ab22b9"><span class="section-number-4">2.87.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org433af93" class="outline-3">
+<h3 id="org433af93"><span class="section-number-3">2.88</span> 污水处理厂对要考虑城镇风向的主要时段是{{c1::夏季}}</h3>
+<div class="outline-text-3" id="text-2-88">
+</div>
+<div id="outline-container-org4075a5d" class="outline-4">
+<h4 id="org4075a5d"><span class="section-number-4">2.88.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-88-1">
+<p>
+污水处理厂对要考虑城镇风向的主要时段是{{c1::夏季}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgd4bfd54" class="outline-4">
+<h4 id="orgd4bfd54"><span class="section-number-4">2.88.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org62fe533" class="outline-3">
+<h3 id="org62fe533"><span class="section-number-3">2.89</span> 为了检修方便, 污水处理构筑物一般需设置{{c1::放空管}}</h3>
+<div class="outline-text-3" id="text-2-89">
+</div>
+<div id="outline-container-org90f7f03" class="outline-4">
+<h4 id="org90f7f03"><span class="section-number-4">2.89.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-89-1">
+<p>
+为了检修方便, 污水处理构筑物一般需设置{{c1::放空管}}
+</p>
+</div>
+</div>
+<div id="outline-container-org4deafa0" class="outline-4">
+<h4 id="org4deafa0"><span class="section-number-4">2.89.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org43e7448" class="outline-3">
+<h3 id="org43e7448"><span class="section-number-3">2.90</span> 为减少污水提升, 污水在处理厂内应尽量采用{{c1::重力流}}</h3>
+<div class="outline-text-3" id="text-2-90">
+</div>
+<div id="outline-container-org20f9587" class="outline-4">
+<h4 id="org20f9587"><span class="section-number-4">2.90.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-90-1">
+<p>
+为减少污水提升, 污水在处理厂内应尽量采用{{c1::重力流}}
+</p>
+</div>
+</div>
+<div id="outline-container-org924005d" class="outline-4">
+<h4 id="org924005d"><span class="section-number-4">2.90.2</span> Extra</h4>
+</div>
+</div>
+<div id="outline-container-org2e307c3" class="outline-3">
+<h3 id="org2e307c3"><span class="section-number-3">2.91</span> 为调节各处理单元的水量, 应设置{{c1::配水井}}</h3>
+<div class="outline-text-3" id="text-2-91">
+</div>
+<div id="outline-container-org0adca13" class="outline-4">
+<h4 id="org0adca13"><span class="section-number-4">2.91.1</span> Text</h4>
+<div class="outline-text-4" id="text-2-91-1">
+<p>
+为调节各处理单元的水量, 应设置{{c1::配水井}}
+</p>
+</div>
+</div>
+<div id="outline-container-orgac51875" class="outline-4">
+<h4 id="orgac51875"><span class="section-number-4">2.91.2</span> Extra</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2019-05-15 Wed 10:10</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

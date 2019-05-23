@@ -1,1 +1,1130 @@
-#+TITLE: testagain
+* 选择题
+** 1.
+*** Q
+大多数病毒病毒直径小于{{c1::200nm}}
+
+200nm
+50nm
+100nm
+500nm
+** 2
+不属于微生物的藻类是{{c1::红藻}}
+红藻
+绿藻
+轮藻
+甲藻
+** 3
+*** Q
+动物病毒, 植物病毒等名称来源于{{c1::宿主}}
+*** A
+宿主
+疾病
+结构
+核酸
+**  在芽孢形成过程中合成, 芽孢萌发形成营养细胞就消失的物质是{{c1::吡啶二羧酸}}
+*** Q
+在芽孢形成过程中合成, 芽孢萌发形成营养细胞就消失的物质是{{c1::吡啶二羧酸}}
+*** A
+吡啶二羧酸
+细胞质
+肽聚糖
+孢子壁
+
+**  下列沼气量最大的是{{c1::脂肪}}
+*** Q
+下列沼气量最大的是{{c1::脂肪}}
+*** A
+脂肪
+蛋白质
+纤维素
+乙醇
+
+**  专性厌氧微生物在琼脂表面生长时, 氧分压小于{{c1::0.005 * 101kPa}}
+*** Q
+专性厌氧微生物在琼脂表面生长时, 氧分压小于{{c1::0.005 * 101kPa}}
+*** A
+0.005 * 101kPa
+0.002 * 101kPa
+0.003 * 101kPa
+0.02 * 101kPa
+
+**  细胞质内含颗粒为蓝细菌所特有的是{{c1::藻青素颗粒}}
+*** Q
+细胞质内含颗粒为蓝细菌所特有的是{{c1::藻青素颗粒}}
+*** A
+藻青素颗粒
+羧酶体
+气泡
+硫粒
+
+**  液态培养基中的细菌被病毒感染后, 培养基{{c1::透明}}
+*** Q
+液态培养基中的细菌被病毒感染后, 培养基{{c1::透明}}
+*** A
+透明
+变色
+变味
+浑浊
+
+**  微生物最好的碳源是{{c1::糖}}
+*** Q
+微生物最好的碳源是{{c1::糖}}
+*** A
+糖
+淀粉
+脂肪
+碳酸盐
+
+**  由于病毒衣壳粒的排列组合不同, 使病毒有三种对称性构型, 不属于病毒的对称性构型的是{{c1::旋转对称}}
+*** Q
+由于病毒衣壳粒的排列组合不同, 使病毒有三种对称性构型, 不属于病毒的对称性构型的是{{c1::旋转对称}}
+*** A
+旋转对称
+复合对成
+旋转对称
+立体对称
+
+**  被称为人类"家养微生物"的是{{c1::酵母菌}}
+*** Q
+被称为人类"家养微生物"的是{{c1::酵母菌}}
+*** A
+酵母菌
+蘑菇
+青霉素
+放线菌
+
+**  使细菌带正电荷的溶液是{{c1::pH = 1.5}}
+*** Q
+使细菌带正电荷的溶液是{{c1::pH = 1.5}}
+*** A
+pH = 1.5
+pH = 6
+pH = 6.5
+pH = 7.5
+
+**  环境病毒学采用的模式病毒是{{c1::噬菌体}}
+*** Q
+环境病毒学采用的模式病毒是{{c1::噬菌体}}
+*** A
+噬菌体
+动物病毒
+植物病毒
+类病毒
+
+**  不是以碳源为能源的细菌, 含有内含颗粒是{{c1::硫粒}}
+*** Q
+不是以碳源为能源的细菌, 含有内含颗粒是{{c1::硫粒}}
+*** A
+硫粒
+PHB
+糖原
+异染粒
+
+**  高负荷活性污泥法利用的是细菌生长的{{c1::对数期}}
+*** Q
+高负荷活性污泥法利用的是细菌生长的{{c1::对数期}}
+*** A
+对数期
+静止期
+衰亡期
+停滞期
+
+**  好氧活性污泥法处理污水, 标志着活性污泥发生膨胀的SVI大于{{c1::200ml/g}}
+*** Q
+好氧活性污泥法处理污水, 标志着活性污泥发生膨胀的SVI大于{{c1::200ml/g}}
+*** A
+200ml/g
+150ml/g
+100ml/g
+50ml/g
+
+**  下列膜的运输方式, 不需要载体蛋白的是{{c1::单纯扩散}}
+*** Q
+下列膜的运输方式, 不需要载体蛋白的是{{c1::单纯扩散}}
+*** A
+单纯扩散
+促进扩散
+主动运输
+基因转位
+
+**  土壤中微生物混合群体要求碳氮比为{{c1::25:1}}
+*** Q
+土壤中微生物混合群体要求碳氮比为{{c1::25:1}}
+*** A
+25:1
+40:1
+10:1
+5:1
+
+**  一般室内空气细菌的卫生标准, 沉降法的细菌总数应低于{{c1::45CFU/皿-1}}
+*** Q
+一般室内空气细菌的卫生标准, 沉降法的细菌总数应低于{{c1::45CFU/皿-1}}
+*** A
+45CFU/皿-
+60CFU/皿-1
+75CFU/皿-1
+30CFU/皿-1
+
+**  下列动物病毒中最小的是{{c1::口蹄疫病毒}}
+*** Q
+下列动物病毒中最小的是{{c1::口蹄疫病毒}}
+*** A
+口蹄疫病毒
+流感病毒
+庖疹病毒
+痘病毒
+
+**  藻类的营养类型为{{c1::光能自养}}
+*** Q
+藻类的营养类型为{{c1::光能自养}}
+*** A
+光能自养
+光能异养
+化能异养
+化能自养
+
+**  病毒会迅速灭活时, 土壤中水分含量最少应低于{{c1::10%}}
+*** Q
+病毒会迅速灭活时, 土壤中水分含量最少应低于{{c1::10%}}
+*** A
+10%
+20%
+30%
+5%
+
+**  下列微生物, 在土壤中数量最少的是{{c1::原生动物}}
+*** Q
+下列微生物, 在土壤中数量最少的是{{c1::原生动物}}
+*** A
+原生动物
+真菌
+藻类
+细菌
+
+**  变形虫生活在{{c1::中污带}}
+*** Q
+变形虫生活在{{c1::中污带}}
+*** A
+中污带
+寡污带
+多污带
+清水
+
+**  在土壤中, 微生物数量最多的地带是{{c1::5-20厘米}}
+*** Q
+在土壤中, 微生物数量最多的地带是{{c1::5-20厘米}}
+*** A
+5-20厘米
+20-100厘米
+1米以下
+表层
+**  微生物分类中的最小单位是{{c1::种}}
+*** Q
+微生物分类中的最小单位是{{c1::种}}
+*** A
+种
+株
+属
+科
+
+**  藻类的碳源是{{c1::二氧化碳}}
+*** Q
+藻类的碳源是{{c1::二氧化碳}}
+*** A
+二氧化碳
+淀粉
+脂肪
+糖
+
+
+**  蛋白质生物合成的主要场所是{{c1::核糖体}}
+*** Q
+蛋白质生物合成的主要场所是{{c1::核糖体}}
+*** A
+核糖体
+高尔基体
+叶绿体
+线粒体
+
+**  衡量水体自净的P/H指数中的P表示{{c1::光能自养}}
+*** Q
+衡量水体自净的P/H指数中的P表示{{c1::光能自养}}
+*** A
+光能自养
+磷
+化能自养
+光能异养
+
+**  下列哪项不是在硝化过程中要掌握的关键的运行操作指标{{c1::碳源}}
+*** Q
+下列哪项不是在硝化过程中要掌握的关键的运行操作指标{{c1::碳源}}
+*** A
+碳源
+泥龄
+温度
+pH
+
+**  下面关于米氏常数Km的说法, 不正确的是{{c1::与酶的浓度有关}}
+*** Q
+下面关于米氏常数Km的说法, 不正确的是{{c1::与酶的浓度有关}}
+*** A
+与酶的浓度有关
+不同的酶Km值不同
+与酶的性质有关
+是酶的特征常数之一
+**  原生动物没有{{c1::细胞壁}}
+*** Q
+原生动物没有{{c1::细胞壁}}
+*** A
+细胞壁
+细胞质膜
+细胞核
+细胞器
+
+**  拟核的体积很小, 但长度却可达到菌体长度的{{c1::1000倍}}
+*** Q
+拟核的体积很小, 但长度却可达到菌体长度的{{c1::1000倍}}
+*** A
+1000倍
+2000倍
+500倍
+100倍
+
+**  维持DNA的双螺旋结构是碱基对中碱基之间的{{c1::氢键}}
+*** Q
+维持DNA的双螺旋结构是碱基对中碱基之间的{{c1::氢键}}
+*** A
+氢键
+肽键
+离子键
+疏水键
+
+**  氧浓度昼夜变化幅度最大的时段是{{c1::中午}}
+*** Q
+氧浓度昼夜变化幅度最大的时段是{{c1::中午}}
+*** A
+中午
+傍晚
+深夜
+清晨
+
+**  标志着河流自净作用已完成的污化带是{{c1::寡污带}}
+*** Q
+标志着河流自净作用已完成的污化带是{{c1::寡污带}}
+*** A
+寡污带
+贝塔中汚带
+阿尔法中汚带
+多汚带
+
+**  过氧化氢酶催化H2O2的效率是铁的{{c1::10^10倍}}
+*** Q
+过氧化氢酶催化H2O2的效率是铁的{{c1::10^10倍}}
+*** A
+10^10倍
+10^8倍
+10^6倍
+10^3倍
+
+**  不是所有细菌都具有的结构是{{c1::荚膜}}
+*** Q
+不是所有细菌都具有的结构是{{c1::荚膜}}
+*** A
+荚膜
+拟核
+细胞质膜
+细胞壁
+
+**  内折形成中间体的是{{c1::细胞质膜}}
+*** Q
+内折形成中间体的是{{c1::细胞质膜}}
+*** A
+细胞质膜
+细胞质
+内含物
+细胞壁
+
+**  水体发生富营养化时, 水体中总磷的含量应大于{{c1::20mg/m^3}}
+*** Q
+水体发生富营养化时, 水体中总磷的含量应大于{{c1::20mg/m^3}}
+*** A
+20mg/m^3
+30mg/m^3
+40mg/m^3
+10mg/m^3
+
+**  通过细胞染色发现某细菌细胞着色不均匀{{c1::老龄菌}}
+*** Q
+通过细胞染色发现某细菌细胞着色不均匀{{c1::老龄菌}}
+*** A
+老龄菌
+死亡菌
+成熟菌
+幼龄菌
+
+**  分批培养时, 细菌总数最多的时期是{{c1::静止期}}
+*** Q
+分批培养时, 细菌总数最多的时期是{{c1::静止期}}
+*** A
+静止期
+衰亡期
+对数期
+停滞期
+
+**  下面哪种微型后生动物在污水生物处理中, 在活性污泥培养初期出现{{c1::鞭毛虫}}
+*** Q
+下面哪种微型后生动物在污水生物处理中, 在活性污泥培养初期出现{{c1::鞭毛虫}}
+*** A
+鞭毛虫
+变形虫
+漫游虫
+钟虫
+
+**  噬菌体的形状是{{c1::蝌蚪形}}
+*** Q
+噬菌体的形状是{{c1::蝌蚪形}}
+*** A
+蝌蚪形
+砖形
+卵圆形
+球形
+
+**  污水处理中好氧活性污泥需要的碳氮磷比是{{c1::100:5:1}}
+*** Q
+污水处理中好氧活性污泥需要的碳氮磷比是{{c1::100:5:1}}
+*** A
+100:5:1
+100:6:1
+100:7:1
+100:4:1
+
+**  可以根据细菌的生长状态来判断细菌的呼吸类型的培养基是{{c1::半固体培养基}}
+*** Q
+可以根据细菌的生长状态来判断细菌的呼吸类型的培养基是{{c1::半固体培养基}}
+*** A
+半固体培养基
+液体培养基
+明胶培养基
+固体培养基
+
+**  大部分放线菌为{{c1::腐生菌}}
+*** Q
+大部分放线菌为{{c1::腐生菌}}
+*** A
+腐生菌
+共生菌
+寄生菌
+浮游菌
+
+**  鞭毛生长的细胞部位是{{c1::细胞质膜}}
+*** Q
+鞭毛生长的细胞部位是{{c1::细胞质膜}}
+*** A
+细胞质膜
+细胞质
+中间体
+细胞壁
+
+**  下面不属于原核微生物的是{{c1::霉菌}}
+*** Q
+下面不属于原核微生物的是{{c1::霉菌}}
+*** A
+霉菌
+蓝细菌
+放线菌
+古菌
+
+**  以下不同类群的微生物中, 非细胞形态的微生物是{{c1::病毒}}
+*** Q
+以下不同类群的微生物中, 非细胞形态的微生物是{{c1::病毒}}
+*** A
+病毒
+霉菌
+细菌
+放线菌
+* 填空题
+** 微生物合成自身物质的反应又称为{{c1::同化}}反应
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+微生物合成自身物质的反应又称为{{c1::同化}}反应
+*** Extra
+** 大量CO₂排入大气引起全球性的{{c1::温室效应}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+大量CO₂排入大气引起全球性的{{c1::温室效应}}
+*** Extra
+** 紧接着排污口下方的河流{{c1::P/H}}指数低, 自净效率{{c1::高}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+紧接着排污口下方的河流{{c1::P/H}}指数低, 自净效率{{c1::高}}
+*** Extra
+** 鞭毛虫可作为污水处理效果{{c1::差}}时的指示生物
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+鞭毛虫可作为污水处理效果{{c1::差}}时的指示生物
+*** Extra
+** 微生物有以下5个特点{{c1::个体极小, 分布广, 种类繁多, 繁殖快, 易变异}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+微生物有以下5个特点{{c1::个体极小, 分布广, 种类繁多, 繁殖快, 易变异}}
+*** Extra
+** 细菌都是{{c1::单}}细胞的微生物
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+细菌都是{{c1::单}}细胞的微生物
+*** Extra
+** 产甲烷菌的呼吸类型是{{c1::专性厌氧}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+产甲烷菌的呼吸类型是{{c1::专性厌氧}}
+*** Extra
+** 1mol葡萄糖完全氧化总共产生{{c1::38mol}}ATP
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+1mol葡萄糖完全氧化总共产生{{c1::38mol}}ATP
+*** Extra
+** 由一个细菌繁殖起来的细菌集团叫{{c1::菌落}}, 它为纯{{c1::无性}}繁殖
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+由一个细菌繁殖起来的细菌集团叫{{c1::菌落}}, 它为纯{{c1::无性}}繁殖
+*** Extra
+** 古菌大多数生活在{{c1::极端}}环境中
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+古菌大多数生活在{{c1::极端}}环境中
+*** Extra
+** 酚对病毒进行灭活时, 主要是破坏了病毒的{{c1::蛋白质}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+酚对病毒进行灭活时, 主要是破坏了病毒的{{c1::蛋白质}}
+*** Extra
+** 杆菌包括{{c1::单杆菌, 双杆菌, 和链杆菌}}三种形态
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+杆菌包括{{c1::单杆菌, 双杆菌, 和链杆菌}}三种形态
+*** Extra
+** 高等真菌的菌丝都有{{c1::隔膜}}, 菌丝是{{c1::多细胞}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+高等真菌的菌丝都有{{c1::隔膜}}, 菌丝是{{c1::多细胞}}
+*** Extra
+** 细胞分裂沿一平面进行, 但第二次分裂面与第一次分裂面平行的是{{c1::链球菌}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+细胞分裂沿一平面进行, 但第二次分裂面与第一次分裂面平行的是{{c1::链球菌}}
+*** Extra
+** 每升培养基中加入{{c1::3~5克}}琼脂, 即成为半固体培养基
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+每升培养基中加入{{c1::3~5克}}琼脂, 即成为半固体培养基
+*** Extra
+** 纤毛虫有{{c1::游泳型和固着型}}两种类型
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+纤毛虫有{{c1::游泳型和固着型}}两种类型
+*** Extra
+** 废水处理根据微生物的不同生长阶段设计工艺流程, 生物吸附法利用{{c1::静止期}}的微生物
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+废水处理根据微生物的不同生长阶段设计工艺流程, 生物吸附法利用{{c1::静止期}}的微生物
+*** Extra
+** 菌落表面湿润, 有光泽, 呈黏液状的光滑型菌落是{{c1::产荚膜}}菌
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+菌落表面湿润, 有光泽, 呈黏液状的光滑型菌落是{{c1::产荚膜}}菌
+*** Extra
+** 细菌的内生孢子叫{{c1::芽孢}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+细菌的内生孢子叫{{c1::芽孢}}
+*** Extra
+** 能产生培养管中的50%细胞病理效应(CPE)的最高病毒稀释度叫{{c1::病毒的滴度}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+能产生培养管中的50%细胞病理效应(CPE)的最高病毒稀释度叫{{c1::病毒的滴度}}
+*** Extra
+** 杆状病毒衣壳粒与核酸成{{c1::螺旋}}对称排列
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+杆状病毒衣壳粒与核酸成{{c1::螺旋}}对称排列
+*** Extra
+** 革兰氏阳性菌与阴性菌的区别在于{{c1::细胞壁}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+革兰氏阳性菌与阴性菌的区别在于{{c1::细胞壁}}
+*** Extra
+** 酶促反应速度达到最大速度Vmax的90%时, 底物浓度[S]是Km的{{c1::9}}倍
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+酶促反应速度达到最大速度Vmax的90%时, 底物浓度[S]是Km的{{c1::9}}倍
+*** Extra
+** 生活在同一特定空间的同一生物种的所有个体的集合体称为{{c1::种群}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+生活在同一特定空间的同一生物种的所有个体的集合体称为{{c1::种群}}
+*** Extra
+** 酶促反应速度达到最大速度Vmax的80%时, 底物浓度[S]是Km的{{c1::4}}倍
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+酶促反应速度达到最大速度Vmax的80%时, 底物浓度[S]是Km的{{c1::4}}倍
+*** Extra
+** 病毒可通过的细菌过滤器, 直径为{{c1::0.2微米}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+病毒可通过的细菌过滤器, 直径为{{c1::0.2微米}}
+*** Extra
+
+** 1mol丙酮酸经一次三羧酸循环共产生{{c1::15mol}}ATP
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+1mol丙酮酸经一次三羧酸循环共产生{{c1::15mol}}ATP
+*** Extra
+** 病毒的化学组成有{{c1::蛋白质}}和{{c1::核酸}}, 个体大的病毒还含有{{c1::类脂}}和{{c1::多糖}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+病毒的化学组成有{{c1::蛋白质}}和{{c1::核酸}}, 个体大的病毒还含有{{c1::类脂}}和{{c1::多糖}}
+*** Extra
+** 病毒的核酸内芯有两种:{{c1::核糖核酸和脱氧核糖核酸}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+病毒的核酸内芯有两种:{{c1::核糖核酸和脱氧核糖核酸}}
+*** Extra
+** 水中溶解氧量低, 水蚤的颜色变{{c1::红}}, 水体为{{c1::污染}}水体
+:properties:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+水中溶解氧量低, 水蚤的颜色变{{c1::红}}, 水体为{{c1::污染}}水体
+*** Extra
+
+** 核衣壳由{{c1::蛋白质衣壳}}和{{c1::核酸内芯}}组成
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+核衣壳由{{c1::蛋白质衣壳}}和{{c1::核酸内芯}}组成
+*** Extra
+
+** 每升培养基中加入{{c1::15~20克}}琼脂, 即成为固体培养基
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+每升培养基中加入{{c1::15~20克}}琼脂, 即成为固体培养基
+*** Extra
+
+** 蓝细菌又叫{{c1::蓝藻}}, 属于{{c1::原核}}微生物
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+蓝细菌又叫{{c1::蓝藻}}, 属于{{c1::原核}}微生物
+*** Extra
+
+** 活性污泥结构和功能中心是{{c1::菌胶团}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+活性污泥结构和功能中心是{{c1::菌胶团}}
+*** Extra
+** 病毒在固体培养基上的培养特征是{{c1::噬菌斑}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+病毒在固体培养基上的培养特征是{{c1::噬菌斑}}
+*** Extra
+** 温和噬菌体又叫{{c1::溶原性}}噬菌体
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+温和噬菌体又叫{{c1::溶原性}}噬菌体
+*** Extra
+
+** 细胞质膜是一种{{c1::半透}}膜
+:properties:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+细胞质膜是一种{{c1::半透}}膜
+*** Extra
+** 平板菌落法计算细菌数目要求: 直径{{c1::9cm}}的培养皿中, 生长{{c1::50-500}}个菌落为宜
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+平板菌落法计算细菌数目要求: 直径{{c1::9cm}}的培养皿中, 生长{{c1::50-500}}个菌落为宜
+*** Extra
+** 对病毒影响最大的物理因素有{{c1::温度}}, {{c1::光}}和{{c1::干燥度}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+对病毒影响最大的物理因素有{{c1::温度}}, {{c1::光}}和{{c1::干燥度}}
+*** Extra
+** 清洁水体的微生物含量{{c1::低}}, 微生物以{{c1::自养菌}}为主
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+清洁水体的微生物含量{{c1::低}}, 微生物以{{c1::自养菌}}为主
+*** Extra
+** 细菌染色体叫{{c1::原始}}核或者{{c2::拟}}核
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+细菌染色体叫{{c1::原始}}核或者{{c2::拟}}核
+*** Extra
+** 滤池扫除生物的作用是{{c1::吞食}}脱落的生物膜和{{c1::游离}}细菌
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+滤池扫除生物的作用是{{c1::吞食}}脱落的生物膜和{{c1::游离}}细菌
+*** Extra
+** 在反硝化过程中, 水体pH{{c1::上升}}
+:PROPERTIES:
+:ANKI_DECK: biog
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Text
+在反硝化过程中, 水体pH{{c1::上升}}
+*** Extra
+
+* 名词解释
+** 基因
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486224
+:END:
+*** Front
+基因
+*** Back
+基因是一切生物体内储存遗传信息的, 有自我复制能力的遗传功能单位, 是DNA分子上一个
+具有特定碱基顺序, 即核苷酸顺序的片段
+** 微生物
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486349
+:END:
+*** Front
+微生物
+*** Back
+微生物是肉眼看不见的, 必须在电子显微镜或光学显微镜下才能看见的所有微小生物的统称
+** 荚膜
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486424
+:END:
+*** Front
+荚膜
+*** Back
+一些细菌在其细胞表面分泌的一种黏性物质, 将细胞壁完全包围封住, 这层黏性物质就叫荚
+膜. 荚膜稳定的附着在细胞壁表面, 使细胞与外界环境有明显的边缘
+** 毒性噬菌体
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486498
+:END:
+*** Front
+毒性噬菌体
+*** Back
+侵入宿主细胞后, 随即引起宿主细胞裂解的噬菌体称作毒性噬菌体
+** 选择性理论
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486574
+:END:
+*** Front
+选择性理论
+*** Back
+建立在对丝状菌和絮状菌的动力学分析上. 丝状菌的u_max和K_S都小于絮状细菌. 在低的浓
+度时, 具有高的生长速率, 为优势菌.
+** 温和噬菌体
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486649
+:END:
+*** Front
+温和噬菌体
+*** Back
+侵入宿主细胞后, 其核算附着并整合在宿主染色体上, 和宿主的核酸同步复制, 宿主细胞不
+裂解而继续生长, 这种不引起宿主细胞裂解的噬菌体称做温和噬菌体.
+** 植物性营养
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486749
+:END:
+*** Front
+植物性营养
+*** Back
+植物性营养是有色素的原生动物在有光照的条件下, 吸收CO_2和无机盐进行光合作用, 合成
+有机物供自身营养的营养方式
+** 空斑
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486824
+:END:
+*** Front
+空斑
+*** Back
+空斑是接种在琼脂固体培养基上的敏感细菌生长形成的菌落, 被噬菌体感染后, 细菌菌落被
+裂解成的一个个空斑
+** 活性污泥丝状膨胀
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486899
+:END:
+*** Front
+活性污泥丝状膨胀
+*** Back
+活性污泥中有大量的丝状菌繁殖造成, 丝状菌从污泥絮体中伸出很长的菌丝体, 菌丝体之间
+相互架桥, 构成框架结构, 支撑污泥絮体, 阻碍污泥沉降
+** 拟核
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589486999
+:END:
+*** Front
+拟核
+*** Back
+没有核膜和核仁, 由脱氧核糖核酸组成的一條环状双链的DNA分子高度折叠缠绕而成. 决定
+遗传性状和传递遗传信息, 是重要的遗传物质
+** 无隔菌丝
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487073
+:END:
+*** Front
+无隔菌丝
+*** Back
+菌丝中无横膈膜, 整个细胞是一哥单细胞, 菌丝内有许多核, 在生长过程中只有核的分裂和
+原生质量的增加, 没有细胞数目的增多
+** 腐生性营养
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487149
+:END:
+*** Front
+腐生性营养
+*** Back
+腐生性营养是寄生的原生动物借助体表的原生质膜吸收环境和寄主中的可溶性有机物为营养
+的营养方式
+** 寄生菌
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487223
+:END:
+*** Front
+寄生菌
+*** Back
+一种生物寄居在另一种生物体内或体表, 从而摄取营养以维持生命的一种生活方式的微生物
+** 生态平衡
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487298
+:END:
+*** Front
+生态平衡
+*** Back
+生态系统的输入等于输出, 即保持稳定. 在有外来干扰时, 生态系统能通过自行调节的能力
+恢复到原来的稳定状态, 这就是生态系统的生态平衡
+** 黏液层
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487374
+:END:
+*** Front
+黏液层
+*** Back
+有些细菌表面不产荚膜, 但仍可分泌黏性的多糖, 疏松的附着在细菌细胞壁的表面, 与外界
+没有明显的边缘.
+** 芽孢
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487449
+:END:
+*** Front
+芽孢
+*** Back
+某些细菌在它的生活史中的某个阶段或某些细菌在它遇到外界不良环境时, 在其细菌内形成
+一个内生孢子叫芽孢. 芽孢可抵抗外界不良环境, 是抵抗外界不良环境的休眠体
+** 发酵
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487524
+:END:
+*** Front
+发酵
+*** Back
+发酵是指无外在电子受体时, 有机物仅发生部分氧化, 以它的中间代谢产物为最终电子受体,
+释放少量能量, 其余能量保存在最终产物中
+** 菌落
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487598
+:END:
+*** Front
+菌落
+*** Back
+菌落是由一个细菌繁殖起来的, 由无数个细菌组成的具有一定形态特征的细菌集团. 菌落是
+纯种细胞群, 为纯无性反之.
+** 病毒例子
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487674
+:END:
+*** Front
+病毒例子
+*** Back
+完整的具有感染力的病毒体. 分为裸露病毒粒子和核衣壳外有被膜包围的病毒粒子两种
+** 污化系统
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589487748
+:END:
+*** Front
+污化系统
+*** Back
+当有机物排入河流后, 在排污点的下游进行着正常的水体自净过程, 沿着河流方向形成一系
+列的污化带称为污化系统
+** 细胞质膜
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589488299
+:END:
+*** Front
+细胞质膜
+*** Back
+细胞质膜是紧贴在细胞壁的内侧而包围细胞质的一层柔软而富有弹性的薄膜, 为半透膜.
+** 假丝酵母
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589488374
+:END:
+*** Front
+假丝酵母
+*** Back
+假丝酵母呈假丝状. 这是由于它繁殖时子细胞未脱离母体而与母细胞相连成链状, 细胞壁只
+以狭小面积相连呈藕节状.
+** 有隔菌丝
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589488448
+:END:
+*** Front
+有隔菌丝
+*** Back
+菌丝中有横膈膜将菌丝分割成多个细胞, 在菌丝生长过程中细胞核的分裂伴随着细胞的分裂,
+每个细胞含有1至多个细胞核. 横膈膜可以使相邻细胞之间的物质相互沟通
+** 无隔菌丝
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_FAILURE_REASON: Note creation failed for unknown reason
+:END:
+*** Front
+无隔菌丝
+*** Back
+菌丝中无横膈膜, 整个细胞是一个单细胞, 菌丝内有许多核, 在生长过程中只有核的分裂和
+原生质量的增加, 没有细胞数目的增多
+** 蛋白质衣壳
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589488599
+:END:
+*** Front
+蛋白质衣壳
+*** Back
+蛋白质衣壳是由一定数量的衣壳粒按一定的排列组合构成的病毒外壳
+** 微污染水源水
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589488674
+:END:
+*** Front
+微污染水源水
+*** Back
+受到有机物, 氨氮, 磷及有毒污染物较低程度污染的水源水
+** 培养基
+:PROPERTIES:
+:ANKI_DECK: water
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1558589488773
+:END:
+*** Front
+培养基
+*** Back
+按微生物营养要求, 将水, 碳源, 氮源, 无机盐以及生长因子等各种营养物质按一定比例配
+置而成的, 用于培养微生物生长繁殖的基质叫培养基
